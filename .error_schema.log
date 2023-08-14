@@ -1,2 +1,4 @@
-file:/D:/Coding/Precalc/webwork-test/source/main.ptx:23:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element frontmatter there
-file:/D:/Coding/Precalc/webwork-test/source/main.ptx:21:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+/workspaces/PrecalcReviewMaterials/source/main.ptx:228:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element nbsp, got nothing
+/workspaces/PrecalcReviewMaterials/source/main.ptx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element chapter has extra content: section
+/workspaces/PrecalcReviewMaterials/source/main.ptx:21:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+/workspaces/PrecalcReviewMaterials/source/main.ptx:2:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext

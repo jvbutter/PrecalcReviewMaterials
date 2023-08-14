@@ -1,0 +1,25 @@
+INFO    : PreTeXt project found in `/workspaces/PrecalcReviewMaterials`.
+WARNING : Project's CLI version could not be detected from `requirements.txt`.
+WARNING : Try `pretext init --refresh` to produce a compatible file.
+INFO    : No change in assets requiring generating detected.  To force regeneration of assets, use `-g` flag.
+
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/pdf.
+INFO    : 
+Now building LaTeX into /workspaces/PrecalcReviewMaterials/output/pdf
+
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to LaTeX as /tmp/tmpdqxlak6c/main.tex
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/codespace/.ptx/xsl/pretext-latex.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/codespace/.ptx/xsl/pretext-latex.xsl
+CRITICAL: PTX:ERROR: cannot locate executable with configuration name `xelatex` as command `xelatex`
+***  Edit the configuration file  ("pretext.cfg" or "project.ptx") and/or install  ***
+***  the necessary program and/or make sure the executable is on your PATH         ***
+INFO    : ##################
+INFO    : Removing temporary directory /tmp/tmpdqxlak6c
+INFO    : While running pretext, the following errors occurred:
+
