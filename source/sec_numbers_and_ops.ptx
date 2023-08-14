@@ -5,6 +5,7 @@
 
     <p>We assume familiarity with the basic operations of addition, subtraction, multiplication, division and exponentiation, even though we will review some of their properties in the subsections that follow.  We also assume familiarity with the precedence rules for these operations.  These are sometimes remembered using the acronym BEDMAS, which stands for Brackets, then Exponents, then Multiply and Divide before you Add and Subtract: Always do what's inside brackets first, and then perform other operations in the order just specified.  For example:</p>
 
+    <p>
     <ul>
       <li>
         <p>
@@ -33,13 +34,14 @@
         </p>
       </li>
     </ul>
+  </p>
   </introduction>
   <subsection>
     <title>Commutativity</title>
 
     <p><idx>commutativity</idx>Addition of real numbers is <term>commutative</term>, which means that <m>a + b = b + a</m> for all real numbers <m>a</m> and <m>b</m>.  For example, <m>1+4 = 4+1</m>.  Both sums equal 5.  Commutativity of addition allows a sum of finitely many real numbers to be rearranged without changing its value. For example,</p>
 
-    <me>1 + 2 + 4 + 6 + 7 + 8 + 9 = 4 + 6 + 8 + 2 + 1 + 9 + 7</me>
+    <p><me>1 + 2 + 4 + 6 + 7 + 8 + 9 = 4 + 6 + 8 + 2 + 1 + 9 + 7</me></p>
 
     <p>Similarly, multiplication of real numbers is <term>commutative</term>, which means that <m>a \times b = b \times a</m> for all real numbers <m>a</m> and <m>b</m>.  For example, <m>4 \times 6 = 6 \times 4</m>.  Both products equal 24.</p>
 
@@ -47,7 +49,7 @@
 
     <p>Commutativity of multiplication allows a product of finitely many real numbers to be rearranged without changing its value.  For example,</p>
     
-    <me>2 \cdot 5 \cdot 3 \cdot 5 \cdot 2 = 2 \cdot 2 \cdot 5 \cdot 5 \cdot 3</me>
+    <p><me>2 \cdot 5 \cdot 3 \cdot 5 \cdot 2 = 2 \cdot 2 \cdot 5 \cdot 5 \cdot 3</me></p>
   </subsection>
   <subsection>
     <title>Associativity</title>
@@ -57,23 +59,23 @@
 
     <p>Associativity is the property that lets us compute sums of finitely many terms by grouping them in a convenient way.  This is equivalent to bracketing the terms as we wish.  For example,</p>
 
-    <me>
+    <p><me>
       \begin{aligned}
         4 + 6 + 8 + 2 + 7 + 1 + 9 &amp;= (4 + 6) + (8 + 2)  + 7 + (1 + 9) \\
         &amp;= 10 + 10  + 7 + 10 \\
         &amp;= 37
       \end{aligned}
-    </me>.
+    </me>.</p>
     
     <p>Commutativity and associativity together allow us to compute sums of finitely many terms by rearranging the numbers and adding them in whichever we want.  For example,</p>
     
-    <me>
+    <p><me>
       \begin{aligned}
         1 + 2 + 4 + 6 + 7 + 8 + 9 &amp;=  4 + 6 + 8 + 2 + 1 + 9 + 7 &amp;\text{(by commutativity)} \\
         &amp;= (4 + 6) + (8 + 2) + (1 + 9)  + 7   &amp;\text{(by associativity)} \\
         &amp;= 37
       \end{aligned}
-    </me>
+    </me></p>
     
     <p>Similarly, multiplication real numbers is <term>associative</term>, which means that <m>(a \cdot b) \cdot c = a \cdot (b \cdot c)</m> for all real numbers <m>a, b</m> and <m>c</m>.  For example, <m>(3\cdot4)\cdot25 = 12\cdot 25 = 300</m>, and <m>3\cdot(4\cdot25)=3\cdot100=300</m>, so as expected <m>(3\cdot4)\cdot25 = 3\cdot(4\cdot25)</m>.</p>
     
@@ -81,38 +83,38 @@
     
     <example>
       <title>Using Associativity</title>
-      <me>
+     <p> <me>
         \begin{aligned}
           2 \cdot 5 \cdot 3 \cdot 5 \cdot 2 &amp;= (2 \cdot 5) \cdot 3 \cdot (5 \cdot 2)
           &amp;= 10 \cdot 3 \cdot 10 \\
           &amp;= 300 \\
         \end{aligned}
-      </me>
+      </me></p>
 
       <p>which is an easier calculation than</p>
 
-      <me>
+      <p><me>
         \begin{aligned}
           2 \cdot 5 \cdot 3 \cdot 5 \cdot 2 &amp;= 10\cdot 3 \cdot 5 \cdot 2 \\
           &amp;= 30 \cdot 5 \cdot 2 \\
           &amp;= 150 \cdot 2 \\
           &amp;= 300
         \end{aligned}
-      </me>
+      </me></p>
     </example>
 
     <p>Commutativity and associativity together allow us to compute products of finitely many terms by rearranging the numbers and multiplying them in whichever we want.  For example,</p>
 
     <example>
       <title>Using Commutativity and Associativity</title>
-      <me>
+     <p> <me>
         \begin{aligned}
           2 \cdot 2 \cdot 3 \cdot 5 \cdot 5 &amp;= 2 \cdot 2 \cdot 5 \cdot 5 \cdot 3  &amp;\text{(by commutativity)} \\
           &amp;= (2 \cdot 2) \cdot (5 \cdot 5) \cdot 3  &amp;\text{(by associativity)} \\
           &amp;= 4 \cdot 25 \cdot 3 \\
           &amp;= (4 \cdot 25) \cdot 3  = 300
         \end{aligned}
-      </me>
+      </me></p>
     </example>
   </subsection>
   <subsection>
@@ -121,7 +123,7 @@
     <p><idx>distributivity</idx>Multiplication <term>distributes</term> over addition, which means that <m>a (b + c) = ab + a c</m> for any real numbers <m>a, b</m> and <m>c</m>.  Also, <m>(b + c) a = ba + ca</m>, which can be proved using the previous statement and commutativity.  For example,</p>
     <example>
       <title>Applying Distributivity</title>
-      <ul>
+      <p><ul>
         <li>
           <p>
             <m>3(4 + 5) = 3 \cdot 4 + 3 \times 5</m>
@@ -142,7 +144,7 @@
             <m>(-1)\cdot 6 + (-1) \cdot 5 = (-1)(6 + 5)</m>
           </p>
         </li>
-      </ul>
+      </ul></p>
     </example>
 
     <p>The last two bullet points illustrate the most common use of distributivity, that is, when factoring.  In such situations, the distributive rule <m>a (b + c) = ab + a c</m> is being used from right to left.</p>
@@ -165,18 +167,18 @@
     <example>
       <title>Working with Additive Inverses</title>
       <p>Remember that the number <m>-a</m> equals <m>(-1)\cdot a</m>.  This is important when factoring; for example</p>
-      <me>
+      <p><me>
         \begin{aligned}
           \pi^2-\pi&amp;=\pi\cdot\pi-\pi \\
           &amp;=\pi\cdot\pi+(-1)\pi \\
           &amp;=(\pi-1)\cdot\pi
         \end{aligned}
-      </me>
+      </me></p>
     </example>
 
     <p>Using the rules we have accumulated so far, you could now verify that, for any real numbers <m>a,b</m>:</p>
 
-    <ul>
+    <p><ul>
       <li>
         <p>
           <m>a(-1) = -a</m>,
@@ -192,7 +194,7 @@
           <m>a(-b) = -(ab)</m>,
         </p>
       </li>
-    </ul>
+    </ul></p>
 
     <p>all of which are familiar rules.</p>
 
@@ -204,13 +206,13 @@
 
     <p>For any real numbers <m>a</m> and <m>b</m>, the additive inverse of <m>a-b</m> is <m>b-a</m> because:</p>
 
-    <me>
+    <p><me>
       \begin{aligned}
         (a - b) + (b - a) &amp;= a + (-b) + b + (-a) \\
         &amp;= (a + (-a)) + (b + (-b)) \\
         &amp;=0 + 0 = 0
       \end{aligned}
-    </me>
+    </me></p>
 
     <p>Therefore, <m>-(a - b) = (b-a)</m>.  This is often useful when simplifying expressions; for example, <m>(4-7)+(7-4)=(4-7)-(4-7)=0</m>.</p>
 
