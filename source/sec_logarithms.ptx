@@ -127,7 +127,7 @@
             <![CDATA[
             \begin{tikzpicture}
               \begin{axis}[grid=both, xmax=6, ymax=7, axis lines=middle, restrict y to domain=-7:12, enlargelimits]
-                \addplot[blue,domain=-1.999:6,samples=100]  {5*log10{x+2}} node[above left]{\(y=5\log_{10}{x+2} + 3\)};
+              \addplot[blue,domain=-1.999:6,samples=100]  {5*log10(x+2)} node[above left]{$y=5\log_{10}{(x+2)} + 3$};
               \end{axis}
             \end{tikzpicture}
             ]]>

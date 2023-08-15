@@ -7,7 +7,7 @@
 
     <p><idx>multiplying fractions</idx><em>Multiplying fractions</em> corresponds to taking a portion of a portion of a number: multiply the numerators together and the denominators together.</p>
 
-    <p><idx>dividing fractions</idx>When <em>dividing fractions</em>, remember that <m>\frac{1}{ c/d} = \frac{d}{c}</m>, so that <m>\frac{a/b}{c/d} = \frac{a}{b} \cdot \frac{c}{d}</m> (i.e. multiply by the reciprocal of the divisor).  So dividing by <m>\frac{c}{d}</m> is the same as multiplying by <m>\frac{d}{c}</m>.</p>
+    <p><idx>dividing fractions</idx>When <em>dividing fractions</em>, remember that <m>\frac{1}{c/d} = \frac{d}{c}</m>, so that <m>\frac{a/b}{c/d} = \frac{a}{b} \cdot \frac{d}{c}</m> (i.e. multiply by the reciprocal of the divisor).  So dividing by <m>\frac{c}{d}</m> is the same as multiplying by <m>\frac{d}{c}</m>.</p>
 
     <example>
       <title>Algebra with Fractions</title>
@@ -111,7 +111,7 @@
         <p><m>\frac{3}{2} \cdot \left(-\frac{5}{15}\right)</m></p>
       </statement>
       <answer>
-        <p><m>\frac{1}{2}</m></p>
+        <p><m>\frac{-1}{2}</m></p>
       </answer>
     </exercise>
     <exercise>

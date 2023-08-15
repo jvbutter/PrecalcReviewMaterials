@@ -144,7 +144,7 @@
         <p>The terms of <m>f</m> are <m>3x^2</m>, <m>-10x</m>, and <m>0</m>; the coefficients of <m>f</m> are the numbers <m>3, -10</m>, and <m>0</m>; the degree of <m>f</m> is 2, the leading term of <m>f</m> is <m>3x^2</m>, and the leading coefficient of <m>f</m> is 3; the constant term of <m>f</m> is 0.</p>
       </answer>
       <answer>
-        <p>The terms of <m>g</m> are <m>10x^5</m>,<m>0x^4</m>,<m>x^3</m>,<m>0x^2</m>, <m>-10x</m>, and <m>15</m>; the coefficients of <m>f</m> are the numbers <m>10,0,1,0,0</m>, and <m>15</m>; the degree of <m>f</m> is 5, the leading term of <m>f</m> is <m>10x^5</m>, and the leading coefficient of <m>f</m> is 10; the constant term of <m>f</m> is 15.</p>
+        <p>The terms of <m>g</m> are <m>10x^5</m>,<m>0x^4</m>,<m>x^3</m>,<m>0x^2</m>, <m>0x</m>, and <m>15</m>; the coefficients of <m>f</m> are the numbers <m>10,0,1,0,0</m>, and <m>15</m>; the degree of <m>f</m> is 5, the leading term of <m>f</m> is <m>10x^5</m>, and the leading coefficient of <m>f</m> is 10; the constant term of <m>f</m> is 15.</p>
       </answer>
     </exercise>
     <exercise>

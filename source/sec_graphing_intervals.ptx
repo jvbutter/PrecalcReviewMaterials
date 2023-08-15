@@ -77,8 +77,8 @@
                 \draw[shift={(\x,0)},color=black] (0pt,3pt) -- (0pt,-3pt);
               \foreach \x in {-5,-4,-3,-2,-1,0,1,2,3,4,5}
                 \draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] {\(\x\)};
-              \draw[very thick,->] (2,0) -- (-5.44,0);
-              \filldraw[fill=white,draw=black] (2,0) circle (.09cm);
+              \draw[very thick,->] (-2,0) -- (-5.44,0);
+              \filldraw[fill=white,draw=black] (-2,0) circle (.09cm);
               \node[right] at (5.5, 0) {\(\{x: -x > 2\} = \{x: x\lt -2\}\)};
             \end{scope}
             \draw[latex-latex] (-5.5,0) -- (5.5,0) ;
@@ -220,13 +220,13 @@
           <latex-image>
             <![CDATA[
               \begin{tikzpicture}
-                \draw[latex-latex] (-1.5,0) -- (8.5,0);
-                \foreach \x in  {-1,0,1,2,3,4,5,6,7,8}
+                \draw[latex-latex] (-3.5,0) -- (5.5,0);
+                \foreach \x in  {-3,-2,-1,0,1,2,3,4,5}
                   \draw[shift={(\x,0)},color=black] (0pt,3pt) -- (0pt,-3pt);
-                \foreach \x in {-1,0,1,2,3,4,5,6,7,8}
+                \foreach \x in {-3,-2,-1,0,1,2,3,4,5}
                   \draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] {\(\x\)};
-                \draw[very thick,->] (2,0) -- (8.44,0);
-                \filldraw[fill=white] (2,0) circle (.09cm);
+                \draw[very thick,->] (-2,0) -- (5.44,0);
+                \filldraw[fill=white] (-2,0) circle (.09cm);
               \end{tikzpicture}
             ]]>
           </latex-image>

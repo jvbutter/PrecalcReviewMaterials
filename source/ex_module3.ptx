@@ -113,7 +113,7 @@
       </pg-code>
       <statement>
         <p>The expression</p>
-        <me>\frac{2^<var name="$a"/>2^<var name="$b"/>2^{-<var name="$c"/>}}{\sqrt{4^<var name="$d"/>}2^<var name="$e"/>2^<var name="$f"/>}</me>
+        <me>\frac{2^<var name="$a"/>2^<var name="$b"/>2^{-<var name="$c"/>}}{\sqrt{4^<var name="$d"/>}2^<var name="$e"/>2^{-<var name="$f"/>}}</me>
         <p>equals <m>2^n</m> where <m>n</m> is:</p>
         <p><var name="$ans" width="5"/></p>
       </statement>
@@ -169,7 +169,7 @@
         Context("Fraction");
         $ans1 = Fraction("$n1**$c*$n2**($e/$e1)");
         $ans2 = $a*$c;
-        $ans3 = Fraction("$b*$c/$b1-$e*$d/$e1");
+        $ans3 = Fraction("$e*$d/$e1-$b*$c/$b1");
       </pg-code>
       <statement>
         <p>The expression</p>
@@ -446,13 +446,14 @@
       </statement>
     </webwork>
   </exercise>
-  <!-- Exercise 3.13 -->
+ <!-- Exercise 3.13 -->
   <exercise>
     <webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/InequalitySolutionOrNot90.pg"/>
   </exercise>
   <!-- Exercise 3.14 -->
   <exercise>
-    <webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/GraphTwoVariableInequality10.pg" />
+    <p>Temporarily removed Exercise 3.14 due to error saying it may not be PTX compatible.</p>
+   <!-- <webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/GraphTwoVariableInequality10.pg" />-->
   </exercise>
   <!-- Exercise 3.15 -->
   <exercise>
@@ -563,7 +564,8 @@
   </exercise>
   <!-- Exercise 3.16 -->
   <exercise>
-    <webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/GraphTwoVariableInequality80.pg" />
+    <p>Temporarily removed 3.16 due to PTX error.</p>
+    <!--<webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/GraphTwoVariableInequality80.pg" />-->
   </exercise>
   <!-- Exercise 3.17 -->
   <exercise>

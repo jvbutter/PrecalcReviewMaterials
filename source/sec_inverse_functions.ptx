@@ -64,7 +64,7 @@
       </solution>
     </example>
 
-    <p>In Example 1, notice that the inverse of <m>f</m> is described by the expression obtained by solving the equation <m>y = f(x)</m> for <m>x</m>.  If <m>y = f(x)</m> then <m>y = 3x-6</m>.  That means <m>y+6 = 3x</m>, and so <m>x = \frac{y+6}{3} = g(y)</m>.  This computation can be viewed as telling us what <m>x</m> needs to be in order for <m>f(x) = y</m> to be true.  Similarly, the inverse of <m>g</m> is described by the expression obtained by solving the equation <m>x = g(y)</m> for <m>y</m>.</p>
+    <p>In <xref ref="ex5_1">Example</xref>, notice that the inverse of <m>f</m> is described by the expression obtained by solving the equation <m>y = f(x)</m> for <m>x</m>.  If <m>y = f(x)</m> then <m>y = 3x-6</m>.  That means <m>y+6 = 3x</m>, and so <m>x = \frac{y+6}{3} = g(y)</m>.  This computation can be viewed as telling us what <m>x</m> needs to be in order for <m>f(x) = y</m> to be true.  Similarly, the inverse of <m>g</m> is described by the expression obtained by solving the equation <m>x = g(y)</m> for <m>y</m>.</p>
 
     <example>
       <title>Finding an Inverse Function</title>
@@ -153,7 +153,7 @@
         <m>y=\sqrt{x-5}</m>
       </statement>
       <answer>
-        <m>y=x^2+5</m>
+        <m>y=x^2+5, x \geq 0</m>
       </answer>
     </exercise>
     <exercise>

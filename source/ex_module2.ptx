@@ -490,7 +490,7 @@
       </pg-code>
       <statement>
         <p>The expression</p>
-        <me>\frac{2^<var name="$a"/>2^<var name="$b"/>2^{-<var name="$c"/>}}{\sqrt{4^<var name="$d"/>}2^<var name="$e"/>2^<var name="$f"/>}</me>
+        <me>\frac{2^<var name="$a"/>2^<var name="$b"/>2^{-<var name="$c"/>}}{\sqrt{4^<var name="$d"/>}2^<var name="$e"/>2^{-<var name="$f"/>}}</me>
         <p>equals <m>2^n</m> where <m>n</m> is:</p>
         <p><var name="$ans" width="5"/></p>
       </statement>
