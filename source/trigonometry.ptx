@@ -1,0 +1,115 @@
+<chapter xml:id="ch-trigonometry">
+    <title>Trigonometry</title>
+<p>These materials adapted from Algebra and Trigonometry Review Material by Philip S. Crooke, Professor of Mathematics (emeritus) at Vanderbilt University.</p>
+<section xml:id="section-one-unit-circle">
+    <title>The Unit Circle</title>
+
+
+    <p>The first key to understanding trigonometry is to know the unit circle.
+    The <term>unit circle</term> is the circle centered at (0,0) with radius 1.</p>
+
+    <!--figure goes here-->
+
+    <p>Consider an angle <m>\theta</m> in the unit circle. 
+    The angle is positive if it is measured counterclockwise from the positive x-axis and negative if it is measured clockwise.</p>
+
+    <!--figure goes here-->
+
+    <p>The above angles are measured using <term>degrees</term>. 
+    An angle <m>\theta</m> may also be measured using <em>radians</em>. 
+    The radian measurement corresponds to a distance around the circumference, <m>C</m>, of the unit circle (<m>C' = 2\pi</m>).</p>
+
+    <p>Let us measure an arc on the unit circle starting at (1,0) of length <m>\frac{\pi}{4}</m> and ending at a point <m>P</m>. 
+    If we draw a ray from the origin through point <m>P</m>, we have formed an angle <m>\theta</m>, where <m>\theta</m> = <m>\frac{\pi}{4}</m>radians.</p>
+
+    <!--figure goes here-->
+
+    <p>The following two angles are the same</p>
+
+    <!--figure goes here-->
+     
+    <p>To convert radians to degrees and vice versa, use the following equation.</p>
+
+      <me>\pi \text{ radians} = 180^\circ</me>
+
+    <p><alert>Example 1:</alert> Convert <m>30^\circ</m> to radians.
+
+      <me>\pi \text{ radians} = 180^\circ</me> 
+
+      <me> \frac{\pi}{180} \text{ radians} = 1^\circ</me>
+             
+      <me>30\cdot\frac{\pi}{180} \text{ radians} = 30\cdot 1^\circ</me>
+
+      <me>\frac{\pi}{6} \text{ radians} = 30^\circ</me></p>
+
+    <example> 
+
+      <statement> 
+          <p>Convert <m>\frac{8\pi}{5}</m> radians to degrees.</p>
+      </statement>
+      
+      <solution>
+        <p>
+          <me>\pi \text{ radians} = 180^\circ</me>
+      
+        <me>\frac{8}{5}\cdot\pi \text{ radians } = \frac{8}{5}\cdot 180^\circ</me> 
+
+        <me>\frac{8\pi}{5} \text{ radians } = 288^\circ</me>
+        </p>
+      </solution>
+    </example>
+            
+</section>
+
+
+<section xml:id="section-two-trigonometric-functions">
+    <title>Trigonometric Functions</title>
+
+<p>Consider the point <m>P</m> = (<m>x,y</m>) where the angle of measure <m>\theta</m> intersects the unit circle. 
+We use the coordinates <m>x</m> and <m>y</m> of this point to define six <term>trigonometric functions</term> of <m>\theta</m>.</p>
+  
+<!--figure goes here-->   
+
+<p>We define the <term>cosine</term> of <m>\theta</m> to be the <m>x</m>-coordinate of this point and the <alert>sine</alert> of <m>\theta</m> to be the <m>y</m>-coordinate of this point. 
+We use the abbreviations âcosâ for cosine and âsinâ for sine. 
+  Thus, <me>cos\theta= x \text{ and }  sin\theta=y.</me></p>
+
+
+<p>Notice that the <m>x</m> and <m>y</m> coordinates of all points on the unit circle lie somewhere between -1 and 1. Thus,
+
+  <me>-1\leq cos \theta\leq1 \text{ and } -1\leq sin \theta\leq1  </me>
+
+no matter what <m>\theta</m> is. </p>
+
+<p>We can use geometry to determine sin<m>\frac{\pi}{4}</m> and cos<m>\frac{\pi}{4}</m>. 
+Since <m>\frac{\pi}{4}</m> radians equals 45Â°-45Â°-90Â° triangle with a hypotenuse of length 1. 
+Such a triangle must have legs each of length <m>\frac{1}{\sqrt{2}}</m>.</p>
+
+<!--figure goes here-->
+
+
+<p>By moving this triangle into the unit circle and remembering that 45Â° equals <m>\frac{\pi}{4}</m> radians, 
+we find that the corresponding point on the unit circle has <m>(x,y)</m>-coordinates <m>\left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right)</m>. </p>
+
+<!--figure goes here-->
+
+<p>Thus
+
+  <me>\sin\frac{\pi}{4} = y = \frac{1}{\sqrt{2}} \text{ and } \cos\frac{\pi}{4}=x=\frac{1}{\sqrt{2}}</me>. </p>
+
+<p>We can find <m>\sin\frac{\pi}{3}</m>, <m>\cos\frac{\pi}{3}</m>, <m>\sin\frac{\pi}{6}</m>, 
+and <m>\cos\frac{\pi}{6}</m> in a similar fashion by noting <m>\frac{\pi}{3}</m>  radians equals 60Â° and <m>\frac{\pi}{6}</m> radians equals 30Â°. 
+A 30Â°-60Â°-90Â° triangle with a hypotenuse of length 1 gives us the information we need.</p>
+
+<!--figure goes here-->
+
+<!--figure goes here-->
+
+<!--figure goes here-->
+
+<p>Thus <me>\frac{\pi}{6}=\frac{1}{2} ~\text{and}</me>.</p> 
+
+
+<p>Thus <me>\sin\frac{\pi}{6}=\frac{1}{2} \text{ and } \cos\frac{\pi}{6}= \frac{\sqrt{3}}{2}</me>.</p> 
+<!--Continue from the bottom of page 60 at this point-->
+</chapter>
