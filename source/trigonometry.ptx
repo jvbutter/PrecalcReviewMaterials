@@ -5,12 +5,61 @@
     <title>The Unit Circle</title>
     <p>The first key to understanding trigonometry is to know the unit circle.
     The <term>unit circle</term> is the circle centered at (0,0) with radius 1.</p>
- <!--figure goes here-->
+    <figure width="50%" xml:id="fig-unt-circle">
+      <image>
+      <description>
+        The unit circle centered at (0,0) with radius 1, drawn in the cartesian plane.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}
+            \draw (0,0) circle (2cm);
+            \draw (-3,0) -- (3, 0);
+            \draw (0,-3) -- (0,3);
+            \filldraw (-2,0) circle (.05cm);
+            \filldraw (2,0) circle (.05cm);
+            \filldraw (0,2) circle (.05cm);
+            \filldraw (0,-2) circle (.05cm);
+            \node[anchor = south west] at (0,2) {$(0,1)$};
+            \node[anchor = south west] at (2,0) {$(1,0)$};
+            \node[anchor = north west] at (0,-2) {$(0,-1)$};
+            \node[anchor = south east] at (-2,0) {$(-1,0)$};
+            \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+    </figure>
 
  <p>Consider an angle <m>\theta</m> in the unit circle. 
   The angle is positive if it is measured counterclockwise from the positive x-axis and negative if it is measured clockwise.</p>
-
-  <!--figure goes here-->
+ 
+  <figure width="50%" xml:id="fig-two-angles">
+    <image>
+    <description>
+      The angles <m>135^\circ</m> and <m>-135^\circ</m> drawn on the unit circle.
+    </description>
+        <latex-image>
+          <![CDATA[
+          \begin{tikzpicture}
+          \draw (0,0) circle (2cm);
+          \draw (-3,0) -- (3, 0);
+          \draw (0,-3) -- (0,3);
+          \draw[->] (0,0) -- (135:3);
+          \draw[->] (0.5,0) arc (0:135:0.5);
+          \node at (.75,.75) {$135^\circ$};
+          \begin{scope}[xshift=6cm]
+          \draw (0,0) circle (2cm);
+          \draw (-3,0) -- (3, 0);
+          \draw (0,-3) -- (0,3);
+          \draw[->] (0,0) -- (-135:3);
+          \draw[->] (0.5,0) arc (0:-135:0.5);
+          \node at (.75,-.75) {$-135^\circ$};
+          \end{scope}
+          \end{tikzpicture}
+          ]]>
+        </latex-image>
+      </image>
+  </figure>
 
   <p>The above angles are measured using <term>degrees</term>. 
   An angle <m>\theta</m> may also be measured using <em>radians</em>. 
@@ -19,11 +68,62 @@
   <p>Let us measure an arc on the unit circle starting at (1,0) of length <m>\frac{\pi}{4}</m> and ending at a point <m>P</m>. 
   If we draw a ray from the origin through point <m>P</m>, we have formed an angle <m>\theta</m>, where <m>\theta</m> = <m>\frac{\pi}{4}</m>radians.</p>
 
-  <!--figure goes here-->
+  <figure width="50%" xml:id="fig-point-pi-over-four">
+    <image>
+    <description>
+      The angle <m>\pi/4</m> drawn on the unit circle.
+    </description>
+        <latex-image>
+          <![CDATA[
+          \begin{tikzpicture}
+          \draw (0,0) circle (2cm);
+          \draw (-3,0) -- (3, 0);
+          \draw (0,-3) -- (0,3);
+          \draw[->] (0,0) -- (45:3);
+          \draw[] (0.5,0) arc (0:45:0.5);
+          \filldraw (45:2) circle (.05cm);
+          \node[] at (21:.75) {$\theta$};
+          \node[anchor = south] at (45:2) {$P$};
+          \node at (22:3) {$\frac{\pi}{4}$ radians};
+          \filldraw (2,0) circle (.05cm);
+          \node[anchor = north west] at (2,0) {$(1,0)$};
+          \end{tikzpicture}
+        ]]>
+        </latex-image>
+    </image>
+  </figure>
 
   <p>The following two angles are the same</p>
 
-  <!--figure goes here-->
+  <figure width="50%" xml:id="fig-same-two-angles">
+    <image>
+    <description>
+      The angle <m>45^\circ</m> drawn on one copy of the unit circle, and <m>\pi/4</m> drawn on another copy.
+    </description>
+        <latex-image>
+          <![CDATA[
+          \begin{tikzpicture}
+          \draw (0,0) circle (2cm);
+          \draw (-3,0) -- (3, 0);
+          \draw (0,-3) -- (0,3);
+          \draw[->] (0,0) -- (45:3);
+          \draw[] (0.5,0) arc (0:45:0.5);
+          \node at (22:3) {$45^\circ$};
+          \filldraw (2,0) circle (.05cm);
+          \node at (5,1) {OR};
+          \begin{scope}[xshift=8cm]
+          \draw (0,0) circle (2cm);
+          \draw (-3,0) -- (3, 0);
+          \draw (0,-3) -- (0,3);
+          \draw[->] (0,0) -- (45:3);
+          \draw[] (0.5,0) arc (0:45:0.5);
+          \node at (22:3) {$\frac{\pi}{4}$ radians};
+          \end{scope}
+          \end{tikzpicture}
+        ]]>
+        </latex-image>
+    </image>
+  </figure>
    
   <p>To convert radians to degrees and vice versa, use the following equation.</p>
 
@@ -59,6 +159,7 @@
     </solution>
   </example>
   </section>
+  <!--END OF FIRST SECTION-->
   <section xml:id="section-two-trigonometric-functions">
     <title>Trigonometric Functions</title>
     <p>Consider the point <m>P</m> = (<m>x,y</m>) where the angle of measure <m>\theta</m> intersects the unit circle. 

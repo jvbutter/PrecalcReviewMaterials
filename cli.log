@@ -1,8 +1,309 @@
 INFO    : PreTeXt project found in `/workspaces/PrecalcReviewMaterials`.
 INFO    : Since no build target was supplied, the first target of the project.ptx manifest (web) will be built.
 
-INFO    : No change in assets requiring generating detected.  To force regeneration of assets, use `-g` flag.
+INFO    : Now generating latex-images
 
+
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/xsl/extract-latex-image.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /root/.ptx/xsl/extract-latex-image.xsl
+INFO    : converting image-11.tex to image-11.pdf
+INFO    : cropping image-11.pdf to cropped-image-11.pdf
+INFO    : renaming cropped-image-11.pdf to image-11.pdf
+INFO    : converting image-11.pdf to image-11.svg
+INFO    : converting image-26.tex to image-26.pdf
+INFO    : cropping image-26.pdf to cropped-image-26.pdf
+INFO    : renaming cropped-image-26.pdf to image-26.pdf
+INFO    : converting image-26.pdf to image-26.svg
+INFO    : converting image-44.tex to image-44.pdf
+INFO    : cropping image-44.pdf to cropped-image-44.pdf
+INFO    : renaming cropped-image-44.pdf to image-44.pdf
+INFO    : converting image-44.pdf to image-44.svg
+INFO    : converting image-40.tex to image-40.pdf
+INFO    : cropping image-40.pdf to cropped-image-40.pdf
+INFO    : renaming cropped-image-40.pdf to image-40.pdf
+INFO    : converting image-40.pdf to image-40.svg
+INFO    : converting image-113.tex to image-113.pdf
+INFO    : cropping image-113.pdf to cropped-image-113.pdf
+INFO    : renaming cropped-image-113.pdf to image-113.pdf
+INFO    : converting image-113.pdf to image-113.svg
+INFO    : converting image-31.tex to image-31.pdf
+INFO    : cropping image-31.pdf to cropped-image-31.pdf
+INFO    : renaming cropped-image-31.pdf to image-31.pdf
+INFO    : converting image-31.pdf to image-31.svg
+INFO    : converting image-48.tex to image-48.pdf
+INFO    : cropping image-48.pdf to cropped-image-48.pdf
+INFO    : renaming cropped-image-48.pdf to image-48.pdf
+INFO    : converting image-48.pdf to image-48.svg
+INFO    : converting image-78.tex to image-78.pdf
+INFO    : cropping image-78.pdf to cropped-image-78.pdf
+INFO    : renaming cropped-image-78.pdf to image-78.pdf
+INFO    : converting image-78.pdf to image-78.svg
+INFO    : converting image-1.tex to image-1.pdf
+INFO    : cropping image-1.pdf to cropped-image-1.pdf
+INFO    : renaming cropped-image-1.pdf to image-1.pdf
+INFO    : converting image-1.pdf to image-1.svg
+INFO    : converting image-21.tex to image-21.pdf
+INFO    : cropping image-21.pdf to cropped-image-21.pdf
+INFO    : renaming cropped-image-21.pdf to image-21.pdf
+INFO    : converting image-21.pdf to image-21.svg
+INFO    : converting image-85.tex to image-85.pdf
+INFO    : cropping image-85.pdf to cropped-image-85.pdf
+INFO    : renaming cropped-image-85.pdf to image-85.pdf
+INFO    : converting image-85.pdf to image-85.svg
+INFO    : converting image-54.tex to image-54.pdf
+INFO    : cropping image-54.pdf to cropped-image-54.pdf
+INFO    : renaming cropped-image-54.pdf to image-54.pdf
+INFO    : converting image-54.pdf to image-54.svg
+INFO    : converting image-39.tex to image-39.pdf
+INFO    : cropping image-39.pdf to cropped-image-39.pdf
+INFO    : renaming cropped-image-39.pdf to image-39.pdf
+INFO    : converting image-39.pdf to image-39.svg
+INFO    : converting image-55.tex to image-55.pdf
+INFO    : cropping image-55.pdf to cropped-image-55.pdf
+INFO    : renaming cropped-image-55.pdf to image-55.pdf
+INFO    : converting image-55.pdf to image-55.svg
+INFO    : converting image-25.tex to image-25.pdf
+INFO    : cropping image-25.pdf to cropped-image-25.pdf
+INFO    : renaming cropped-image-25.pdf to image-25.pdf
+INFO    : converting image-25.pdf to image-25.svg
+INFO    : converting image-3.tex to image-3.pdf
+INFO    : cropping image-3.pdf to cropped-image-3.pdf
+INFO    : renaming cropped-image-3.pdf to image-3.pdf
+INFO    : converting image-3.pdf to image-3.svg
+INFO    : converting image-33.tex to image-33.pdf
+INFO    : cropping image-33.pdf to cropped-image-33.pdf
+INFO    : renaming cropped-image-33.pdf to image-33.pdf
+INFO    : converting image-33.pdf to image-33.svg
+INFO    : converting image-46.tex to image-46.pdf
+INFO    : cropping image-46.pdf to cropped-image-46.pdf
+INFO    : renaming cropped-image-46.pdf to image-46.pdf
+INFO    : converting image-46.pdf to image-46.svg
+INFO    : converting image-110.tex to image-110.pdf
+INFO    : cropping image-110.pdf to cropped-image-110.pdf
+INFO    : renaming cropped-image-110.pdf to image-110.pdf
+INFO    : converting image-110.pdf to image-110.svg
+INFO    : converting image-58.tex to image-58.pdf
+INFO    : cropping image-58.pdf to cropped-image-58.pdf
+INFO    : renaming cropped-image-58.pdf to image-58.pdf
+INFO    : converting image-58.pdf to image-58.svg
+INFO    : converting image-30.tex to image-30.pdf
+INFO    : cropping image-30.pdf to cropped-image-30.pdf
+INFO    : renaming cropped-image-30.pdf to image-30.pdf
+INFO    : converting image-30.pdf to image-30.svg
+INFO    : converting image-22.tex to image-22.pdf
+INFO    : cropping image-22.pdf to cropped-image-22.pdf
+INFO    : renaming cropped-image-22.pdf to image-22.pdf
+INFO    : converting image-22.pdf to image-22.svg
+INFO    : converting image-88.tex to image-88.pdf
+INFO    : cropping image-88.pdf to cropped-image-88.pdf
+INFO    : renaming cropped-image-88.pdf to image-88.pdf
+INFO    : converting image-88.pdf to image-88.svg
+INFO    : converting image-32.tex to image-32.pdf
+INFO    : cropping image-32.pdf to cropped-image-32.pdf
+INFO    : renaming cropped-image-32.pdf to image-32.pdf
+INFO    : converting image-32.pdf to image-32.svg
+INFO    : converting image-27.tex to image-27.pdf
+INFO    : cropping image-27.pdf to cropped-image-27.pdf
+INFO    : renaming cropped-image-27.pdf to image-27.pdf
+INFO    : converting image-27.pdf to image-27.svg
+INFO    : converting image-34.tex to image-34.pdf
+INFO    : cropping image-34.pdf to cropped-image-34.pdf
+INFO    : renaming cropped-image-34.pdf to image-34.pdf
+INFO    : converting image-34.pdf to image-34.svg
+INFO    : converting image-83.tex to image-83.pdf
+INFO    : cropping image-83.pdf to cropped-image-83.pdf
+INFO    : renaming cropped-image-83.pdf to image-83.pdf
+INFO    : converting image-83.pdf to image-83.svg
+INFO    : converting image-56.tex to image-56.pdf
+INFO    : cropping image-56.pdf to cropped-image-56.pdf
+INFO    : renaming cropped-image-56.pdf to image-56.pdf
+INFO    : converting image-56.pdf to image-56.svg
+INFO    : converting image-112.tex to image-112.pdf
+INFO    : cropping image-112.pdf to cropped-image-112.pdf
+INFO    : renaming cropped-image-112.pdf to image-112.pdf
+INFO    : converting image-112.pdf to image-112.svg
+INFO    : converting image-51.tex to image-51.pdf
+INFO    : cropping image-51.pdf to cropped-image-51.pdf
+INFO    : renaming cropped-image-51.pdf to image-51.pdf
+INFO    : converting image-51.pdf to image-51.svg
+INFO    : converting image-52.tex to image-52.pdf
+INFO    : cropping image-52.pdf to cropped-image-52.pdf
+INFO    : renaming cropped-image-52.pdf to image-52.pdf
+INFO    : converting image-52.pdf to image-52.svg
+INFO    : converting image-87.tex to image-87.pdf
+INFO    : cropping image-87.pdf to cropped-image-87.pdf
+INFO    : renaming cropped-image-87.pdf to image-87.pdf
+INFO    : converting image-87.pdf to image-87.svg
+INFO    : converting image-50.tex to image-50.pdf
+INFO    : cropping image-50.pdf to cropped-image-50.pdf
+INFO    : renaming cropped-image-50.pdf to image-50.pdf
+INFO    : converting image-50.pdf to image-50.svg
+INFO    : converting image-82.tex to image-82.pdf
+INFO    : cropping image-82.pdf to cropped-image-82.pdf
+INFO    : renaming cropped-image-82.pdf to image-82.pdf
+INFO    : converting image-82.pdf to image-82.svg
+INFO    : converting image-37.tex to image-37.pdf
+INFO    : cropping image-37.pdf to cropped-image-37.pdf
+INFO    : renaming cropped-image-37.pdf to image-37.pdf
+INFO    : converting image-37.pdf to image-37.svg
+INFO    : converting image-76.tex to image-76.pdf
+INFO    : cropping image-76.pdf to cropped-image-76.pdf
+INFO    : renaming cropped-image-76.pdf to image-76.pdf
+INFO    : converting image-76.pdf to image-76.svg
+INFO    : converting image-42.tex to image-42.pdf
+INFO    : cropping image-42.pdf to cropped-image-42.pdf
+INFO    : renaming cropped-image-42.pdf to image-42.pdf
+INFO    : converting image-42.pdf to image-42.svg
+INFO    : converting image-79.tex to image-79.pdf
+INFO    : cropping image-79.pdf to cropped-image-79.pdf
+INFO    : renaming cropped-image-79.pdf to image-79.pdf
+INFO    : converting image-79.pdf to image-79.svg
+INFO    : converting image-49.tex to image-49.pdf
+INFO    : cropping image-49.pdf to cropped-image-49.pdf
+INFO    : renaming cropped-image-49.pdf to image-49.pdf
+INFO    : converting image-49.pdf to image-49.svg
+INFO    : converting image-35.tex to image-35.pdf
+INFO    : cropping image-35.pdf to cropped-image-35.pdf
+INFO    : renaming cropped-image-35.pdf to image-35.pdf
+INFO    : converting image-35.pdf to image-35.svg
+INFO    : converting image-38.tex to image-38.pdf
+INFO    : cropping image-38.pdf to cropped-image-38.pdf
+INFO    : renaming cropped-image-38.pdf to image-38.pdf
+INFO    : converting image-38.pdf to image-38.svg
+INFO    : converting image-36.tex to image-36.pdf
+INFO    : cropping image-36.pdf to cropped-image-36.pdf
+INFO    : renaming cropped-image-36.pdf to image-36.pdf
+INFO    : converting image-36.pdf to image-36.svg
+INFO    : converting image-10.tex to image-10.pdf
+INFO    : cropping image-10.pdf to cropped-image-10.pdf
+INFO    : renaming cropped-image-10.pdf to image-10.pdf
+INFO    : converting image-10.pdf to image-10.svg
+INFO    : converting image-8.tex to image-8.pdf
+INFO    : cropping image-8.pdf to cropped-image-8.pdf
+INFO    : renaming cropped-image-8.pdf to image-8.pdf
+INFO    : converting image-8.pdf to image-8.svg
+INFO    : converting image-9.tex to image-9.pdf
+INFO    : cropping image-9.pdf to cropped-image-9.pdf
+INFO    : renaming cropped-image-9.pdf to image-9.pdf
+INFO    : converting image-9.pdf to image-9.svg
+INFO    : converting image-45.tex to image-45.pdf
+INFO    : cropping image-45.pdf to cropped-image-45.pdf
+INFO    : renaming cropped-image-45.pdf to image-45.pdf
+INFO    : converting image-45.pdf to image-45.svg
+INFO    : converting image-59.tex to image-59.pdf
+INFO    : cropping image-59.pdf to cropped-image-59.pdf
+INFO    : renaming cropped-image-59.pdf to image-59.pdf
+INFO    : converting image-59.pdf to image-59.svg
+INFO    : converting image-29.tex to image-29.pdf
+INFO    : cropping image-29.pdf to cropped-image-29.pdf
+INFO    : renaming cropped-image-29.pdf to image-29.pdf
+INFO    : converting image-29.pdf to image-29.svg
+INFO    : converting image-47.tex to image-47.pdf
+INFO    : cropping image-47.pdf to cropped-image-47.pdf
+INFO    : renaming cropped-image-47.pdf to image-47.pdf
+INFO    : converting image-47.pdf to image-47.svg
+INFO    : converting image-41.tex to image-41.pdf
+INFO    : cropping image-41.pdf to cropped-image-41.pdf
+INFO    : renaming cropped-image-41.pdf to image-41.pdf
+INFO    : converting image-41.pdf to image-41.svg
+INFO    : converting image-4.tex to image-4.pdf
+INFO    : cropping image-4.pdf to cropped-image-4.pdf
+INFO    : renaming cropped-image-4.pdf to image-4.pdf
+INFO    : converting image-4.pdf to image-4.svg
+INFO    : converting image-6.tex to image-6.pdf
+INFO    : cropping image-6.pdf to cropped-image-6.pdf
+INFO    : renaming cropped-image-6.pdf to image-6.pdf
+INFO    : converting image-6.pdf to image-6.svg
+INFO    : converting image-43.tex to image-43.pdf
+INFO    : cropping image-43.pdf to cropped-image-43.pdf
+INFO    : renaming cropped-image-43.pdf to image-43.pdf
+INFO    : converting image-43.pdf to image-43.svg
+INFO    : converting image-86.tex to image-86.pdf
+INFO    : cropping image-86.pdf to cropped-image-86.pdf
+INFO    : renaming cropped-image-86.pdf to image-86.pdf
+INFO    : converting image-86.pdf to image-86.svg
+INFO    : converting image-7.tex to image-7.pdf
+INFO    : cropping image-7.pdf to cropped-image-7.pdf
+INFO    : renaming cropped-image-7.pdf to image-7.pdf
+INFO    : converting image-7.pdf to image-7.svg
+INFO    : converting image-90.tex to image-90.pdf
+INFO    : cropping image-90.pdf to cropped-image-90.pdf
+INFO    : renaming cropped-image-90.pdf to image-90.pdf
+INFO    : converting image-90.pdf to image-90.svg
+INFO    : converting image-28.tex to image-28.pdf
+INFO    : cropping image-28.pdf to cropped-image-28.pdf
+INFO    : renaming cropped-image-28.pdf to image-28.pdf
+INFO    : converting image-28.pdf to image-28.svg
+INFO    : converting image-24.tex to image-24.pdf
+INFO    : cropping image-24.pdf to cropped-image-24.pdf
+INFO    : renaming cropped-image-24.pdf to image-24.pdf
+INFO    : converting image-24.pdf to image-24.svg
+INFO    : converting image-109.tex to image-109.pdf
+INFO    : cropping image-109.pdf to cropped-image-109.pdf
+INFO    : renaming cropped-image-109.pdf to image-109.pdf
+INFO    : converting image-109.pdf to image-109.svg
+INFO    : converting image-77.tex to image-77.pdf
+INFO    : cropping image-77.pdf to cropped-image-77.pdf
+INFO    : renaming cropped-image-77.pdf to image-77.pdf
+INFO    : converting image-77.pdf to image-77.svg
+INFO    : converting image-53.tex to image-53.pdf
+INFO    : cropping image-53.pdf to cropped-image-53.pdf
+INFO    : renaming cropped-image-53.pdf to image-53.pdf
+INFO    : converting image-53.pdf to image-53.svg
+INFO    : converting image-20.tex to image-20.pdf
+INFO    : cropping image-20.pdf to cropped-image-20.pdf
+INFO    : renaming cropped-image-20.pdf to image-20.pdf
+INFO    : converting image-20.pdf to image-20.svg
+INFO    : converting image-80.tex to image-80.pdf
+INFO    : cropping image-80.pdf to cropped-image-80.pdf
+INFO    : renaming cropped-image-80.pdf to image-80.pdf
+INFO    : converting image-80.pdf to image-80.svg
+INFO    : converting image-5.tex to image-5.pdf
+INFO    : cropping image-5.pdf to cropped-image-5.pdf
+INFO    : renaming cropped-image-5.pdf to image-5.pdf
+INFO    : converting image-5.pdf to image-5.svg
+INFO    : converting image-91.tex to image-91.pdf
+INFO    : cropping image-91.pdf to cropped-image-91.pdf
+INFO    : renaming cropped-image-91.pdf to image-91.pdf
+INFO    : converting image-91.pdf to image-91.svg
+INFO    : converting image-89.tex to image-89.pdf
+INFO    : cropping image-89.pdf to cropped-image-89.pdf
+INFO    : renaming cropped-image-89.pdf to image-89.pdf
+INFO    : converting image-89.pdf to image-89.svg
+INFO    : converting image-57.tex to image-57.pdf
+INFO    : cropping image-57.pdf to cropped-image-57.pdf
+INFO    : renaming cropped-image-57.pdf to image-57.pdf
+INFO    : converting image-57.pdf to image-57.svg
+INFO    : converting image-84.tex to image-84.pdf
+INFO    : cropping image-84.pdf to cropped-image-84.pdf
+INFO    : renaming cropped-image-84.pdf to image-84.pdf
+INFO    : converting image-84.pdf to image-84.svg
+INFO    : converting image-111.tex to image-111.pdf
+INFO    : cropping image-111.pdf to cropped-image-111.pdf
+INFO    : renaming cropped-image-111.pdf to image-111.pdf
+INFO    : converting image-111.pdf to image-111.svg
+INFO    : converting image-81.tex to image-81.pdf
+INFO    : cropping image-81.pdf to cropped-image-81.pdf
+INFO    : renaming cropped-image-81.pdf to image-81.pdf
+INFO    : converting image-81.pdf to image-81.svg
+INFO    : converting image-23.tex to image-23.pdf
+INFO    : cropping image-23.pdf to cropped-image-23.pdf
+INFO    : renaming cropped-image-23.pdf to image-23.pdf
+INFO    : converting image-23.pdf to image-23.svg
+INFO    : converting image-2.tex to image-2.pdf
+INFO    : cropping image-2.pdf to cropped-image-2.pdf
+INFO    : renaming cropped-image-2.pdf to image-2.pdf
+INFO    : converting image-2.pdf to image-2.svg
+INFO    : Removing temporary directory /tmp/tmp1ovwyxgu
 INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/web.
 INFO    : 
 Now building HTML into /workspaces/PrecalcReviewMaterials/output/web
@@ -14,13 +315,13 @@ INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMate
 INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
 INFO    : Runestone Services (via PreTeXt repository): version 6.5.0
 INFO    : Runestone Services (using newer, via online CDN query): version 7.1.1
-INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/tmp5skydyvp
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/tmpwonwiaal
 INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/xsl/pretext-html.xsl
 INFO    : comprehensive messages, warnings, and errors:
 INFO    :     * PTX:WARNING: A chapter containing sections needs to have other content inside an <introduction> and/or  <conclusion>.
 INFO    :     *              located within: "ch-trigonometry" (xml:id), "Trigonometry" (title)
 INFO    : successful application of /root/.ptx/xsl/pretext-html.xsl
-INFO    : Removing temporary directory /tmp/tmp5skydyvp
+INFO    : Removing temporary directory /tmp/tmpwonwiaal
 INFO    : 
 Success! Run `pretext view web` to see the results.
 
