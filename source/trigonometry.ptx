@@ -1,6 +1,10 @@
 <chapter xml:id="ch-trigonometry">
     <title>Trigonometry</title>
-<p>These materials adapted from <q>Algebra and Trigonometry Review Material</q> by Philip S. Crooke, Professor of Mathematics (emeritus) at Vanderbilt University.</p>
+<introduction>
+  <p>
+    These materials adapted from <q>Algebra and Trigonometry Review Material</q> by Philip S. Crooke, Professor of Mathematics (emeritus) at Vanderbilt University.
+  </p>
+</introduction>
 <section xml:id="section-one-unit-circle">
     <title>The Unit Circle</title>
     <p>The first key to understanding trigonometry is to know the unit circle.
