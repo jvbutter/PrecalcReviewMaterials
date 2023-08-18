@@ -165,7 +165,36 @@
     <p>Consider the point <m>P</m> = (<m>x,y</m>) where the angle of measure <m>\theta</m> intersects the unit circle. 
       We use the coordinates <m>x</m> and <m>y</m> of this point to define six <term>trigonometric functions</term> of <m>\theta</m>.</p>
         
-      <!--figure goes here-->   
+      <figure width="50%" xml:id="fig-point-p-defines-functions">
+        <image>
+        <description>
+          An illustration of the point P as defined in the text.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) circle (2cm);
+              \draw (-3,0) -- (3, 0);
+              \draw (0,-3) -- (0,3);
+              \draw[->] (0,0) -- (45:3);
+              \draw[] (0.5,0) arc (0:45:0.5);
+              \filldraw (45:2) circle (.05cm);
+              \node[] at (21:.75) {$\theta$};
+              \node[anchor = south] at (45:2) {$P$};
+              \node[anchor = west] at (45:2) {$(x,y)$};
+              \filldraw (-2,0) circle (.05cm);
+              \filldraw (2,0) circle (.05cm);
+              \filldraw (0,2) circle (.05cm);
+              \filldraw (0,-2) circle (.05cm);
+              \node[anchor = south west] at (0,2) {$(0,1)$};
+              \node[anchor = south west] at (2,0) {$(1,0)$};
+              \node[anchor = north west] at (0,-2) {$(0,-1)$};
+              \node[anchor = south east] at (-2,0) {$(-1,0)$};
+              \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
       
       <p>We define the <term>cosine</term> of <m>\theta</m> to be the <m>x</m>-coordinate of this point and the <term>sine</term> of <m>\theta</m> to be the <m>y</m>-coordinate of this point. 
       We use the abbreviations <m>\cos</m> for cosine and <m>\sin</m> for sine. 
@@ -181,13 +210,58 @@
       Since <m>\frac{\pi}{4}</m> radians equals <m>45^\circ</m>, consdier a <m>45^\circ-45^\circ-90^\circ</m> triangle with a hypotenuse of length 1. 
       Such a triangle must have legs each of length <m>\frac{1}{\sqrt{2}}</m>.</p>
     
-      <!--figure goes here-->
+      <figure width="50%" xml:id="fig-fortyfive-degree-triangle">
+        <image>
+        <description>
+          An illustration of the triangle with angles 45, 45, 90 as described in the text.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) -- (4,0) -- (4,4) -- (0,0);
+             \draw (3.5,0)--(3.5,0.5) -- (4,0.5);
+             \draw (0.75,0) arc (0:45:.75);
+             \node at (22:1.2) {$45^\circ$};
+             \draw (4,3.25) arc (-90:-135:.75);
+             \node at (3.5, 3) {$45^\circ$};
+             \node[below] at (2,0) {$\frac{1}{\sqrt{2}}$};
+             \node[above] at (2,2.25) {$1$};
+             \node[right] at (4,2) {$\frac{1}{\sqrt{2}}$};
+             \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
 
       <p>By moving this triangle into the unit circle and remembering that <m>45^\circ</m> equals <m>\frac{\pi}{4}</m> radians, 
         we find that the corresponding point on the unit circle has <m>(x,y)</m>-coordinates <m>\left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right)</m>.
       </p>
     
-        <!--figure goes here-->
+      <figure width="50%" xml:id="fig-triangle-in-unit-circle">
+        <image>
+        <description>
+          The 45-45-90 triangle embedded in the unit circle.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) circle (4cm);
+              \draw (-5,0) -- (5, 0);
+              \draw (0,-5) -- (0,5);
+              \draw[] (0.5,0) arc (0:45:0.5);
+              \draw (0,0) -- (45:4) -- (2.82,0);
+              \draw (2.82,0) rectangle (2.52,.3);
+              \filldraw (45:4) circle (.05cm);
+              \node[] at (21:.75) {$\frac{\pi}{4}$};
+              \node[] at (45:5) {$\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)$};
+              \node[right] at (4,1) {$y=\frac{1}{\sqrt{2}}$};
+              \node[below] at (1.5,0) {$x=\frac{1}{\sqrt{2}}$};
+              \node[above] at (1.5,1.75) {$1$};
+              \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
     
       <p>Thus  
           <me>\sin\frac{\pi}{4} = y = \frac{1}{\sqrt{2}} \text{ and } \cos\frac{\pi}{4}=x=\frac{1}{\sqrt{2}}</me>.
@@ -198,9 +272,54 @@
         A <m>30^\circ-60^\circ-90^\circ</m> triangle with a hypotenuse of length 1 gives us the information we need.
       </p>
     
-      <!--figure goes here-->
+      <figure width="50%" xml:id="fig-sixty-thirty-triangle">
+        <image>
+        <description>
+          The 60-30-90 triangle described in the text.
+        </description>
+            <latex-image>
+            <![CDATA[
+             \begin{tikzpicture}
+             \draw (0,0) -- (2.5,0) -- (2.5,4) -- (0,0);
+             \draw (2,0)--(2,0.5) -- (2.5,0.5);
+             \draw (0.75,0) arc (0:60:.75);
+             \node at (22:1.2) {$60^\circ$};
+             \draw[] (2.5,3.25) arc (-90:-120:.75);
+             \node at (2.2, 2.75) {$30^\circ$};
+             \node[below] at (1.5,0) {$\frac{1}{2}$};
+             \node[above] at (1,2.25) {$1$};
+             \node[right] at (2.5,2) {$\frac{\sqrt{3}}{2}$};
+             \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
     
-      <!--figure goes here-->
+      <figure width="50%" xml:id="fig-second-triangle-in-unit-circle">
+        <image>
+        <description>
+          The <m>\pi/6</m> triangle embedded in the unit circle.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) circle (4cm);
+              \draw (-5,0) -- (5, 0);
+              \draw (0,-5) -- (0,5);
+              \draw[] (0.5,0) arc (0:30:0.5);
+              \draw (0,0) -- (30:4) -- (3.46,0);
+              \draw (3.46,0) rectangle (3.16,.3);
+              \filldraw (30:4) circle (.05cm);
+              \node[] at (15:1) {$\frac{\pi}{6}$};
+              \node[] at (30:5) {$\left(\frac{\sqrt{3}}{2},\frac{1}{2}\right)$};
+              \node[right] at (4,1) {$y=\frac{1}{2}$};
+              \node[below] at (1.5,0) {$x=\frac{\sqrt{3}}{2}$};
+              \node[above] at (1.5,1.75) {$1$};
+              \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
         
       <!--figure goes here-->
         
