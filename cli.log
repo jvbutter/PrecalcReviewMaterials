@@ -14,11 +14,11 @@ INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMate
 INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
 INFO    : Runestone Services (via PreTeXt repository): version 6.5.0
 INFO    : Runestone Services (using newer, via online CDN query): version 7.1.1
-INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/tmpx4z5u51t
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/tmphc2qlt8s
 INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/xsl/pretext-html.xsl
 INFO    : comprehensive messages, warnings, and errors:
 INFO    : successful application of /root/.ptx/xsl/pretext-html.xsl
-INFO    : Removing temporary directory /tmp/tmpx4z5u51t
+INFO    : Removing temporary directory /tmp/tmphc2qlt8s
 INFO    : 
 Success! Run `pretext view web` to see the results.
 
