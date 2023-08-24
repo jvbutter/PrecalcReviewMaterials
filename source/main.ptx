@@ -9,6 +9,7 @@
 \usepackage{tikz}
 \usepackage{tkz-graph}
 \usepackage{tkz-euclide}
+\usepackage{polynom}
 \usetikzlibrary{patterns}
 \usetikzlibrary{positioning}
 \usetikzlibrary{matrix,arrows}
@@ -47,8 +48,8 @@
     <xi:include href="./module2.ptx"/>
     <xi:include href="./module3.ptx"/>
     <xi:include href="./module4.ptx"/>
-    <xi:include href="./module5.ptx" />
-    <!--<xi:include href="./trigonometry.ptx"/>-->
+    <!--<xi:include href="./module5.ptx" />-->
+    <xi:include href="./trigonometry.ptx"/>
     <xi:include href="./backmatter.ptx"/>
   </book>
 </pretext>

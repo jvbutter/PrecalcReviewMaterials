@@ -56,14 +56,21 @@
     <example>
       <title>Testing for Roots of a Polynomial</title>
       <statement>
-        <p>Let <m>f(x)=2x^3+x^2 -1</m>.  Then,</p>
+        <p>Let <m>f(x)=2x^3+x^2+1</m>.  Then,</p>
         <ul>
           <li>
-            <p><m>x-1</m> is not a factor of <m>f(x)</m> because <m>1</m> is not a root of <m>f(x)</m>.  We can calculate <m>f(1) = 2 \neq 0</m>;</p>
+            <p><m>x-1</m> is not a factor of <m>f(x)</m> because we can calculate <m>f(1) = 2 \neq 0</m> and so <m>1</m> is not a root of <m>f(x)</m>.</p>
           </li>
           <li>
             <p>
-              <m>x+1 = x- (-1)</m> is a factor of <m>f(x)</m> because <m>f(-1) = 0</m>.  In fact, <m>f(x) = (x+1)(2x^2 - x + 1)</m>.  We can check this by multiplication <m>(x+1)(2x^2 - x + 1) = 2x^3 - x^2 + x + 2x^2 - x - 1 = 2x^3+x^2 -1</m>.  (The factors in this expression can be found by long division, as discussed below.)
+              <m>x+1 = x- (-1)</m> is a factor of <m>f(x)</m> because <m>f(-1) = 0</m>.  In fact, <m>f(x) = (x+1)(2x^2 - x + 1)</m>.
+              We can check this by multiplication <m>(x+1)(2x^2 - x + 1) = 2x^3 - x^2 + x + 2x^2 - x + 1 = 2x^3+x^2+1</m>.
+              (The factors in this expression can be found by long division, as discussed below.)
+            </p>
+          </li>
+          <li>
+            <p>
+              We can use the quadratric formula to verify that <m>2x^2-x+1</m> has no roots, which means there are no more roots of <m>f(x)</m>.
             </p>
           </li>
         </ul>
@@ -81,12 +88,32 @@
       </statement>
     </example>
 
-    <p><idx>polynomial long division</idx> Once we know a root of a polynomial, we can factor the polynomial using long division.  Polynomials are divided just like numbers.  We saw in <xref ref="ex8">Example</xref> that 1 is a root of <m>f(x)=x^3-x^2-2x+2</m>, so we can divide <m>f(x)</m> by <m>x-1</m>: <m>\polylongdiv{x^3-x^2-2x+2}{x-1}</m> Because the remainder is <m>0</m>, this means that <m>x^3-x^2-2x+2=(x-1)(x^2-2)</m>.  We can factor further, because <m>(x^2-2) = (x-\sqrt{2})(x+\sqrt{2})</m>, so:</p>
-
-    <me>f(x)=(x-1)\left(x-\sqrt{2}\right)\left(x+\sqrt{2}\right)</me>
-
-    <p>Since a product of numbers equals zero if and only if one of them is zero, <m>f(x)=0</m> if and only if <m>x-1=0</m> or <m>x-\sqrt{2}=0</m> or <m>x+\sqrt{2}=0</m>, and so the roots of <m>f(x)</m> are <m>-1</m>, <m>\sqrt{2}</m> and <m>-\sqrt{2}</m>.</p>
-
+    <p><idx>polynomial long division</idx> Once we know a root of a polynomial, we can factor the polynomial using long division.  
+      Polynomials are divided just like numbers.  
+      We saw in <xref ref="ex8">Example</xref> that 1 is a root of <m>f(x)=x^3-x^2-2x+2</m>, so we can divide <m>f(x)</m> by <m>x-1</m>
+      (see <xref ref="fig-polylongdiv">Figure</xref>).
+      Because the remainder is <m>0</m>, this means that <m>x^3-x^2-2x+2=(x-1)(x^2-2)</m>.
+      We can factor further, because <m>(x^2-2) = (x-\sqrt{2})(x+\sqrt{2})</m>, so:
+      <me>f(x)=(x-1)\left(x-\sqrt{2}\right)\left(x+\sqrt{2}\right)</me>
+      Since a product of numbers equals zero if and only if one of them is zero, 
+      <m>f(x)=0</m> if and only if <m>x-1=0</m> or <m>x-\sqrt{2}=0</m> or <m>x+\sqrt{2}=0</m>, 
+      and so the roots of <m>f(x)</m> are <m>-1</m>, <m>\sqrt{2}</m> and <m>-\sqrt{2}</m>.
+    </p>
+            <!--The polylongdiv command is not supported in ptx, but it IS possilbe to sneak in via tikz: -->
+            <figure width="100%" xml:id="fig-polylongdiv">
+              <image>
+                <description>Polynomial long division of <m>x^2-x^2-2x+2</m> by <m>x-1</m>.</description>
+                  <latex-image>
+                    <![CDATA[
+                    \begin{tikzpicture}
+                    \node[right] at (0,0) {
+                      $\polylongdiv{x^3-x^2-2x+2}{x-1}$
+                    };
+                    \end{tikzpicture}
+                    ]]>
+                  </latex-image>
+                </image>
+            </figure>
     <p>For any number <m>x</m> in its domain, and expression represents a number.  If we remember that <m>x</m> just represents a number in the domain, then expressions involving a variable can be factored (using the commutative, associative and distributive laws).</p>
 
     <example xml:id="ex9">

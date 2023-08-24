@@ -81,29 +81,30 @@
     <example>
       <title>Division with Fractions involving Variables</title>
       <statement>
-        <p>Compute and write the answer in lowest terms.</p>
-        <ol>
-          <li>
-            <m>\frac{15x-5}{8x-4} \div \frac{10x+25}{6x-3}</m>
-          </li>
-          <li>
-            <m>\frac{4}{x^2+3x+2} + \frac{5}{x+2}</m>
-          </li>
-        </ol>
+        <p>Compute and write the answer in lowest terms:
+            <m>\frac{15x-5}{8x-4} \div \frac{10x+25}{6x-3}.</m>
+        </p>
       </statement>
       <solution>
-        <ol>
-          <li>
-            <m>
-              \begin{aligned}
-                \frac{15x-5}{8x-4} \div \frac{10x+25}{6x-3} &amp;= \frac{15x-5}{8x-4} \cdot \frac{6x-3}{10x+25} \\
-                &amp;= \frac{5(3x-1)}{4(2x-1)} \cdot \frac{3(2x-1)}{5(2x+5)} \\
-                &amp;= \frac{5(3x-1)3(2x-1)}{4(2x-1)5(2x+5)} \\
-                &amp;= \frac{3(3x-1)}{4(2x+5)}, x \neq \frac{1}{2}
-              \end{aligned}
-            </m>
-          </li>
-          <li>
+        <p>
+          <m>
+          \begin{aligned}
+            \frac{15x-5}{8x-4} \div \frac{10x+25}{6x-3} &amp;= \frac{15x-5}{8x-4} \cdot \frac{6x-3}{10x+25} \\
+            &amp;= \frac{5(3x-1)}{4(2x-1)} \cdot \frac{3(2x-1)}{5(2x+5)} \\
+            &amp;= \frac{5(3x-1)3(2x-1)}{4(2x-1)5(2x+5)} \\
+            &amp;= \frac{3(3x-1)}{4(2x+5)}, x \neq \frac{1}{2}
+          \end{aligned}
+        </m>
+        </p>
+      </solution>
+    </example><example>
+      <title>Addition with Fractions involving Variables</title>
+      <statement>
+        <p>Compute and write the answer in lowest terms:
+          <m>\frac{4}{x^2+3x+2} + \frac{5}{x+2}.</m>
+        </p>
+      </statement>
+      <solution>
             <p>
               <m>
                 \begin{aligned}
@@ -115,8 +116,6 @@
                 \end{aligned}
               </m>
             </p>
-          </li>
-        </ol>
       </solution>
     </example>
   </introduction>

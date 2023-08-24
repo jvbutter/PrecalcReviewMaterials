@@ -214,7 +214,7 @@
       Since <m>\frac{\pi}{4}</m> radians equals <m>45^\circ</m>, consdier a <m>45^\circ-45^\circ-90^\circ</m> triangle with a hypotenuse of length 1. 
       Such a triangle must have legs each of length <m>\frac{1}{\sqrt{2}}</m>.</p>
     
-      <figure width="50%" xml:id="fig-fortyfive-degree-triangle">
+      <figure width="25%" xml:id="fig-fortyfive-degree-triangle">
         <image>
         <description>
           An illustration of the triangle with angles 45, 45, 90 as described in the text.
@@ -249,19 +249,19 @@
             <latex-image>
               <![CDATA[
               \begin{tikzpicture}
-              \draw (0,0) circle (4cm);
-              \draw (-5,0) -- (5, 0);
-              \draw (0,-5) -- (0,5);
+              \draw (0,0) circle (2cm);
+              \draw (-3,0) -- (3, 0);
+              \draw (0,-3) -- (0,3);
               \draw[] (0.5,0) arc (0:45:0.5);
-              \draw (0,0) -- (45:4) -- (2.82,0);
-              \draw (2.82,0) rectangle (2.52,.3);
-              \filldraw (45:4) circle (.05cm);
+              \draw (0,0) -- (45:2) -- (1.41,0);
+              \draw (1.73,0) rectangle (1.53,.2);
+              \filldraw (45:2) circle (.05cm);
               \node[] at (21:.75) {$\frac{\pi}{4}$};
-              \node[] at (45:5) {$\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)$};
-              \node[right] at (4,1) {$y=\frac{1}{\sqrt{2}}$};
-              \node[below] at (1.5,0) {$x=\frac{1}{\sqrt{2}}$};
-              \node[above] at (1.5,1.75) {$1$};
-              \end{tikzpicture}
+              \node[] at (45:2.75) {$\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)$};
+              \node[right] at (2,.25) {$y=\frac{1}{\sqrt{2}}$};
+              \node[below] at (.75,0) {$x=\frac{1}{\sqrt{2}}$};
+              \node[above] at (.5,.75) {$1$};
+            \end{tikzpicture}
             ]]>
             </latex-image>
         </image>
@@ -276,7 +276,7 @@
         A <m>30^\circ-60^\circ-90^\circ</m> triangle with a hypotenuse of length 1 gives us the information we need.
       </p>
     
-      <figure width="50%" xml:id="fig-sixty-thirty-triangle">
+      <figure width="25%" xml:id="fig-sixty-thirty-triangle">
         <image>
         <description>
           The 60-30-90 triangle described in the text.
@@ -307,26 +307,50 @@
             <latex-image>
               <![CDATA[
               \begin{tikzpicture}
-              \draw (0,0) circle (4cm);
-              \draw (-5,0) -- (5, 0);
-              \draw (0,-5) -- (0,5);
+              \draw (0,0) circle (2cm);
+              \draw (-3,0) -- (3, 0);
+              \draw (0,-3) -- (0,3);
               \draw[] (0.5,0) arc (0:30:0.5);
-              \draw (0,0) -- (30:4) -- (3.46,0);
-              \draw (3.46,0) rectangle (3.16,.3);
-              \filldraw (30:4) circle (.05cm);
+              \draw (0,0) -- (30:2) -- (1.73,0);
+              \draw (1.73,0) rectangle (1.53,.2);
+              \filldraw (30:2) circle (.05cm);
               \node[] at (15:1) {$\frac{\pi}{6}$};
-              \node[] at (30:5) {$\left(\frac{\sqrt{3}}{2},\frac{1}{2}\right)$};
-              \node[right] at (4,1) {$y=\frac{1}{2}$};
-              \node[below] at (1.5,0) {$x=\frac{\sqrt{3}}{2}$};
-              \node[above] at (1.5,1.75) {$1$};
-              \end{tikzpicture}
+              \node[] at (30:2.75) {$\left(\frac{\sqrt{3}}{2},\frac{1}{2}\right)$};
+              \node[right] at (2,.25) {$y=\frac{1}{2}$};
+              \node[below] at (.75,0) {$x=\frac{\sqrt{3}}{2}$};
+              \node[above] at (.5,.75) {$1$};
+            \end{tikzpicture}
             ]]>
             </latex-image>
         </image>
       </figure>
         
-      <!--figure goes here-->
-        
+      <figure width="50%" xml:id="fig-third-triangle-in-unit-circle">
+        <image>
+        <description>
+          The <m>\pi/3</m> triangle embedded in the unit circle.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) circle (2cm);
+              \draw (-3,0) -- (3, 0);
+              \draw (0,-3) -- (0,3);
+              \draw[] (0.5,0) arc (0:60:0.5);
+              \draw (0,0) -- (60:2) -- (1,0);
+              \draw (1,0) rectangle (.8,.2);
+              \filldraw (60:2) circle (.05cm);
+              \node[] at (30:.75) {$\frac{\pi}{3}$};
+              \node[] at (60:2.75) {$\left(\frac{1}{2},\frac{\sqrt{3}}{2}\right)$};
+              \node[right] at (1,1) {$y=\frac{\sqrt{3}}{2}$};
+              \node[below] at (.5,0) {$x=\frac{1}{2}$};
+              \node[above] at (.5,1) {$1$};
+            \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
+
       <p>
       Thus <me>\sin\frac{\pi}{6}=\frac{1}{2} \text{ and } \cos\frac{\pi}{6}= \frac{\sqrt{3}}{2}</me>.
       and <me> \sin\frac{\pi}{3}=\frac{\sqrt{3}}{2} \text{ and } \cos\frac{\pi}{3}=\frac{1}{2}</me>
@@ -334,9 +358,45 @@
       <p>
       In calculus, we measure angles in <alert>radians</alert>, 
       and we often use the trig values we just found,
-      so it will be helpful to memorize the <q>enhanced</q> unit circle on the next page.
+      so it will be helpful to memorize the <q>enhanced</q> unit circle in <xref ref="fig-enhanced-unit-circle">Figure</xref>
       </p>
-      <!--figure goes here--> 
+      <figure width="75%" xml:id="fig-enhanced-unit-circle">
+        <image>
+        <description>
+          The unit circle with common radian measures emphasized.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) circle (3cm);
+              \draw (-3.5,0) -- (3.5, 0);
+              \draw (0,-3.5) -- (0,3.5);
+              \node[anchor = north east] at (0:3) {$0$,$2\pi$}; %2pi
+              \filldraw (0:3) circle (.05cm);
+              \node[anchor = south west] at (0:3)  {$\left(1,0\right)$};
+              \node[anchor = north east] at (25:3) {$\frac{\pi}{6}$}; %pi/6 cheated down slightly
+              \filldraw (25:3) circle (.05cm);
+              \node[anchor = south west] at (20:3)  {$\left(\frac{\sqrt{3}}{2},\frac{1}{2}\right)$};
+              \node[anchor = north east] at (45:3) {$\frac{\pi}{4}$}; %pi/4
+              \filldraw (45:3) circle (.05cm);
+              \node[anchor = south west] at (45:3)  {$\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)$};
+              \node[anchor = north east] at (65:3) {$\frac{\pi}{3}$}; %pi/6 cheated up slightly
+              \filldraw (65:3) circle (.05cm);
+              \node[anchor = south west] at (70:3)  {$\left(\frac{1}{2},\frac{\sqrt{3}}{2}\right)$};
+              \node[anchor = north east] at (90:3) {$\frac{\pi}{2}$}; %pi/2
+              \filldraw (90:3) circle (.05cm);
+              \node[anchor = south east] at (90:3)  {$\left(0,1\right)$};
+              \node[anchor = north west] at (180:3) {$\pi$}; %pi
+              \filldraw (180:3) circle (.05cm);
+              \node[anchor = south east] at (180:3)  {$\left(-1,0\right)$};
+              \node[anchor = south east] at (270:3) {$\frac{3\pi}{2}$}; %3pi/2
+              \filldraw (270:3) circle (.05cm);
+              \node[anchor = north east] at (270:3)  {$\left(0,-1\right)$};
+            \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
       <p>
         Four other trigonometric functions are defined using sine and consine.
         They are the <term>secant</term> (<m>\sec</m>), <term>cosecant</term> (<m>\csc</m>), <term>tangent</term> (<m>\tan</m>), and <term>cotangent</term> (<m>\cot</m>) trigonometric functions,
@@ -363,13 +423,59 @@
       <p>
         The unit circle has four quadrants.
       </p>
-      <!-- figure goes here -->
+      <figure width="50%" xml:id="fig-unit-circle-quads">
+        <image>
+        <description>
+          The unit circle with the four quadrants labled I, II, III, and IV.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) circle (2cm);
+              \draw (-3,0) -- (3, 0);
+              \draw (0,-3) -- (0,3);
+              \node[above] at (0,3) {$y$};
+              \node[right] at (3,0) {$x$};
+              \filldraw (0,0) circle (.05cm);
+              \node[anchor = south west] at (0,0) {$(0,0)$};
+              \node[] at (45:1.25) {I};
+              \node[] at (45:2.75) {$\begin{array}{c}x>0\\y>0\end{array}$};
+              \node[] at (135:1.25) {II};
+              \node[] at (135:2.75) {$\begin{array}{c}x<0\\y>0\end{array}$};
+              \node[] at (-135:1.25) {III};
+              \node[] at (-135:2.75) {$\begin{array}{c}x<0\\y<0\end{array}$};
+              \node[] at (-45:1.25) {IV};
+              \node[] at (-45:2.75) {$\begin{array}{c}x>0\\y<0\end{array}$};
+            \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
       <p>
         Note that a point in Quad II will have a negative <m>x</m>-value and a positive <m>y</m>-value.
         Thus, cosine is negative and sine is positive in Quad II.
         To remember which trig functions are positive in which quadrants, use the saying <q>All Students Take Calculus</q>.  
       </p>
-      <!--figure goes here-->
+      <!--Accessibility concern: the text does not describe which trig function is positive in each quadrant.-->
+      <figure width="50%" xml:id="fig-ASTC">
+        <image>
+        <description>
+          The unit circle; each quadrant is labled with the trig functions that are positive in that quadrant.
+        </description>
+            <latex-image>
+              <![CDATA[
+              \begin{tikzpicture}
+              \draw (0,0) circle (2.75cm);
+              \draw (-3,0) -- (3, 0);
+              \draw (0,-3) -- (0,3);	\node[text width = 1.5cm] at (45:1.5) {All \\ positive};
+              \node[text width = 1.75cm] at (135:1.5) {Sine, cosecant positive};
+              \node[text width = 1.75cm] at (-135:1.5) {Tangent, cotangent positive};
+              \node[text width = 1.5cm] at (-45:1.5) {Cosine, secant positive};
+            \end{tikzpicture}
+            ]]>
+            </latex-image>
+        </image>
+      </figure>
       <example>
         <title>Finding a cosine</title>
         <statement>
@@ -379,7 +485,40 @@
           <p>
             We will first find in what quadrant <m>\frac{4\pi}{3}</m> lies.
           </p>
-          <!--figure goes here-->
+          <figure width="50%" xml:id="fig-find-4piby3">
+            <image>
+            <description>
+              The enhanced unit circle; radian measure <m>\frac{4\pi}{3}</m> is indicated in Quadrant III, antipodal to <m>\frac{\pi}{3}</m>.
+            </description>
+                <latex-image>
+                  <![CDATA[
+                  \begin{tikzpicture}
+                  \draw (0,0) circle (2cm);
+                  \draw (-3,0) -- (3, 0);
+                  \draw (0,-3) -- (0,3);
+                  \filldraw (0:2) circle (.05cm);
+                  \node[anchor = north east] at (0:2) {$0$, $2\pi$};
+                  \filldraw (60:2) circle (.05cm);
+                  \node[anchor = north east] at (60:2) {$\frac{\pi}{3}$};
+                  \node[anchor = south west] at (60:2) {$\left(\frac{1}{2}, \frac{\sqrt{3}}{2}\right)$};
+                  \filldraw (90:2) circle (.05cm);
+                  \node[anchor = north east] at (90:2) {$\frac{\pi}{2}$};
+                  \filldraw (120:2) circle (.05cm);
+                  \node[anchor = north] at (120:2) {$\frac{2\pi}{3}$};
+                  \filldraw (180:2) circle (.05cm);
+                  \node[anchor = north west] at (180:2) {$\pi$};
+                  \filldraw (240:2) circle (.05cm);
+                  \node[anchor = south west] at (240:2) {$\frac{4\pi}{3}$};
+                  \node[anchor = north east] at (2400:2) {$\left(-\frac{1}{2}, -\frac{\sqrt{3}}{2}\right)$};
+                  \filldraw (270:2) circle (.05cm);
+                  \node[anchor = south west] at (270:2) {$\frac{3\pi}{2}$};
+                  \node at (200:1) {III};
+                \end{tikzpicture}
+                ]]>
+                </latex-image>
+            </image>
+          </figure>
+    
           <p>
             Due to symmetry, <m>\frac{\pi}{3}</m> and <m>\frac{4\pi}{3}</m> have the same coordinates except for the negative signs.
             Thus
@@ -389,6 +528,7 @@
         
       </example>
   </section>
+  <!--End of second section-->
   <section xml:id="sec-trigonometric-identities">
     <title>Trigonometric Identities</title>
     <p>
@@ -481,6 +621,7 @@
       </me>
     </p>
   </section>
+  <!--End of third section-->
   <section xml:id="sec-finding-the-values-trigonometric-functions">
     <title>Finding the Values of Trigonometric Functions</title>
     <p>
@@ -542,7 +683,30 @@
     <p>
       <alert>Method 2:</alert> Use a right triangle with <m> 0 \text{ radians} \lt \theta \lt \frac{\pi}{2}\text{ radians}</m>.
     </p>
-    <!--figure goes here-->
+    <figure width="50%" xml:id="fig-generic-rad-triangle">
+      <image>
+      <description>
+        A right triangle with one acute angle labled <m>\theta</m>, 
+        the leg adjanct with that angle labled <q>adjacent</q>, 
+        the other leg labled <q>opposite</q>, 
+        and the hypotenuse labled <q>hypotenuse</q>.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}
+            \draw (0,0) -- (4,0) -- (4,4) -- (0,0);
+            \draw (3.5,0)--(3.5,0.5) -- (4,0.5);
+            \draw (0.5,0) arc (0:45:0.5);
+            \node at (1.5,.5) {$\theta$};
+            \node[below] at (2,0) {adjacent};
+            \node[right] at (4,2) {opposite};
+            \node[left] at (2,2) {hypotenuse};
+          \end{tikzpicture}
+          ]]>
+          </latex-image>
+      </image>
+    </figure>
+
     <p>
       This gives 
       <md>
@@ -570,7 +734,28 @@
       <solution>
         <p>
           We then have the following triangle.
-          <!--figure goes here-->
+          <figure width="50%" xml:id="fig-legs-onetwo">
+            <image>
+            <description>
+              A right triangle with leg adjacent to <m>\theta</m> having length 2 and the one opposite having length 1.
+              Calculations pictured to the right: <m>1^2+2^2=h^2</m>, so <m>h=\sqrt{5}</m>.
+            </description>
+                <latex-image>
+                  <![CDATA[
+                  \begin{tikzpicture}
+                  \draw (0,0) -- (4,0) -- (4,4) -- (0,0);
+                  \draw (3.5,0)--(3.5,0.5) -- (4,0.5);
+                  \draw (0.5,0) arc (0:45:0.5);
+                  \node at (1.5,.5) {$\theta$};
+                  \node[below] at (2,0) {$2$};
+                  \node[right] at (4,2) {$1$};
+                  \node[left] at (1.8,2) {$h$};
+                  \node[right] at (5,2) {$\begin{array}{c}1^2 + 2^2 = h^2\\h=\sqrt{5}\end{array}$};
+                \end{tikzpicture}                
+                ]]>
+                </latex-image>
+            </image>
+          </figure>
         </p>
         <p>
           Next note that <m>\theta</m> is in Quad III. Thus
@@ -598,6 +783,7 @@
       </solution>
     </example>
   </section>
+  <!--End of section 4-->
   <section xml:id="sec-solving-equations-involving-trig-functions">
     <title>Solving Equations Involving Trig Functions</title>
     <p>
@@ -762,6 +948,7 @@
       </solution>
     </example>
   </section>
+  <!--End of section five-->
   <section xml:id="sec-graphs-trig-functions">
     <title>Graphs of Trig Functions</title>
     <p>
@@ -772,12 +959,160 @@
       Sine and cosine have periods of <m>2\pi</m>.
       Tangent, cotangent, secant, and cosecant all have periods of <m>\pi</m>.
     </p>
-    <!--figure goes here-->
-    <!--figure goes here-->
-    <!--figure goes here-->
-    <!--figure goes here-->
-    <!--figure goes here-->
-    <!--figure goes here-->
+    <figure width="50%" xml:id="fig-singraph">
+      <image>
+      <description>
+        Graph of <m>y=\sin(x)</m> for <m>-2\pi\lt x \lt 4\pi</m>.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[]
+            \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-1,-0.5,0.5,1} \draw (-0.15,2*\y) -- (+0.15,2*\y) node[left=7] {$\y$};
+            \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
+            \draw[<->,thick] (0,-2.25)--(0,2.25) node[above] {$y$};
+            \draw[very thick ] plot [domain={-360/90}:{720/90},smooth] (\x,{2*sin(90*\x)});
+            \node[below ] at (0,-2.5) {$y = \sin x$};
+          \end{tikzpicture}
+          ]]>
+          </latex-image>
+      </image>
+    </figure>
+
+    <figure width="50%" xml:id="fig-cosgraph">
+      <image>
+      <description>
+        Graph of <m>y=\cos(x)</m> for <m>-2\pi\lt x \lt 4\pi</m>.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[]
+            \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-1,-0.5,0.5,1} \draw (-0.15,2*\y) -- (+0.15,2*\y) node[left=7] {$\y$};
+            \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
+            \draw[<->,thick] (0,-2.25)--(0,2.25) node[above] {$y$};
+            \draw[very thick] plot [domain={-360/90}:{720/90},smooth] (\x,{2*cos(90*\x)});
+            \node[below ] at (0,-2.5) {$y = \cos x$};
+          \end{tikzpicture}          
+          ]]>
+          </latex-image>
+      </image>
+    </figure>
+
+    <figure width="50%" xml:id="fig-tangraph">
+      <image>
+      <description>
+        Graph of <m>y=\tan(x)</m> for <m>-2\pi\lt x \lt 4\pi</m>.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[yscale=.5]
+            \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
+            \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
+            \foreach \i in {0,...,6} \draw[very thick] plot [domain={(180*(\i-2)-atan(6)*ceil(\i/6))/90}:{(180*(\i-2)+atan(6)*ceil((6-\i)/6))/90},smooth] (\x,{tan(90*\x)});
+            % Add vertical asymptotes
+            \foreach \x in {-1,0,...,4}{
+              \draw[dashed] ({2*\x-1},-6) -- ({2*\x-1},6);
+            }
+            \node[below ] at (0,-6.5) {$y = \tan x$};
+          \end{tikzpicture}          
+          ]]>
+          </latex-image>
+      </image>
+    </figure>
+
+    <figure width="50%" xml:id="fig-cotgraph">
+      <image>
+      <description>
+        Graph of <m>y=\cot(x)</m> for <m>-2\pi\lt x \lt 4\pi</m>.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[yscale=.5]
+            \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
+            \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
+            \begin{scope}[xscale=-1,xshift=-5cm]
+            \foreach \i in {0,...,6,7} \draw[very thick] plot [domain={(180*(\i-2)-atan(6)*ceil(\i/7))/90}:{(180*(\i-2)+atan(6)*ceil((7-\i)/7))/90},smooth] (\x,{tan(90*\x)});
+            \end{scope}
+            % Add vertical asymptotes
+            \foreach \x in {-2,-1,0,...,4}{
+              \draw[dashed] ({2*\x},-6) -- ({2*\x},6);
+            }
+            \node[below ] at (0,-6.5) {$y = \cot x$};
+          \end{tikzpicture}          
+          ]]>
+          </latex-image>
+      </image>
+    </figure>
+
+    <figure width="50%" xml:id="fig-secgraph">
+      <image>
+      <description>
+        Graph of <m>y=\sec(x)</m> for <m>-2\pi\lt x \lt 4\pi</m>.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[yscale=.5]
+            \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
+            \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
+            \node[below ] at (0,-6.5) {$y = \sec x$};
+            \clip (-4,-6) rectangle (8,6);
+            \foreach \i in {-5,-3,-1,1,3,5,7}
+            {
+            \draw[very thick] plot [domain={(\i+10/90)}:{(\i+1+80/90)},smooth](\x,{sec(90*\x)});
+            }
+            % Add vertical asymptotes
+            \foreach \x in {-1,0,...,4}{
+              \draw[dashed] ({2*\x-1},-6) -- ({2*\x-1},6);
+            }
+          \end{tikzpicture}          
+          ]]>
+          </latex-image>
+      </image>
+    </figure>
+
+    <figure width="50%" xml:id="fig-cscgraph">
+      <image>
+      <description>
+        Graph of <m>y=\csc(x)</m> for <m>-2\pi\lt x \lt 4\pi</m>.
+      </description>
+          <latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[yscale=.5]
+            \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
+            \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
+            \node[below ] at (0,-6.5) {$y = \csc x$};
+            \clip (-4,-6) rectangle (8,6);
+            \begin{scope}[xshift=1cm]
+            \foreach \i in {-5,-3,-1,1,3,5,7}
+            {
+            \draw[very thick] plot [domain={(\i+10/90)}:{(\i+1+80/90)},smooth](\x,{sec(90*\x)});
+            }
+            % Add vertical asymptotes
+            \foreach \x in {-1,0,...,4}{
+              \draw[dashed] ({2*\x-1},-6) -- ({2*\x-1},6);
+            }
+            \end{scope}
+          \end{tikzpicture}         
+          ]]>
+          </latex-image>
+      </image>
+    </figure>
+
   </section>
   <exercises>
     <title>Practice Problems</title>
@@ -1126,5 +1461,250 @@
       </exercise>
     </exercisegroup>
   </exercises>
-  <!--Next step is to fill in the figures. Then WeBWorK.-->
+<!--For some reason, it will not allow me to use xi:include here, and I just don't have time to work out why at the moment. 
+I am instead going to copy the contents of ex_module5.ptx verbatum here, which will make it unhappy because of all the repeated xml:id issues it will cause.
+<xi:include  href="ex_module5.ptx"/>-->
+<section xml:id="trig-module" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+  <p>These are the exercises in Trigonometry Module.</p>
+  <exercise>
+    <webwork>
+      <pg-code>
+        $a=random(10,350,2);
+        $ans = Formula("pi*$a/180")->reduce;
+      </pg-code>
+      <statement>
+        <p>Give your answers in exact form.  Do NOT use decimals.  Type 'pi' if you need to use <m>\pi</m>.</p>
+        <p>The radian measure of an angle of <m><var name="$a"/></m> degrees is <var name="$ans" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec2/Q03.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/NAU/setTrigAngles/DegToRad.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_1_9.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/NAU/setTrigAngles/QuadrantRadians.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/MC/Trigonometry/PointOnUnitCircle.pg"/>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        Context("LimitedRadical");
+        $ans1=Formula("sqrt(3)/2");
+        $ans2=Formula("-1/2");
+      </pg-code>
+      <statement>
+        <p>Find the exact value.</p>
+        <p><m>\sin(\frac{2}{3}\pi) = </m> <var name="$ans1" width="5"/></p>
+        <p><m>\cos(\frac{2}{3}\pi) = </m> <var name="$ans2" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        Context("LimitedRadical");
+        $ans1=Formula("sqrt(2)/2");
+        $ans2=Formula("sqrt(2)/2");
+        $ans3=Formula("1");
+        $ans4=Formula("sqrt(2)");
+        $ans5=Formula("sqrt(2)");
+      </pg-code>
+      <statement>
+        <p>For the actue angle <m>\theta</m> with <m>\cot\theta = 1</m>, find</p>
+        <p><m>\sin\theta = </m> <var name="$ans1" width="5"/></p>
+        <p><m>\cos\theta = </m> <var name="$ans2" width="5"/></p>
+        <p><m>\tan\theta = </m> <var name="$ans3" width="5"/></p>
+        <p><m>\sec\theta = </m> <var name="$ans4" width="5"/></p>
+        <p><m>\csc\theta = </m> <var name="$ans5" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork source="Library/NAU/setTrigIdentity/sixvalues01.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/Rochester/setTrig02FunctionsUnitCircle/ur_tr_1_5.pg"/>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        @angle = ("\frac{\pi}{6}" , "\frac{\pi}{4}" , "\frac{\pi}{3}",
+                  "\frac{2 \pi}{3}" , "\frac{3 \pi}{4}" , "\frac{5 \pi}{6}",
+                  "\frac{7 \pi}{6}" , "\frac{5 \pi}{4}" , " \frac{4 \pi}{3}",
+                  "\frac{5 \pi}{3}" , "\frac{7 \pi}{4}" , "\frac{11 \pi}{6}");
+
+        @value = ("2/sqrt(3)","-2/sqrt(3)",    ### A,B - 0,1
+                  "sqrt(2)","- sqrt(2)",       ### C,D - 2,3
+                  "2","-2",                    ### E,F - 4,5
+                  "sqrt(3)","-sqrt(3)",        ### G,H - 6,7
+                  "1/sqrt(3)","- 1/sqrt(3)",   ### I,J - 8,9
+                  "1","-1");                   ### K,L - 10,11
+
+        @disp = ("\frac{2}{\sqrt{3}}","\frac{-2}{\sqrt{3}}",    ### A,B - 0,1
+                  "\sqrt{2}","- \sqrt{2}",                      ### C,D - 2,3
+                  "2","-2",                                     ### E,F - 4,5
+                  "\sqrt{3}","- \sqrt{3}",                      ### G,H - 6,7
+                  "\frac{1}{\sqrt{3}}","- \frac{1}{\sqrt{3}}",  ### I,J - 8,9
+                  "1","-1");                                    ### K,L - 10,11
+
+
+        @ans = ("B","A","D","H","F","F","H","D",
+                "A","B","I","D","G","F","E","H",
+                "C","A","E","I","G","G","I","E",
+                "A","C","H","E","F","G","D","I");
+
+        @sol = ($value[8],$value[10],$value[6],$value[7],$value[11],$value[9],
+                   $value[8],$value[10],$value[6],$value[7],$value[11],$value[9],  #tan
+               $value[6],$value[10],$value[8],$value[9],$value[11],$value[7],
+                   $value[6],$value[10],$value[8],$value[9],$value[11],$value[7],  #cot
+               $value[0],$value[2],$value[4],$value[5],$value[3],$value[1],
+                   $value[1],$value[3],$value[5],$value[4],$value[2],$value[0],    #sec
+               $value[4],$value[2],$value[0],$value[0],$value[2],$value[4],
+                   $value[5],$value[3],$value[1],$value[1],$value[3],$value[5]);   #csc
+
+        @show = ($disp[8],$disp[10],$disp[6],$disp[7],$disp[11],$disp[9],
+                   $disp[8],$disp[10],$disp[6],$disp[7],$disp[11],$disp[9],  #tan
+               $disp[6],$disp[10],$disp[8],$disp[9],$disp[11],$disp[7],
+                   $disp[6],$disp[10],$disp[8],$disp[9],$disp[11],$disp[7],  #cot
+               $disp[0],$disp[2],$disp[4],$disp[5],$disp[3],$disp[1],
+                   $disp[1],$disp[3],$disp[5],$disp[4],$disp[2],$disp[0],    #sec
+               $disp[4],$disp[2],$disp[0],$disp[0],$disp[2],$disp[4],
+                   $disp[5],$disp[3],$disp[1],$disp[1],$disp[3],$disp[5]);   #csc
+
+
+        @pick = NchooseK(12,5);
+
+        Context("LimitedRadical");
+        $ans1 = Formula($sol[$pick[0]]);
+        $ans2 = Formula($sol[$pick[1]]);
+        $ans3 = Formula($sol[12+$pick[2]]);
+        $ans4 = Formula($sol[24+$pick[3]]);
+        $ans5 = Formula($sol[36+$pick[4]]);
+      </pg-code>
+      <statement>
+        <p>Find the exact value of each without using a calculator.  Remember that you can type "sqrt(a)" if your answer has <m>\sqrt{a}</m> in it.</p>
+        <p><m>\tan{\left(<var name="$angle[$pick[0]]"/>\right)} = </m> <var name="$ans1" width="5"/></p>
+        <p><m>\tan{\left(<var name="$angle[$pick[1]]"/>\right)} = </m> <var name="$ans2" width="5"/></p>
+        <p><m>\cot{\left(<var name="$angle[$pick[2]]"/>\right)} = </m> <var name="$ans3" width="5"/></p>
+        <p><m>\sec{\left(<var name="$angle[$pick[3]]"/>\right)} = </m> <var name="$ans4" width="5"/></p>
+        <p><m>\csc{\left(<var name="$angle[$pick[4]]"/>\right)} = </m> <var name="$ans5" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        $ans = "sin(t)";
+        $ev = fun_cmp($ans, var=>['t']);
+      </pg-code>
+      <statement>
+        <p>Simplify and write the trigonometric expression in terms of sine and cosine:</p>
+        <p><m>\frac{\sec t -\cos t}{\sec t}=(f(t))^2</m></p>
+        <p><m>f(t)=</m> <var name="$ans" width="5" evaluator="$ev"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork source="Library/Union/setTrigIdentities/p10.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_71.pg"/>
+  </exercise>
+  <exercise>
+    <webwork source="Library/Rochester/setTrig08Equations/srw7_5_33.pg"/>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        Context("LimitedRadical");
+        $ans1 = Formula("pi/2");
+        $ans2 = Formula("7*pi/6");
+        $ans3 = Formula("11*pi/6");
+      </pg-code>
+      <statement>
+        <p>Find all solutions of the equation <m>\cos x (2\sin x + 1)=0</m>.</p>
+        <p>The answer is <m>A+k\pi</m>, <m>B+2k\pi</m>, <m>C+2k\pi</m> where <m>k</m> is any integer and <m>0&lt;A&lt;\pi</m>, <m>0&lt;B&lt;C&lt;2\pi</m></p>
+        <p><m>A = </m> <var name="$ans1" width="5"/></p>
+        <p><m>B = </m> <var name="$ans2" width="5"/></p>
+        <p><m>C = </m> <var name="$ans3" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        Context("LimitedRadical");
+        $ans1= Formula("pi/4");
+        $ans2= Formula("1/2");
+      </pg-code>
+      <statement>
+        <p>Find all solutions of the equation <m>\sec^2 x -2=0</m>.</p>
+        <p>The answer is <m>A+B k\pi</m> where <m>k</m> is any integer and <m>0&lt;A&lt;\frac{\pi}{2}</m>.</p>
+        <p><m>A = </m> <var name="$ans1" width="5"/></p>
+        <p><m>B = </m> <var name="$ans2" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-macros>
+        <macro-file>extraAnswerEvaluators.pl</macro-file>
+        <macro-file>PGasu.pl</macro-file>
+      </pg-macros>
+      <pg-code>
+        $pi = 4*atan2(1,1);
+        @value1=('+ \sin t' ,'- \cos t');
+        @value2=('-2 \cos t', '+ 2 \sin t');
+
+        $tag1 = random(0,1,1);
+
+        @ans1 = ("1/2","1/6");
+        @ans2 = ("2/3","5/6");
+        @ans3 = ("4/3",1);
+        $ans = "$ans1[$tag1],$ans2[$tag1],$ans3[$tag1]";
+        $ev = no_decimal_list("$ans1[$tag1],$ans2[$tag1],$ans3[$tag1]");
+      </pg-code>
+      <statement>
+        <p>Solve the equation in the interval <m>[0,2\pi]</m>.</p>
+        <p><em>Note:</em> The answer must be a multiple of <m>\pi</m>.  Note that <m>\pi</m> is already provided in the answer so you must give the appropriate multiple.  Give exact answers.  No decimal numbers.  The asnwer should be a fraction or an integer.  E.g. if the solution is <m>\frac{\pi}{2}</m>, the answer should be entered as 1/2.  If there is more than one answer enter them separated by commas.</p>
+        <p><m>2\sin t \cos t <var name="$value1[$tag1]"/> <var name="$value2[$tag1]"/>-1=0</m></p>
+        <p><m>t = </m><var name="$ans" width="5" evaluator="$ev"/><m>\pi</m></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        Context("Fraction");
+        $ans1 = Fraction(40,41);
+        $ans2 = Fraction(9,41);
+        $ans3 = Fraction(40,9);
+        $ans4 = Fraction(9,40);
+        $ans5 = Fraction(41,9);
+        $ans6 = Fraction(41,40);
+      </pg-code>
+      <statement>
+        <p>For the given angle <m>x</m> in the triangle given in the graph.</p>
+        <image source="./assets/q5_20.gif" width="65%"/>
+        <p><m>\sin x = </m> <var name="$ans1" width="5"/></p>
+        <p><m>\cos x = </m> <var name="$ans2" width="5"/></p>
+        <p><m>\cot x = </m> <var name="$ans3" width="5"/></p>
+        <p><m>\sec x = </m> <var name="$ans4" width="5"/></p>
+        <p><m>\csc x = </m> <var name="$ans5" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+</section> 
 </chapter>
