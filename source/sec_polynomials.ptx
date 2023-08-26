@@ -59,7 +59,7 @@
         <p>Let <m>f(x)=2x^3+x^2+1</m>.  Then,</p>
         <ul>
           <li>
-            <p><m>x-1</m> is not a factor of <m>f(x)</m> because we can calculate <m>f(1) = 2 \neq 0</m> and so <m>1</m> is not a root of <m>f(x)</m>.</p>
+            <p><m>x-1</m> is not a factor of <m>f(x)</m> because we can calculate <m>f(1) = 4 \neq 0</m> and so <m>1</m> is not a root of <m>f(x)</m>.</p>
           </li>
           <li>
             <p>

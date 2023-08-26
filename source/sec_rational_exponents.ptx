@@ -73,7 +73,7 @@
           </li>
           <li>
             <p>
-              Look at <m>625^\frac{3}{4} = (625^3)^\frac{1}{4}=(244140625)^\frac{1}{3}=25</m>.  Since <m>625^\frac{1}{4}</m> is defined, we can also compute <m>(625^\frac{1}{4})^3 = 5^3 = 125</m>, which is arguably an easier calculation.
+              Look at <m>625^\frac{3}{4} = (625^3)^\frac{1}{4}=(244140625)^\frac{1}{4}=125</m>.  Since <m>625^\frac{1}{4}</m> is defined, we can also compute <m>(625^\frac{1}{4})^3 = 5^3 = 125</m>, which is arguably an easier calculation.
             </p>
           </li>
           <li>
