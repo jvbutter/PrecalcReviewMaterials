@@ -27,10 +27,10 @@
 
     <p>If <m>f</m> and <m>g</m> are inverses, then the range of <m>f</m> must be the same as the domain of <m>g</m>, and the range of <m>g</m> must be the same as the domain of <m>f</m>.  Furthermore, there can not be different real numbers <m>x_1</m> and <m>x_2</m> such that <m>f(x_1) = f(x_2) = y</m> for some real number <m>y</m> because we would need to have <m>g(y)</m> equal to both <m>x_1</m> and <m>x_2</m>, which is impossible because <m>g</m> is a function.  Similarly, there can not be different real numbers <m>y_1</m> and <m>y_2</m> such that <m>g(y_1) = g(y_2) = x</m> for some real number <m>x</m>.</p>
 
-    <p>Not every function has an inverse. For example, <m>f(x) = x^2</m> does not have an inverse because <m>f(1) = f(-2)</m>.</p>
+    <p>Not every function has an inverse. For example, <m>f(x) = x^2</m> does not have an inverse because <m>f(2) = f(-2)</m>.</p>
 
     <example xml:id="ex5_1">
-      <title>Wokring With Inverse Functions</title>
+      <title>Working With Inverse Functions</title>
       <statement>
         <p>Show that the functions <m>f(x) = 3x-6</m> and <m>g(x) = \frac{x+ 6}{3}</m> are inverses.</p>
       </statement>

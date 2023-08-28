@@ -68,25 +68,25 @@
     <p>The same ideas are used when graphing the solution to a system of inequalities in the plane.</p>
 
     <example>
-      <title>Finding the Solution Set to a System of Inequalities I</title>
+      <title>Finding the Solution Set to a System of Inequalities II</title>
       <statement>
         <p>Graph the solution set to the system of inequalities</p>
 
         <me>
           \begin{aligned}
             x + y &amp;\geq  3 \\
-            2x - y &amp;\leq  5 \\
+            2x - y &amp;&lt;  5 \\
             2y &amp;\leq  x + 3
           \end{aligned}
         </me>
       </statement>
       <solution>
-        <p>The system of inequalities van be rewritten as</p>
+        <p>The system of inequalities can be rewritten as</p>
 
         <me>
           \begin{aligned}
             y &amp;\geq -x + 3 \\
-            y &amp;> 2x - 5 \\
+            y &amp; &gt; 2x - 5 \\
             y &amp;\leq (x + 3)/2
           \end{aligned}
         </me>

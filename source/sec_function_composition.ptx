@@ -183,7 +183,7 @@
     </exercise>
     <exercise>
       <statement>
-        <p>Fund functions <m>f(x)</m> and <m>g(x)</m> so that <m>(g \circ f)(x) = 3e^{2x-4} + x</m>.</p>
+        <p>Find functions <m>f(x)</m> and <m>g(x)</m> so that <m>(g \circ f)(x) = 3e^{2x-4} + x</m>.</p>
       </statement>
       <answer>
         <p>
