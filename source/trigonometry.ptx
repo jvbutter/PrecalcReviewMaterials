@@ -649,7 +649,7 @@
           <mrow>\cot^2\theta + 1 = \amp \csc^2\theta </mrow>
           <mrow> 2^2 + 1 = \amp \csc^2\theta</mrow>
           <mrow>\csc\theta = \amp \pm\sqrt{5}</mrow>
-          <mrow>\csc\theta = \amp \sqrt{5}</mrow>
+          <mrow>\csc\theta = \amp -\sqrt{5}</mrow>
         </md>
         since <m>\theta</m> is in Quad III.
         </p>
@@ -769,7 +769,7 @@
             \sec \theta \amp =  - \frac{1}{\cos\theta} = -\frac{\sqrt{5}}{2}
           </mrow>
           <mrow>
-            \sin \theta \amp = - \frac{\text{opp}}{\text{hyp}} = -\frac{21}{\sqrt{5}} \amp 
+            \sin \theta \amp = - \frac{\text{opp}}{\text{hyp}} = -\frac{1}{\sqrt{5}} \amp 
             \csc \theta \amp =  - \frac{1}{\sin\theta} = -\sqrt{5}
           </mrow>
           <mrow>
@@ -839,7 +839,7 @@
           <me>
           0 \leq x \leq 2\pi \text{ or } 0 \leq x \leq 4\pi.  
           </me>
-          Fr which radian values <m>\theta</m> between <m>0</m> and <m>4\pi</m> does <m>\sin \theta </m> equal <m>-\frac{1}{2}</m>?
+          For which radian values <m>\theta</m> between <m>0</m> and <m>4\pi</m> does <m>\sin \theta </m> equal <m>-\frac{1}{2}</m>?
         </p>
         <p>
           Between <m>0</m> and <m>2\pi</m>, <m>\sin \theta = -\frac{1}{2}</m> for
@@ -1696,13 +1696,49 @@ I am instead going to copy the contents of ex_module5.ptx verbatum here, which w
         $ans6 = Fraction(41,40);
       </pg-code>
       <statement>
-        <p>For the given angle <m>x</m> in the triangle given in the graph.</p>
-        <image source="./assets/q5_20.gif" width="65%"/>
+        <p>For the given angle <m>x</m> in the triangle given in the graph, calculate each of the following.</p>
+        <image source="https://web.uvic.ca/~jvbutter/PreCalcReview/assets/q5_20.gif" width="65%"/>
         <p><m>\sin x = </m> <var name="$ans1" width="5"/></p>
         <p><m>\cos x = </m> <var name="$ans2" width="5"/></p>
         <p><m>\cot x = </m> <var name="$ans3" width="5"/></p>
         <p><m>\sec x = </m> <var name="$ans4" width="5"/></p>
         <p><m>\csc x = </m> <var name="$ans5" width="5"/></p>
+      </statement>
+    </webwork>
+  </exercise>
+  <exercise>
+    <webwork>
+      <pg-code>
+        $a = random(2,5,1);
+        $b = random(-1,1,1);
+        $c = 0;
+        $d = 4;
+        $e = -4;
+
+        $m = ($a - $c)/($b - $d);
+        $n = (1)/(4);
+        $p = $a - ($m)*($b);
+        $q = 1;
+        $r = $c - ($n)*($d);
+
+        $graph = init_graph(-6,-6,6,6, 'axes'=>[0,0],'grid'=>[12,12]);
+
+        $f1 = FEQ("($m x + $p) for x in &lt;$b,$d>  using color:black and weight:2");
+        $f2 = FEQ("($n x + $q) for x in &lt;$e,$d>  using color:black and weight:2");
+        $f3 = FEQ("$c for x in &lt;$e,$d>  using color:black and weight:2");
+
+        ($f3Ref,$f4Ref) = plot_functions($graph,$f1,$f2,$f3);
+
+        $graph->fillRegion([0,0,'green']);
+      </pg-code>
+      <statement>
+        <image pg-name="$graph" width="65%"/>
+        <p>Ignore this problem; I am trying to work out some code.</p>
+        <p><m>\sin x = </m> <var name="$a" width="5"/></p>
+        <p><m>\cos x = </m> <var name="$b" width="5"/></p>
+        <p><m>\cot x = </m> <var name="$c" width="5"/></p>
+        <p><m>\sec x = </m> <var name="$d" width="5"/></p>
+        <p><m>\csc x = </m> <var name="$e" width="5"/></p>
       </statement>
     </webwork>
   </exercise>

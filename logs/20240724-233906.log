@@ -1,0 +1,645 @@
+INFO    : PreTeXt-CLI version: 2.6.0
+
+INFO    : PreTeXt project found in `/workspaces/PrecalcReviewMaterials`.
+WARNING : Using CLI version 2.6.0 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.6.0.
+INFO    : Building target web
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-pg.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-pg.xsl
+INFO    : validating, cleaning server URL: https://webwork-ptx.aimath.org
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-1 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-2 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-3 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-4 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-5 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-6 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-7 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-8 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-9 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-10 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-11 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-12 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-13 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-14 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-15 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-16 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-17 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-17-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-18 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-18-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-19 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-19-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-20 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-20-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-21 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-21-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-22 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-23 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-24 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-25 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-26 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-27 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-28 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-29 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-30 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-31 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-32 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-33 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-34 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-35 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-36 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-37 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-38 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-39 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-40 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-41 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-42 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-43 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-44 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-45 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-46 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-47 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-48 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-49 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-49-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-50 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-50-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-51 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-51-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-52 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-52-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-53 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-54 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-54-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-55 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-56 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-57 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-58 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-58-image-1.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-2.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-3.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-4.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-5.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-59 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-60 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-61 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-62 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-63 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-63-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-64 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-64-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-65 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-65-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-66 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-66-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-67 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-68 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-69 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-70 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-71 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-72 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-73 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-74 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-74-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-5.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-75 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-75-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-76 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-76-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-77 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-77-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-78 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-78-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-78-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-79 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-80 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-81 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-82 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-83 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-84 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-85 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-86 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-87 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-88 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-89 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-90 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-91 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-92 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-93 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-94 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-95 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-96 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-97 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-98 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : Removing temporary directory /tmp/ptx-cumnacou
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting sec_rational_inequalities-2-10-3-4.tex to sec_rational_inequalities-2-10-3-4.pdf
+INFO    : cropping sec_rational_inequalities-2-10-3-4.pdf to cropped-sec_rational_inequalities-2-10-3-4.pdf
+INFO    : renaming cropped-sec_rational_inequalities-2-10-3-4.pdf to sec_rational_inequalities-2-10-3-4.pdf
+INFO    : converting sec_rational_inequalities-2-10-3-4.pdf to sec_rational_inequalities-2-10-3-4.svg
+INFO    : converting sec_rational-function-inequalities-2-3-3-5.tex to sec_rational-function-inequalities-2-3-3-5.pdf
+INFO    : cropping sec_rational-function-inequalities-2-3-3-5.pdf to cropped-sec_rational-function-inequalities-2-3-3-5.pdf
+INFO    : renaming cropped-sec_rational-function-inequalities-2-3-3-5.pdf to sec_rational-function-inequalities-2-3-3-5.pdf
+INFO    : converting sec_rational-function-inequalities-2-3-3-5.pdf to sec_rational-function-inequalities-2-3-3-5.svg
+INFO    : converting sec_systems-inequalities-2-3-3-10.tex to sec_systems-inequalities-2-3-3-10.pdf
+INFO    : cropping sec_systems-inequalities-2-3-3-10.pdf to cropped-sec_systems-inequalities-2-3-3-10.pdf
+INFO    : renaming cropped-sec_systems-inequalities-2-3-3-10.pdf to sec_systems-inequalities-2-3-3-10.pdf
+INFO    : converting sec_systems-inequalities-2-3-3-10.pdf to sec_systems-inequalities-2-3-3-10.svg
+INFO    : converting sec_systems-inequalities-3-5-2-1.tex to sec_systems-inequalities-3-5-2-1.pdf
+INFO    : cropping sec_systems-inequalities-3-5-2-1.pdf to cropped-sec_systems-inequalities-3-5-2-1.pdf
+INFO    : renaming cropped-sec_systems-inequalities-3-5-2-1.pdf to sec_systems-inequalities-3-5-2-1.pdf
+INFO    : converting sec_systems-inequalities-3-5-2-1.pdf to sec_systems-inequalities-3-5-2-1.svg
+INFO    : converting sec_logarithms-2-13.tex to sec_logarithms-2-13.pdf
+INFO    : cropping sec_logarithms-2-13.pdf to cropped-sec_logarithms-2-13.pdf
+INFO    : renaming cropped-sec_logarithms-2-13.pdf to sec_logarithms-2-13.pdf
+INFO    : converting sec_logarithms-2-13.pdf to sec_logarithms-2-13.svg
+INFO    : converting sec_curve-sketching-2-19-3-5-1.tex to sec_curve-sketching-2-19-3-5-1.pdf
+INFO    : cropping sec_curve-sketching-2-19-3-5-1.pdf to cropped-sec_curve-sketching-2-19-3-5-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-19-3-5-1.pdf to sec_curve-sketching-2-19-3-5-1.pdf
+INFO    : converting sec_curve-sketching-2-19-3-5-1.pdf to sec_curve-sketching-2-19-3-5-1.svg
+INFO    : converting fig-third-triangle-in-unit-circle-1.tex to fig-third-triangle-in-unit-circle-1.pdf
+INFO    : cropping fig-third-triangle-in-unit-circle-1.pdf to cropped-fig-third-triangle-in-unit-circle-1.pdf
+INFO    : renaming cropped-fig-third-triangle-in-unit-circle-1.pdf to fig-third-triangle-in-unit-circle-1.pdf
+INFO    : converting fig-third-triangle-in-unit-circle-1.pdf to fig-third-triangle-in-unit-circle-1.svg
+INFO    : converting sec_graphing_intervals-3-7-2-1.tex to sec_graphing_intervals-3-7-2-1.pdf
+INFO    : cropping sec_graphing_intervals-3-7-2-1.pdf to cropped-sec_graphing_intervals-3-7-2-1.pdf
+INFO    : renaming cropped-sec_graphing_intervals-3-7-2-1.pdf to sec_graphing_intervals-3-7-2-1.pdf
+INFO    : converting sec_graphing_intervals-3-7-2-1.pdf to sec_graphing_intervals-3-7-2-1.svg
+INFO    : converting fig-two-angles-1.tex to fig-two-angles-1.pdf
+INFO    : cropping fig-two-angles-1.pdf to cropped-fig-two-angles-1.pdf
+INFO    : renaming cropped-fig-two-angles-1.pdf to fig-two-angles-1.pdf
+INFO    : converting fig-two-angles-1.pdf to fig-two-angles-1.svg
+INFO    : converting fig-generic-rad-triangle-1.tex to fig-generic-rad-triangle-1.pdf
+INFO    : cropping fig-generic-rad-triangle-1.pdf to cropped-fig-generic-rad-triangle-1.pdf
+INFO    : renaming cropped-fig-generic-rad-triangle-1.pdf to fig-generic-rad-triangle-1.pdf
+INFO    : converting fig-generic-rad-triangle-1.pdf to fig-generic-rad-triangle-1.svg
+INFO    : converting fig-singraph-1.tex to fig-singraph-1.pdf
+INFO    : cropping fig-singraph-1.pdf to cropped-fig-singraph-1.pdf
+INFO    : renaming cropped-fig-singraph-1.pdf to fig-singraph-1.pdf
+INFO    : converting fig-singraph-1.pdf to fig-singraph-1.svg
+INFO    : converting sec_curve-sketching-3-4-2-2-1.tex to sec_curve-sketching-3-4-2-2-1.pdf
+INFO    : cropping sec_curve-sketching-3-4-2-2-1.pdf to cropped-sec_curve-sketching-3-4-2-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-3-4-2-2-1.pdf to sec_curve-sketching-3-4-2-2-1.pdf
+INFO    : converting sec_curve-sketching-3-4-2-2-1.pdf to sec_curve-sketching-3-4-2-2-1.svg
+INFO    : converting fig-point-pi-over-four-1.tex to fig-point-pi-over-four-1.pdf
+INFO    : cropping fig-point-pi-over-four-1.pdf to cropped-fig-point-pi-over-four-1.pdf
+INFO    : renaming cropped-fig-point-pi-over-four-1.pdf to fig-point-pi-over-four-1.pdf
+INFO    : converting fig-point-pi-over-four-1.pdf to fig-point-pi-over-four-1.svg
+INFO    : converting sec_rational_inequalities-3-3-2-2.tex to sec_rational_inequalities-3-3-2-2.pdf
+INFO    : cropping sec_rational_inequalities-3-3-2-2.pdf to cropped-sec_rational_inequalities-3-3-2-2.pdf
+INFO    : renaming cropped-sec_rational_inequalities-3-3-2-2.pdf to sec_rational_inequalities-3-3-2-2.pdf
+INFO    : converting sec_rational_inequalities-3-3-2-2.pdf to sec_rational_inequalities-3-3-2-2.svg
+INFO    : converting fig-unit-circle-quads-1.tex to fig-unit-circle-quads-1.pdf
+INFO    : cropping fig-unit-circle-quads-1.pdf to cropped-fig-unit-circle-quads-1.pdf
+INFO    : renaming cropped-fig-unit-circle-quads-1.pdf to fig-unit-circle-quads-1.pdf
+INFO    : converting fig-unit-circle-quads-1.pdf to fig-unit-circle-quads-1.svg
+INFO    : converting sec_systems-inequalities-2-5-3-7.tex to sec_systems-inequalities-2-5-3-7.pdf
+INFO    : cropping sec_systems-inequalities-2-5-3-7.pdf to cropped-sec_systems-inequalities-2-5-3-7.pdf
+INFO    : renaming cropped-sec_systems-inequalities-2-5-3-7.pdf to sec_systems-inequalities-2-5-3-7.pdf
+INFO    : converting sec_systems-inequalities-2-5-3-7.pdf to sec_systems-inequalities-2-5-3-7.svg
+INFO    : converting sec_exponential-functions-3-6-2-1.tex to sec_exponential-functions-3-6-2-1.pdf
+INFO    : cropping sec_exponential-functions-3-6-2-1.pdf to cropped-sec_exponential-functions-3-6-2-1.pdf
+INFO    : renaming cropped-sec_exponential-functions-3-6-2-1.pdf to sec_exponential-functions-3-6-2-1.pdf
+INFO    : converting sec_exponential-functions-3-6-2-1.pdf to sec_exponential-functions-3-6-2-1.svg
+INFO    : converting fig-triangle-in-unit-circle-1.tex to fig-triangle-in-unit-circle-1.pdf
+INFO    : cropping fig-triangle-in-unit-circle-1.pdf to cropped-fig-triangle-in-unit-circle-1.pdf
+INFO    : renaming cropped-fig-triangle-in-unit-circle-1.pdf to fig-triangle-in-unit-circle-1.pdf
+INFO    : converting fig-triangle-in-unit-circle-1.pdf to fig-triangle-in-unit-circle-1.svg
+INFO    : converting sec_rational_inequalities-2-12-2-13.tex to sec_rational_inequalities-2-12-2-13.pdf
+INFO    : cropping sec_rational_inequalities-2-12-2-13.pdf to cropped-sec_rational_inequalities-2-12-2-13.pdf
+INFO    : renaming cropped-sec_rational_inequalities-2-12-2-13.pdf to sec_rational_inequalities-2-12-2-13.pdf
+INFO    : converting sec_rational_inequalities-2-12-2-13.pdf to sec_rational_inequalities-2-12-2-13.svg
+INFO    : converting sec_exponential-functions-2-13.tex to sec_exponential-functions-2-13.pdf
+INFO    : cropping sec_exponential-functions-2-13.pdf to cropped-sec_exponential-functions-2-13.pdf
+INFO    : renaming cropped-sec_exponential-functions-2-13.pdf to sec_exponential-functions-2-13.pdf
+INFO    : converting sec_exponential-functions-2-13.pdf to sec_exponential-functions-2-13.svg
+INFO    : converting sec_curve-sketching-3-5-2-2-1.tex to sec_curve-sketching-3-5-2-2-1.pdf
+INFO    : cropping sec_curve-sketching-3-5-2-2-1.pdf to cropped-sec_curve-sketching-3-5-2-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-3-5-2-2-1.pdf to sec_curve-sketching-3-5-2-2-1.pdf
+INFO    : converting sec_curve-sketching-3-5-2-2-1.pdf to sec_curve-sketching-3-5-2-2-1.svg
+INFO    : converting sec_rational_inequalities-3-4-2-3.tex to sec_rational_inequalities-3-4-2-3.pdf
+INFO    : cropping sec_rational_inequalities-3-4-2-3.pdf to cropped-sec_rational_inequalities-3-4-2-3.pdf
+INFO    : renaming cropped-sec_rational_inequalities-3-4-2-3.pdf to sec_rational_inequalities-3-4-2-3.pdf
+INFO    : converting sec_rational_inequalities-3-4-2-3.pdf to sec_rational_inequalities-3-4-2-3.svg
+INFO    : converting sec_logarithms-3-8-2-1.tex to sec_logarithms-3-8-2-1.pdf
+INFO    : cropping sec_logarithms-3-8-2-1.pdf to cropped-sec_logarithms-3-8-2-1.pdf
+INFO    : renaming cropped-sec_logarithms-3-8-2-1.pdf to sec_logarithms-3-8-2-1.pdf
+INFO    : converting sec_logarithms-3-8-2-1.pdf to sec_logarithms-3-8-2-1.svg
+INFO    : converting fig-sixty-thirty-triangle-1.tex to fig-sixty-thirty-triangle-1.pdf
+INFO    : cropping fig-sixty-thirty-triangle-1.pdf to cropped-fig-sixty-thirty-triangle-1.pdf
+INFO    : renaming cropped-fig-sixty-thirty-triangle-1.pdf to fig-sixty-thirty-triangle-1.pdf
+INFO    : converting fig-sixty-thirty-triangle-1.pdf to fig-sixty-thirty-triangle-1.svg
+INFO    : converting fig-polylongdiv-1.tex to fig-polylongdiv-1.pdf
+INFO    : cropping fig-polylongdiv-1.pdf to cropped-fig-polylongdiv-1.pdf
+INFO    : renaming cropped-fig-polylongdiv-1.pdf to fig-polylongdiv-1.pdf
+INFO    : converting fig-polylongdiv-1.pdf to fig-polylongdiv-1.svg
+INFO    : converting sec_rational-function-inequalities-2-3-3-12.tex to sec_rational-function-inequalities-2-3-3-12.pdf
+INFO    : cropping sec_rational-function-inequalities-2-3-3-12.pdf to cropped-sec_rational-function-inequalities-2-3-3-12.pdf
+INFO    : renaming cropped-sec_rational-function-inequalities-2-3-3-12.pdf to sec_rational-function-inequalities-2-3-3-12.pdf
+INFO    : converting sec_rational-function-inequalities-2-3-3-12.pdf to sec_rational-function-inequalities-2-3-3-12.svg
+INFO    : converting fig-fortyfive-degree-triangle-1.tex to fig-fortyfive-degree-triangle-1.pdf
+INFO    : cropping fig-fortyfive-degree-triangle-1.pdf to cropped-fig-fortyfive-degree-triangle-1.pdf
+INFO    : renaming cropped-fig-fortyfive-degree-triangle-1.pdf to fig-fortyfive-degree-triangle-1.pdf
+INFO    : converting fig-fortyfive-degree-triangle-1.pdf to fig-fortyfive-degree-triangle-1.svg
+INFO    : converting sec_plane-inequalities-3-4-2-1.tex to sec_plane-inequalities-3-4-2-1.pdf
+INFO    : cropping sec_plane-inequalities-3-4-2-1.pdf to cropped-sec_plane-inequalities-3-4-2-1.pdf
+INFO    : renaming cropped-sec_plane-inequalities-3-4-2-1.pdf to sec_plane-inequalities-3-4-2-1.pdf
+INFO    : converting sec_plane-inequalities-3-4-2-1.pdf to sec_plane-inequalities-3-4-2-1.svg
+INFO    : converting sec_rational-function-inequalities-3-5-2-2.tex to sec_rational-function-inequalities-3-5-2-2.pdf
+INFO    : cropping sec_rational-function-inequalities-3-5-2-2.pdf to cropped-sec_rational-function-inequalities-3-5-2-2.pdf
+INFO    : renaming cropped-sec_rational-function-inequalities-3-5-2-2.pdf to sec_rational-function-inequalities-3-5-2-2.pdf
+INFO    : converting sec_rational-function-inequalities-3-5-2-2.pdf to sec_rational-function-inequalities-3-5-2-2.svg
+INFO    : converting sec_plane-inequalities-2-4-3-5.tex to sec_plane-inequalities-2-4-3-5.pdf
+INFO    : cropping sec_plane-inequalities-2-4-3-5.pdf to cropped-sec_plane-inequalities-2-4-3-5.pdf
+INFO    : renaming cropped-sec_plane-inequalities-2-4-3-5.pdf to sec_plane-inequalities-2-4-3-5.pdf
+INFO    : converting sec_plane-inequalities-2-4-3-5.pdf to sec_plane-inequalities-2-4-3-5.svg
+INFO    : converting sec_exponential-functions-3-4-2-2.tex to sec_exponential-functions-3-4-2-2.pdf
+INFO    : cropping sec_exponential-functions-3-4-2-2.pdf to cropped-sec_exponential-functions-3-4-2-2.pdf
+INFO    : renaming cropped-sec_exponential-functions-3-4-2-2.pdf to sec_exponential-functions-3-4-2-2.pdf
+INFO    : converting sec_exponential-functions-3-4-2-2.pdf to sec_exponential-functions-3-4-2-2.svg
+INFO    : converting sec_plane-inequalities-3-2-2-1.tex to sec_plane-inequalities-3-2-2-1.pdf
+INFO    : cropping sec_plane-inequalities-3-2-2-1.pdf to cropped-sec_plane-inequalities-3-2-2-1.pdf
+INFO    : renaming cropped-sec_plane-inequalities-3-2-2-1.pdf to sec_plane-inequalities-3-2-2-1.pdf
+INFO    : converting sec_plane-inequalities-3-2-2-1.pdf to sec_plane-inequalities-3-2-2-1.svg
+INFO    : converting sec_graphing_intervals-2-7.tex to sec_graphing_intervals-2-7.pdf
+INFO    : cropping sec_graphing_intervals-2-7.pdf to cropped-sec_graphing_intervals-2-7.pdf
+INFO    : renaming cropped-sec_graphing_intervals-2-7.pdf to sec_graphing_intervals-2-7.pdf
+INFO    : converting sec_graphing_intervals-2-7.pdf to sec_graphing_intervals-2-7.svg
+INFO    : converting explot-3-3-1.tex to explot-3-3-1.pdf
+INFO    : cropping explot-3-3-1.pdf to cropped-explot-3-3-1.pdf
+INFO    : renaming cropped-explot-3-3-1.pdf to explot-3-3-1.pdf
+INFO    : converting explot-3-3-1.pdf to explot-3-3-1.svg
+INFO    : converting sec_graphing_intervals-2-9-2-2.tex to sec_graphing_intervals-2-9-2-2.pdf
+INFO    : cropping sec_graphing_intervals-2-9-2-2.pdf to cropped-sec_graphing_intervals-2-9-2-2.pdf
+INFO    : renaming cropped-sec_graphing_intervals-2-9-2-2.pdf to sec_graphing_intervals-2-9-2-2.pdf
+INFO    : converting sec_graphing_intervals-2-9-2-2.pdf to sec_graphing_intervals-2-9-2-2.svg
+INFO    : converting sec_rational_inequalities-2-8.tex to sec_rational_inequalities-2-8.pdf
+INFO    : cropping sec_rational_inequalities-2-8.pdf to cropped-sec_rational_inequalities-2-8.pdf
+INFO    : renaming cropped-sec_rational_inequalities-2-8.pdf to sec_rational_inequalities-2-8.pdf
+INFO    : converting sec_rational_inequalities-2-8.pdf to sec_rational_inequalities-2-8.svg
+INFO    : converting parabolas-2-2.tex to parabolas-2-2.pdf
+INFO    : cropping parabolas-2-2.pdf to cropped-parabolas-2-2.pdf
+INFO    : renaming cropped-parabolas-2-2.pdf to parabolas-2-2.pdf
+INFO    : converting parabolas-2-2.pdf to parabolas-2-2.svg
+INFO    : converting fig-ASTC-1.tex to fig-ASTC-1.pdf
+INFO    : cropping fig-ASTC-1.pdf to cropped-fig-ASTC-1.pdf
+INFO    : renaming cropped-fig-ASTC-1.pdf to fig-ASTC-1.pdf
+INFO    : converting fig-ASTC-1.pdf to fig-ASTC-1.svg
+INFO    : converting sec_rational_inequalities-2-11-3-8.tex to sec_rational_inequalities-2-11-3-8.pdf
+INFO    : cropping sec_rational_inequalities-2-11-3-8.pdf to cropped-sec_rational_inequalities-2-11-3-8.pdf
+INFO    : renaming cropped-sec_rational_inequalities-2-11-3-8.pdf to sec_rational_inequalities-2-11-3-8.pdf
+INFO    : converting sec_rational_inequalities-2-11-3-8.pdf to sec_rational_inequalities-2-11-3-8.svg
+INFO    : converting sec_exponential-functions-2-15-3-2.tex to sec_exponential-functions-2-15-3-2.pdf
+INFO    : cropping sec_exponential-functions-2-15-3-2.pdf to cropped-sec_exponential-functions-2-15-3-2.pdf
+INFO    : renaming cropped-sec_exponential-functions-2-15-3-2.pdf to sec_exponential-functions-2-15-3-2.pdf
+INFO    : converting sec_exponential-functions-2-15-3-2.pdf to sec_exponential-functions-2-15-3-2.svg
+INFO    : converting sec_exponential-functions-2-9.tex to sec_exponential-functions-2-9.pdf
+INFO    : cropping sec_exponential-functions-2-9.pdf to cropped-sec_exponential-functions-2-9.pdf
+INFO    : renaming cropped-sec_exponential-functions-2-9.pdf to sec_exponential-functions-2-9.pdf
+INFO    : converting sec_exponential-functions-2-9.pdf to sec_exponential-functions-2-9.svg
+INFO    : converting sec_systems-inequalities-3-3-2-2.tex to sec_systems-inequalities-3-3-2-2.pdf
+INFO    : cropping sec_systems-inequalities-3-3-2-2.pdf to cropped-sec_systems-inequalities-3-3-2-2.pdf
+INFO    : renaming cropped-sec_systems-inequalities-3-3-2-2.pdf to sec_systems-inequalities-3-3-2-2.pdf
+INFO    : converting sec_systems-inequalities-3-3-2-2.pdf to sec_systems-inequalities-3-3-2-2.svg
+INFO    : converting sec_plane-inequalities-3-3-2-1.tex to sec_plane-inequalities-3-3-2-1.pdf
+INFO    : cropping sec_plane-inequalities-3-3-2-1.pdf to cropped-sec_plane-inequalities-3-3-2-1.pdf
+INFO    : renaming cropped-sec_plane-inequalities-3-3-2-1.pdf to sec_plane-inequalities-3-3-2-1.pdf
+INFO    : converting sec_plane-inequalities-3-3-2-1.pdf to sec_plane-inequalities-3-3-2-1.svg
+INFO    : converting sec_graphing_intervals-3-5-2-1-1.tex to sec_graphing_intervals-3-5-2-1-1.pdf
+INFO    : cropping sec_graphing_intervals-3-5-2-1-1.pdf to cropped-sec_graphing_intervals-3-5-2-1-1.pdf
+INFO    : renaming cropped-sec_graphing_intervals-3-5-2-1-1.pdf to sec_graphing_intervals-3-5-2-1-1.pdf
+INFO    : converting sec_graphing_intervals-3-5-2-1-1.pdf to sec_graphing_intervals-3-5-2-1-1.svg
+INFO    : converting sec_graphing_intervals-3-3-2-1.tex to sec_graphing_intervals-3-3-2-1.pdf
+INFO    : cropping sec_graphing_intervals-3-3-2-1.pdf to cropped-sec_graphing_intervals-3-3-2-1.pdf
+INFO    : renaming cropped-sec_graphing_intervals-3-3-2-1.pdf to sec_graphing_intervals-3-3-2-1.pdf
+INFO    : converting sec_graphing_intervals-3-3-2-1.pdf to sec_graphing_intervals-3-3-2-1.svg
+INFO    : converting sec_plane-inequalities-3-5-2-1.tex to sec_plane-inequalities-3-5-2-1.pdf
+INFO    : cropping sec_plane-inequalities-3-5-2-1.pdf to cropped-sec_plane-inequalities-3-5-2-1.pdf
+INFO    : renaming cropped-sec_plane-inequalities-3-5-2-1.pdf to sec_plane-inequalities-3-5-2-1.pdf
+INFO    : converting sec_plane-inequalities-3-5-2-1.pdf to sec_plane-inequalities-3-5-2-1.svg
+INFO    : converting sec_graphing_intervals-2-9-2-4.tex to sec_graphing_intervals-2-9-2-4.pdf
+INFO    : cropping sec_graphing_intervals-2-9-2-4.pdf to cropped-sec_graphing_intervals-2-9-2-4.pdf
+INFO    : renaming cropped-sec_graphing_intervals-2-9-2-4.pdf to sec_graphing_intervals-2-9-2-4.pdf
+INFO    : converting sec_graphing_intervals-2-9-2-4.pdf to sec_graphing_intervals-2-9-2-4.svg
+INFO    : converting sec_systems-inequalities-3-4-2-2.tex to sec_systems-inequalities-3-4-2-2.pdf
+INFO    : cropping sec_systems-inequalities-3-4-2-2.pdf to cropped-sec_systems-inequalities-3-4-2-2.pdf
+INFO    : renaming cropped-sec_systems-inequalities-3-4-2-2.pdf to sec_systems-inequalities-3-4-2-2.pdf
+INFO    : converting sec_systems-inequalities-3-4-2-2.pdf to sec_systems-inequalities-3-4-2-2.svg
+INFO    : converting sec_rational_inequalities-3-7-2-2.tex to sec_rational_inequalities-3-7-2-2.pdf
+INFO    : cropping sec_rational_inequalities-3-7-2-2.pdf to cropped-sec_rational_inequalities-3-7-2-2.pdf
+INFO    : renaming cropped-sec_rational_inequalities-3-7-2-2.pdf to sec_rational_inequalities-3-7-2-2.pdf
+INFO    : converting sec_rational_inequalities-3-7-2-2.pdf to sec_rational_inequalities-3-7-2-2.svg
+INFO    : converting fig-unt-circle-1.tex to fig-unt-circle-1.pdf
+INFO    : cropping fig-unt-circle-1.pdf to cropped-fig-unt-circle-1.pdf
+INFO    : renaming cropped-fig-unt-circle-1.pdf to fig-unt-circle-1.pdf
+INFO    : converting fig-unt-circle-1.pdf to fig-unt-circle-1.svg
+INFO    : converting fig-point-p-defines-functions-1.tex to fig-point-p-defines-functions-1.pdf
+INFO    : cropping fig-point-p-defines-functions-1.pdf to cropped-fig-point-p-defines-functions-1.pdf
+INFO    : renaming cropped-fig-point-p-defines-functions-1.pdf to fig-point-p-defines-functions-1.pdf
+INFO    : converting fig-point-p-defines-functions-1.pdf to fig-point-p-defines-functions-1.svg
+INFO    : converting sec_graphing_intervals-2-8-3-2.tex to sec_graphing_intervals-2-8-3-2.pdf
+INFO    : cropping sec_graphing_intervals-2-8-3-2.pdf to cropped-sec_graphing_intervals-2-8-3-2.pdf
+INFO    : renaming cropped-sec_graphing_intervals-2-8-3-2.pdf to sec_graphing_intervals-2-8-3-2.pdf
+INFO    : converting sec_graphing_intervals-2-8-3-2.pdf to sec_graphing_intervals-2-8-3-2.svg
+INFO    : converting sec_exponential-functions-2-11.tex to sec_exponential-functions-2-11.pdf
+INFO    : cropping sec_exponential-functions-2-11.pdf to cropped-sec_exponential-functions-2-11.pdf
+INFO    : renaming cropped-sec_exponential-functions-2-11.pdf to sec_exponential-functions-2-11.pdf
+INFO    : converting sec_exponential-functions-2-11.pdf to sec_exponential-functions-2-11.svg
+INFO    : converting fig-second-triangle-in-unit-circle-1.tex to fig-second-triangle-in-unit-circle-1.pdf
+INFO    : cropping fig-second-triangle-in-unit-circle-1.pdf to cropped-fig-second-triangle-in-unit-circle-1.pdf
+INFO    : renaming cropped-fig-second-triangle-in-unit-circle-1.pdf to fig-second-triangle-in-unit-circle-1.pdf
+INFO    : converting fig-second-triangle-in-unit-circle-1.pdf to fig-second-triangle-in-unit-circle-1.svg
+INFO    : converting sec_rational-function-inequalities-3-4-2-2.tex to sec_rational-function-inequalities-3-4-2-2.pdf
+INFO    : cropping sec_rational-function-inequalities-3-4-2-2.pdf to cropped-sec_rational-function-inequalities-3-4-2-2.pdf
+INFO    : renaming cropped-sec_rational-function-inequalities-3-4-2-2.pdf to sec_rational-function-inequalities-3-4-2-2.pdf
+INFO    : converting sec_rational-function-inequalities-3-4-2-2.pdf to sec_rational-function-inequalities-3-4-2-2.svg
+INFO    : converting sec_logarithms-2-15-3-3.tex to sec_logarithms-2-15-3-3.pdf
+INFO    : cropping sec_logarithms-2-15-3-3.pdf to cropped-sec_logarithms-2-15-3-3.pdf
+INFO    : renaming cropped-sec_logarithms-2-15-3-3.pdf to sec_logarithms-2-15-3-3.pdf
+INFO    : converting sec_logarithms-2-15-3-3.pdf to sec_logarithms-2-15-3-3.svg
+INFO    : converting fig-tangraph-1.tex to fig-tangraph-1.pdf
+INFO    : cropping fig-tangraph-1.pdf to cropped-fig-tangraph-1.pdf
+INFO    : renaming cropped-fig-tangraph-1.pdf to fig-tangraph-1.pdf
+INFO    : converting fig-tangraph-1.pdf to fig-tangraph-1.svg
+INFO    : converting sec_curve-sketching-2-13-3-2-1.tex to sec_curve-sketching-2-13-3-2-1.pdf
+INFO    : cropping sec_curve-sketching-2-13-3-2-1.pdf to cropped-sec_curve-sketching-2-13-3-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-13-3-2-1.pdf to sec_curve-sketching-2-13-3-2-1.pdf
+INFO    : converting sec_curve-sketching-2-13-3-2-1.pdf to sec_curve-sketching-2-13-3-2-1.svg
+INFO    : converting sec_curve-sketching-3-6-2-2-1.tex to sec_curve-sketching-3-6-2-2-1.pdf
+INFO    : cropping sec_curve-sketching-3-6-2-2-1.pdf to cropped-sec_curve-sketching-3-6-2-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-3-6-2-2-1.pdf to sec_curve-sketching-3-6-2-2-1.pdf
+INFO    : converting sec_curve-sketching-3-6-2-2-1.pdf to sec_curve-sketching-3-6-2-2-1.svg
+INFO    : converting sec_curve-sketching-2-8-1-2.tex to sec_curve-sketching-2-8-1-2.pdf
+INFO    : cropping sec_curve-sketching-2-8-1-2.pdf to cropped-sec_curve-sketching-2-8-1-2.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-8-1-2.pdf to sec_curve-sketching-2-8-1-2.pdf
+INFO    : converting sec_curve-sketching-2-8-1-2.pdf to sec_curve-sketching-2-8-1-2.svg
+INFO    : converting fig-legs-onetwo-1.tex to fig-legs-onetwo-1.pdf
+INFO    : cropping fig-legs-onetwo-1.pdf to cropped-fig-legs-onetwo-1.pdf
+INFO    : renaming cropped-fig-legs-onetwo-1.pdf to fig-legs-onetwo-1.pdf
+INFO    : converting fig-legs-onetwo-1.pdf to fig-legs-onetwo-1.svg
+INFO    : converting fig-cscgraph-1.tex to fig-cscgraph-1.pdf
+INFO    : cropping fig-cscgraph-1.pdf to cropped-fig-cscgraph-1.pdf
+INFO    : renaming cropped-fig-cscgraph-1.pdf to fig-cscgraph-1.pdf
+INFO    : converting fig-cscgraph-1.pdf to fig-cscgraph-1.svg
+INFO    : converting sec_curve-sketching-2-17-3-2-1.tex to sec_curve-sketching-2-17-3-2-1.pdf
+INFO    : cropping sec_curve-sketching-2-17-3-2-1.pdf to cropped-sec_curve-sketching-2-17-3-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-17-3-2-1.pdf to sec_curve-sketching-2-17-3-2-1.pdf
+INFO    : converting sec_curve-sketching-2-17-3-2-1.pdf to sec_curve-sketching-2-17-3-2-1.svg
+INFO    : converting sec_curve-sketching-2-8-1-1.tex to sec_curve-sketching-2-8-1-1.pdf
+INFO    : cropping sec_curve-sketching-2-8-1-1.pdf to cropped-sec_curve-sketching-2-8-1-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-8-1-1.pdf to sec_curve-sketching-2-8-1-1.pdf
+INFO    : converting sec_curve-sketching-2-8-1-1.pdf to sec_curve-sketching-2-8-1-1.svg
+INFO    : converting sec_rational-function-inequalities-3-6-2-2.tex to sec_rational-function-inequalities-3-6-2-2.pdf
+INFO    : cropping sec_rational-function-inequalities-3-6-2-2.pdf to cropped-sec_rational-function-inequalities-3-6-2-2.pdf
+INFO    : renaming cropped-sec_rational-function-inequalities-3-6-2-2.pdf to sec_rational-function-inequalities-3-6-2-2.pdf
+INFO    : converting sec_rational-function-inequalities-3-6-2-2.pdf to sec_rational-function-inequalities-3-6-2-2.svg
+INFO    : converting fig-secgraph-1.tex to fig-secgraph-1.pdf
+INFO    : cropping fig-secgraph-1.pdf to cropped-fig-secgraph-1.pdf
+INFO    : renaming cropped-fig-secgraph-1.pdf to fig-secgraph-1.pdf
+INFO    : converting fig-secgraph-1.pdf to fig-secgraph-1.svg
+INFO    : converting sec_plane-inequalities-2-3-3-5.tex to sec_plane-inequalities-2-3-3-5.pdf
+INFO    : cropping sec_plane-inequalities-2-3-3-5.pdf to cropped-sec_plane-inequalities-2-3-3-5.pdf
+INFO    : renaming cropped-sec_plane-inequalities-2-3-3-5.pdf to sec_plane-inequalities-2-3-3-5.pdf
+INFO    : converting sec_plane-inequalities-2-3-3-5.pdf to sec_plane-inequalities-2-3-3-5.svg
+INFO    : converting sec_graphing_intervals-3-6-2-1-1.tex to sec_graphing_intervals-3-6-2-1-1.pdf
+INFO    : cropping sec_graphing_intervals-3-6-2-1-1.pdf to cropped-sec_graphing_intervals-3-6-2-1-1.pdf
+INFO    : renaming cropped-sec_graphing_intervals-3-6-2-1-1.pdf to sec_graphing_intervals-3-6-2-1-1.pdf
+INFO    : converting sec_graphing_intervals-3-6-2-1-1.pdf to sec_graphing_intervals-3-6-2-1-1.svg
+INFO    : converting sec_systems-inequalities-3-6-2-1.tex to sec_systems-inequalities-3-6-2-1.pdf
+INFO    : cropping sec_systems-inequalities-3-6-2-1.pdf to cropped-sec_systems-inequalities-3-6-2-1.pdf
+INFO    : renaming cropped-sec_systems-inequalities-3-6-2-1.pdf to sec_systems-inequalities-3-6-2-1.pdf
+INFO    : converting sec_systems-inequalities-3-6-2-1.pdf to sec_systems-inequalities-3-6-2-1.svg
+INFO    : converting fig-exercise-trig21-1.tex to fig-exercise-trig21-1.pdf
+INFO    : cropping fig-exercise-trig21-1.pdf to cropped-fig-exercise-trig21-1.pdf
+INFO    : renaming cropped-fig-exercise-trig21-1.pdf to fig-exercise-trig21-1.pdf
+INFO    : converting fig-exercise-trig21-1.pdf to fig-exercise-trig21-1.svg
+INFO    : converting sec_curve-sketching-2-13-2-2-1.tex to sec_curve-sketching-2-13-2-2-1.pdf
+INFO    : cropping sec_curve-sketching-2-13-2-2-1.pdf to cropped-sec_curve-sketching-2-13-2-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-13-2-2-1.pdf to sec_curve-sketching-2-13-2-2-1.pdf
+INFO    : converting sec_curve-sketching-2-13-2-2-1.pdf to sec_curve-sketching-2-13-2-2-1.svg
+INFO    : converting fig-cosgraph-1.tex to fig-cosgraph-1.pdf
+INFO    : cropping fig-cosgraph-1.pdf to cropped-fig-cosgraph-1.pdf
+INFO    : renaming cropped-fig-cosgraph-1.pdf to fig-cosgraph-1.pdf
+INFO    : converting fig-cosgraph-1.pdf to fig-cosgraph-1.svg
+INFO    : converting sec_curve-sketching-3-7-2-2-1.tex to sec_curve-sketching-3-7-2-2-1.pdf
+INFO    : cropping sec_curve-sketching-3-7-2-2-1.pdf to cropped-sec_curve-sketching-3-7-2-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-3-7-2-2-1.pdf to sec_curve-sketching-3-7-2-2-1.pdf
+INFO    : converting sec_curve-sketching-3-7-2-2-1.pdf to sec_curve-sketching-3-7-2-2-1.svg
+INFO    : converting sec_curve-sketching-2-13-1-2-1.tex to sec_curve-sketching-2-13-1-2-1.pdf
+INFO    : cropping sec_curve-sketching-2-13-1-2-1.pdf to cropped-sec_curve-sketching-2-13-1-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-13-1-2-1.pdf to sec_curve-sketching-2-13-1-2-1.pdf
+INFO    : converting sec_curve-sketching-2-13-1-2-1.pdf to sec_curve-sketching-2-13-1-2-1.svg
+INFO    : converting sec_rational_inequalities-3-5-2-2.tex to sec_rational_inequalities-3-5-2-2.pdf
+INFO    : cropping sec_rational_inequalities-3-5-2-2.pdf to cropped-sec_rational_inequalities-3-5-2-2.pdf
+INFO    : renaming cropped-sec_rational_inequalities-3-5-2-2.pdf to sec_rational_inequalities-3-5-2-2.pdf
+INFO    : converting sec_rational_inequalities-3-5-2-2.pdf to sec_rational_inequalities-3-5-2-2.svg
+INFO    : converting sec_graphing_intervals-2-2-2-2-1.tex to sec_graphing_intervals-2-2-2-2-1.pdf
+INFO    : cropping sec_graphing_intervals-2-2-2-2-1.pdf to cropped-sec_graphing_intervals-2-2-2-2-1.pdf
+INFO    : renaming cropped-sec_graphing_intervals-2-2-2-2-1.pdf to sec_graphing_intervals-2-2-2-2-1.pdf
+INFO    : converting sec_graphing_intervals-2-2-2-2-1.pdf to sec_graphing_intervals-2-2-2-2-1.svg
+INFO    : converting sec_rational-function-inequalities-3-3-2-2.tex to sec_rational-function-inequalities-3-3-2-2.pdf
+INFO    : cropping sec_rational-function-inequalities-3-3-2-2.pdf to cropped-sec_rational-function-inequalities-3-3-2-2.pdf
+INFO    : renaming cropped-sec_rational-function-inequalities-3-3-2-2.pdf to sec_rational-function-inequalities-3-3-2-2.pdf
+INFO    : converting sec_rational-function-inequalities-3-3-2-2.pdf to sec_rational-function-inequalities-3-3-2-2.svg
+INFO    : converting fig-find-4piby3-1.tex to fig-find-4piby3-1.pdf
+INFO    : cropping fig-find-4piby3-1.pdf to cropped-fig-find-4piby3-1.pdf
+INFO    : renaming cropped-fig-find-4piby3-1.pdf to fig-find-4piby3-1.pdf
+INFO    : converting fig-find-4piby3-1.pdf to fig-find-4piby3-1.svg
+INFO    : converting sec_rational_inequalities-3-6-2-3.tex to sec_rational_inequalities-3-6-2-3.pdf
+INFO    : cropping sec_rational_inequalities-3-6-2-3.pdf to cropped-sec_rational_inequalities-3-6-2-3.pdf
+INFO    : renaming cropped-sec_rational_inequalities-3-6-2-3.pdf to sec_rational_inequalities-3-6-2-3.pdf
+INFO    : converting sec_rational_inequalities-3-6-2-3.pdf to sec_rational_inequalities-3-6-2-3.svg
+INFO    : converting sec_systems-inequalities-2-5-3-4.tex to sec_systems-inequalities-2-5-3-4.pdf
+INFO    : cropping sec_systems-inequalities-2-5-3-4.pdf to cropped-sec_systems-inequalities-2-5-3-4.pdf
+INFO    : renaming cropped-sec_systems-inequalities-2-5-3-4.pdf to sec_systems-inequalities-2-5-3-4.pdf
+INFO    : converting sec_systems-inequalities-2-5-3-4.pdf to sec_systems-inequalities-2-5-3-4.svg
+INFO    : converting sec_curve-sketching-3-3-2-1-1.tex to sec_curve-sketching-3-3-2-1-1.pdf
+INFO    : cropping sec_curve-sketching-3-3-2-1-1.pdf to cropped-sec_curve-sketching-3-3-2-1-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-3-3-2-1-1.pdf to sec_curve-sketching-3-3-2-1-1.pdf
+INFO    : converting sec_curve-sketching-3-3-2-1-1.pdf to sec_curve-sketching-3-3-2-1-1.svg
+INFO    : converting parabolas-2-1.tex to parabolas-2-1.pdf
+INFO    : cropping parabolas-2-1.pdf to cropped-parabolas-2-1.pdf
+INFO    : renaming cropped-parabolas-2-1.pdf to parabolas-2-1.pdf
+INFO    : converting parabolas-2-1.pdf to parabolas-2-1.svg
+INFO    : converting fig-cotgraph-1.tex to fig-cotgraph-1.pdf
+INFO    : cropping fig-cotgraph-1.pdf to cropped-fig-cotgraph-1.pdf
+INFO    : renaming cropped-fig-cotgraph-1.pdf to fig-cotgraph-1.pdf
+INFO    : converting fig-cotgraph-1.pdf to fig-cotgraph-1.svg
+INFO    : converting fig-same-two-angles-1.tex to fig-same-two-angles-1.pdf
+INFO    : cropping fig-same-two-angles-1.pdf to cropped-fig-same-two-angles-1.pdf
+INFO    : renaming cropped-fig-same-two-angles-1.pdf to fig-same-two-angles-1.pdf
+INFO    : converting fig-same-two-angles-1.pdf to fig-same-two-angles-1.svg
+INFO    : converting sec_curve-sketching-2-10-1.tex to sec_curve-sketching-2-10-1.pdf
+INFO    : cropping sec_curve-sketching-2-10-1.pdf to cropped-sec_curve-sketching-2-10-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-10-1.pdf to sec_curve-sketching-2-10-1.pdf
+INFO    : converting sec_curve-sketching-2-10-1.pdf to sec_curve-sketching-2-10-1.svg
+INFO    : converting sec_plane-inequalities-3-6-2-1.tex to sec_plane-inequalities-3-6-2-1.pdf
+INFO    : cropping sec_plane-inequalities-3-6-2-1.pdf to cropped-sec_plane-inequalities-3-6-2-1.pdf
+INFO    : renaming cropped-sec_plane-inequalities-3-6-2-1.pdf to sec_plane-inequalities-3-6-2-1.pdf
+INFO    : converting sec_plane-inequalities-3-6-2-1.pdf to sec_plane-inequalities-3-6-2-1.svg
+INFO    : converting sec_rational_inequalities-2-9-3-8.tex to sec_rational_inequalities-2-9-3-8.pdf
+INFO    : cropping sec_rational_inequalities-2-9-3-8.pdf to cropped-sec_rational_inequalities-2-9-3-8.pdf
+INFO    : renaming cropped-sec_rational_inequalities-2-9-3-8.pdf to sec_rational_inequalities-2-9-3-8.pdf
+INFO    : converting sec_rational_inequalities-2-9-3-8.pdf to sec_rational_inequalities-2-9-3-8.svg
+INFO    : converting fig-enhanced-unit-circle-1.tex to fig-enhanced-unit-circle-1.pdf
+INFO    : cropping fig-enhanced-unit-circle-1.pdf to cropped-fig-enhanced-unit-circle-1.pdf
+INFO    : renaming cropped-fig-enhanced-unit-circle-1.pdf to fig-enhanced-unit-circle-1.pdf
+INFO    : converting fig-enhanced-unit-circle-1.pdf to fig-enhanced-unit-circle-1.svg
+INFO    : converting sec_graphing_intervals-2-2-2-5.tex to sec_graphing_intervals-2-2-2-5.pdf
+INFO    : cropping sec_graphing_intervals-2-2-2-5.pdf to cropped-sec_graphing_intervals-2-2-2-5.pdf
+INFO    : renaming cropped-sec_graphing_intervals-2-2-2-5.pdf to sec_graphing_intervals-2-2-2-5.pdf
+INFO    : converting sec_graphing_intervals-2-2-2-5.pdf to sec_graphing_intervals-2-2-2-5.svg
+INFO    : converting sec_graphing_intervals-3-4-2-1.tex to sec_graphing_intervals-3-4-2-1.pdf
+INFO    : cropping sec_graphing_intervals-3-4-2-1.pdf to cropped-sec_graphing_intervals-3-4-2-1.pdf
+INFO    : renaming cropped-sec_graphing_intervals-3-4-2-1.pdf to sec_graphing_intervals-3-4-2-1.pdf
+INFO    : converting sec_graphing_intervals-3-4-2-1.pdf to sec_graphing_intervals-3-4-2-1.svg
+INFO    : converting sec_curve-sketching-2-13-4-2-1.tex to sec_curve-sketching-2-13-4-2-1.pdf
+INFO    : cropping sec_curve-sketching-2-13-4-2-1.pdf to cropped-sec_curve-sketching-2-13-4-2-1.pdf
+INFO    : renaming cropped-sec_curve-sketching-2-13-4-2-1.pdf to sec_curve-sketching-2-13-4-2-1.pdf
+INFO    : converting sec_curve-sketching-2-13-4-2-1.pdf to sec_curve-sketching-2-13-4-2-1.svg
+INFO    : Removing temporary directory /tmp/ptx-d9uns7x_
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/web.
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.3.0
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.3
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/ptx-lfjkgk4i
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 

@@ -1,0 +1,273 @@
+INFO    : PreTeXt-CLI version: 2.6.0
+
+INFO    : PreTeXt project found in `/workspaces/PrecalcReviewMaterials`.
+WARNING : Using CLI version 2.6.0 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.6.0.
+INFO    : Building target web
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-pg.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-pg.xsl
+INFO    : validating, cleaning server URL: https://webwork-ptx.aimath.org
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-1 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-2 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-3 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-4 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-5 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-6 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-7 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-8 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-9 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-10 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-11 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-12 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-13 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-14 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-15 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-16 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-17 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-17-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-18 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-18-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-19 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-19-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-20 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-20-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-21 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-21-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-22 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-23 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-24 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-25 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-26 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-27 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-28 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-29 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-30 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-31 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-32 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-33 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-34 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-35 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-36 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-37 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-38 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-39 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-40 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-41 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-42 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-43 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-44 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-45 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-46 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-47 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-48 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-49 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-49-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-50 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-50-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-51 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-51-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-52 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-52-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-53 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-54 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-54-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-55 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-56 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-57 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-58 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : saving image file webwork-58-image-1.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-2.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-3.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-4.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-5.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-59 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-60 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-61 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-62 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-63 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-63-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-64 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-64-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-65 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-65-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-66 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-66-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-67 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-68 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-69 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-70 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-71 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-72 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-73 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-74 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-74-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-5.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-75 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-75-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-76 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-76-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-77 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-77-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-78 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-78-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-78-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-79 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-80 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-81 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-82 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-83 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-84 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-85 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-86 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-87 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-88 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-89 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-90 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-91 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-92 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-93 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of server-based WeBWorK problem
+INFO    : sending webwork-94 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'server'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-95 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-96 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-97 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-98 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : building representations of PTX-authored WeBWorK problem
+INFO    : sending webwork-99 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'ptx'
+INFO    : saving image file webwork-99-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : Removing temporary directory /tmp/ptx-r7lpnxf3
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/web.
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.3.0
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.3
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/ptx-8b9zhyvk
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 

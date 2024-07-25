@@ -2,7 +2,7 @@
 <section xml:id="module-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exercises</title>
   <p>These are the exercises in Module 4.</p>
-  <p>Note that many of these exercises contain images, which are by default not loaded.  Make sure to click 'Make interactive' on each in order to load the images.</p>
+  <p>Note that many of these exercises contain images, which might not display automatically.  Make sure to click 'Activate' on each in order to load the images.</p>
   <!-- Exercise 4.1 -->
   <exercise>
     <webwork source="Library/Rochester/setDiscrete4Functions/ur_dis_4_4.pg"/>
