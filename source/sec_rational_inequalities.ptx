@@ -7,7 +7,7 @@
 
     <p>The numbers <m>-1</m> and <m>5</m> partition the set of other numbers in <m>\mathbb{R}</m> into three intervals: <m>(-\infty, -1)</m>, <m>(-1, 5)</m>, and <m>(5, \infty)</m>.  Because the expression can change sign only at <m>-1</m> or <m>5</m>, for each of these, either every number in the interval belongs to the set or no number in the interval belongs to the set.  We need to determine which possibility occurs for each of them.  We can do this by testing one number from each interval and then remembering that we know what happens with the expression at <m>-1</m> and <m>5</m>.</p>
 
-    <p>For the numbers less than <m>-1</m>, that is the numbers is <m>(-\infty, -1)</m>, we choose <m>-2</m> as a test point (any number less than <m>-1</m> will do, so we can choose one that's easy to calculate with): <m>\frac{-2+1}{-2-5}=\frac{-1}{-7}=\frac{1}{7}>0</m>, so <m>-2</m> is in the set.  Thus every number in the interval <m>(-\infty, -1)</m> is in the set.  And we need to be careful at the endpoint, <m>x = -1</m>.  We know already that <m>\frac{1-1}{1-5}=0</m>, so the endpoint <m>-1</m> is in the set.</p>
+    <p>For the numbers less than <m>-1</m>, that is the numbers in <m>(-\infty, -1)</m>, we choose <m>-2</m> as a test point (any number less than <m>-1</m> will do, so we can choose one that's easy to calculate with): <m>\frac{-2+1}{-2-5}=\frac{-1}{-7}=\frac{1}{7}>0</m>, so <m>-2</m> is in the set.  Thus every number in the interval <m>(-\infty, -1)</m> is in the set.  And we need to be careful at the endpoint, <m>x = -1</m>.  We know already that <m>\frac{1-1}{1-5}=0</m>, so the endpoint <m>-1</m> is in the set.</p>
 
     <p>For the numbers between -1 and 5, that is in <m>(-1, 5)</m>, we choose 0 as our test point: <m>\frac{0+1}{0-5}=\frac{1}{-5}=-\frac{1}{5}\lt 0</m>, so no number in the interval <m>(-1,5)</m> is in the set.  Again, we need to be careful at the endpoints (we already know what happens with <m>x = -1</m>).  We know already that <m>\frac{5-1}{5-5}</m> is undefined, so the endpoint <m>5</m> is not in the set.</p>
 
@@ -188,7 +188,7 @@
         
         <p>For the interval <m>(-\infty, -4)</m> we choose <m>x = -5</m> as the test point.  When <m>x = -5</m>, the expression evaluates to <m>15.0625</m>, so all points in this interval belong to the solution set.  Since the expression is undefined at <m>x = -4</m>, it does not belong to the solution set.</p>
         
-        <p>For the interval <m>(-4, \frac{9 - 5\sqrt{3}}{6})</m> we choose <m>x=-1</m> as the test point.  When <m>x = -1</m>, the expression evaluates to <m>-\frac{29}{12} \lt 0</m>, so no point in this interval belongs tp the solution set.  Since the expression equals zero when <m>\frac{9 - 5\sqrt{3}}{6}</m>, this point is not in the solution set.</p>
+        <p>For the interval <m>(-4, \frac{9 - 5\sqrt{3}}{6})</m> we choose <m>x=-1</m> as the test point.  When <m>x = -1</m>, the expression evaluates to <m>-\frac{29}{12} \lt 0</m>, so no point in this interval belongs to the solution set.  Since the expression equals zero when <m>\frac{9 - 5\sqrt{3}}{6}</m>, this point is not in the solution set.</p>
         
         <p>For the interval <m>(\frac{9 - 5\sqrt{3}}{6}, \frac{1}{3})</m> we choose <m>x = 0.1</m> as the test point.  When <m>x = 0.1</m> the expression evaluates to approximately <m>0.26 > 0</m>, so all points in this interval belong to the solution set.  Since the expression is undefined at <m>x = \frac{1}{3}</m>, it does not belong to the solution set.</p>
         

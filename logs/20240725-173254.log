@@ -1,0 +1,28 @@
+INFO    : PreTeXt-CLI version: 2.6.0
+
+INFO    : PreTeXt project found in `/workspaces/PrecalcReviewMaterials`.
+WARNING : Using CLI version 2.6.0 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.6.0.
+INFO    : Building target print
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/print.
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to LaTeX as /tmp/ptx-vqjapv8k/main.tex
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/pretext-latex.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:BUG:     Exercise component mis-labeled
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/pretext-latex.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

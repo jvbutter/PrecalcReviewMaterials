@@ -452,8 +452,8 @@
   </exercise>
   <!-- Exercise 3.14 -->
   <exercise>
-    <p>This exercise is not currently working as expected, and was removed August 2023 while we investigate.</p>
-   <!-- <webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/GraphTwoVariableInequality10.pg" />-->
+    <p>This exercise is not currently working as expected, and was removed August 2023.</p>
+   <!-- <webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/GraphTwoVariableInequality10.pg" /> -->
   </exercise>
   <!-- Exercise 3.15 -->
   <exercise>
@@ -564,7 +564,7 @@
   </exercise>
   <!-- Exercise 3.16 -->
   <exercise>
-    <p>This exercise is not currently working as expected, and was removed August 2023 while we investigate.</p>
+    <p>This exercise is not currently working as expected, and was removed August 2023.</p>
     <!--<webwork source="Library/PCC/BasicAlgebra/EquationsAndInequalitiesInTwoVariables/GraphTwoVariableInequality80.pg" />-->
   </exercise>
   <!-- Exercise 3.17 -->

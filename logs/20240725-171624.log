@@ -1,0 +1,233 @@
+INFO    : PreTeXt-CLI version: 2.6.0
+
+INFO    : PreTeXt project found in `/workspaces/PrecalcReviewMaterials`.
+WARNING : Using CLI version 2.6.0 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.6.0.
+INFO    : Building target web
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-fortyfive-degree-triangle'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-fortyfive-degree-triangle-1.tex to fig-fortyfive-degree-triangle-1.pdf
+INFO    : cropping fig-fortyfive-degree-triangle-1.pdf to cropped-fig-fortyfive-degree-triangle-1.pdf
+INFO    : renaming cropped-fig-fortyfive-degree-triangle-1.pdf to fig-fortyfive-degree-triangle-1.pdf
+INFO    : converting fig-fortyfive-degree-triangle-1.pdf to fig-fortyfive-degree-triangle-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-triangle-in-unit-circle'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-triangle-in-unit-circle-1.tex to fig-triangle-in-unit-circle-1.pdf
+INFO    : cropping fig-triangle-in-unit-circle-1.pdf to cropped-fig-triangle-in-unit-circle-1.pdf
+INFO    : renaming cropped-fig-triangle-in-unit-circle-1.pdf to fig-triangle-in-unit-circle-1.pdf
+INFO    : converting fig-triangle-in-unit-circle-1.pdf to fig-triangle-in-unit-circle-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-sixty-thirty-triangle'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-sixty-thirty-triangle-1.tex to fig-sixty-thirty-triangle-1.pdf
+INFO    : cropping fig-sixty-thirty-triangle-1.pdf to cropped-fig-sixty-thirty-triangle-1.pdf
+INFO    : renaming cropped-fig-sixty-thirty-triangle-1.pdf to fig-sixty-thirty-triangle-1.pdf
+INFO    : converting fig-sixty-thirty-triangle-1.pdf to fig-sixty-thirty-triangle-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-second-triangle-in-unit-circle'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-second-triangle-in-unit-circle-1.tex to fig-second-triangle-in-unit-circle-1.pdf
+INFO    : cropping fig-second-triangle-in-unit-circle-1.pdf to cropped-fig-second-triangle-in-unit-circle-1.pdf
+INFO    : renaming cropped-fig-second-triangle-in-unit-circle-1.pdf to fig-second-triangle-in-unit-circle-1.pdf
+INFO    : converting fig-second-triangle-in-unit-circle-1.pdf to fig-second-triangle-in-unit-circle-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-third-triangle-in-unit-circle'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-third-triangle-in-unit-circle-1.tex to fig-third-triangle-in-unit-circle-1.pdf
+INFO    : cropping fig-third-triangle-in-unit-circle-1.pdf to cropped-fig-third-triangle-in-unit-circle-1.pdf
+INFO    : renaming cropped-fig-third-triangle-in-unit-circle-1.pdf to fig-third-triangle-in-unit-circle-1.pdf
+INFO    : converting fig-third-triangle-in-unit-circle-1.pdf to fig-third-triangle-in-unit-circle-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-generic-rad-triangle'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-generic-rad-triangle-1.tex to fig-generic-rad-triangle-1.pdf
+INFO    : cropping fig-generic-rad-triangle-1.pdf to cropped-fig-generic-rad-triangle-1.pdf
+INFO    : renaming cropped-fig-generic-rad-triangle-1.pdf to fig-generic-rad-triangle-1.pdf
+INFO    : converting fig-generic-rad-triangle-1.pdf to fig-generic-rad-triangle-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-legs-onetwo'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-legs-onetwo-1.tex to fig-legs-onetwo-1.pdf
+INFO    : cropping fig-legs-onetwo-1.pdf to cropped-fig-legs-onetwo-1.pdf
+INFO    : renaming cropped-fig-legs-onetwo-1.pdf to fig-legs-onetwo-1.pdf
+INFO    : converting fig-legs-onetwo-1.pdf to fig-legs-onetwo-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-singraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-singraph-1.tex to fig-singraph-1.pdf
+INFO    : cropping fig-singraph-1.pdf to cropped-fig-singraph-1.pdf
+INFO    : renaming cropped-fig-singraph-1.pdf to fig-singraph-1.pdf
+INFO    : converting fig-singraph-1.pdf to fig-singraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-cosgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-cosgraph-1.tex to fig-cosgraph-1.pdf
+INFO    : cropping fig-cosgraph-1.pdf to cropped-fig-cosgraph-1.pdf
+INFO    : renaming cropped-fig-cosgraph-1.pdf to fig-cosgraph-1.pdf
+INFO    : converting fig-cosgraph-1.pdf to fig-cosgraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-tangraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-tangraph-1.tex to fig-tangraph-1.pdf
+INFO    : cropping fig-tangraph-1.pdf to cropped-fig-tangraph-1.pdf
+INFO    : renaming cropped-fig-tangraph-1.pdf to fig-tangraph-1.pdf
+INFO    : converting fig-tangraph-1.pdf to fig-tangraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-cotgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-cotgraph-1.tex to fig-cotgraph-1.pdf
+INFO    : cropping fig-cotgraph-1.pdf to cropped-fig-cotgraph-1.pdf
+INFO    : renaming cropped-fig-cotgraph-1.pdf to fig-cotgraph-1.pdf
+INFO    : converting fig-cotgraph-1.pdf to fig-cotgraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-secgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-secgraph-1.tex to fig-secgraph-1.pdf
+INFO    : cropping fig-secgraph-1.pdf to cropped-fig-secgraph-1.pdf
+INFO    : renaming cropped-fig-secgraph-1.pdf to fig-secgraph-1.pdf
+INFO    : converting fig-secgraph-1.pdf to fig-secgraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-cscgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-cscgraph-1.tex to fig-cscgraph-1.pdf
+INFO    : cropping fig-cscgraph-1.pdf to cropped-fig-cscgraph-1.pdf
+INFO    : renaming cropped-fig-cscgraph-1.pdf to fig-cscgraph-1.pdf
+INFO    : converting fig-cscgraph-1.pdf to fig-cscgraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-exercise-trig21'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-exercise-trig21-1.tex to fig-exercise-trig21-1.pdf
+INFO    : cropping fig-exercise-trig21-1.pdf to cropped-fig-exercise-trig21-1.pdf
+INFO    : renaming cropped-fig-exercise-trig21-1.pdf to fig-exercise-trig21-1.pdf
+INFO    : converting fig-exercise-trig21-1.pdf to fig-exercise-trig21-1.svg
+INFO    : Removing temporary directory /tmp/ptx-6yv_xg12
+INFO    : Removing temporary directory /tmp/ptx-1tu62c0o
+INFO    : Removing temporary directory /tmp/ptx-4j0gpzuz
+INFO    : Removing temporary directory /tmp/ptx-gf0ruh4p
+INFO    : Removing temporary directory /tmp/ptx-ysxjgpn8
+INFO    : Removing temporary directory /tmp/ptx-1rwymzav
+INFO    : Removing temporary directory /tmp/ptx-oe2prf4k
+INFO    : Removing temporary directory /tmp/ptx-ukln144p
+INFO    : Removing temporary directory /tmp/ptx-rzcr6p1h
+INFO    : Removing temporary directory /tmp/ptx-10rgd_i_
+INFO    : Removing temporary directory /tmp/ptx-v06fo_js
+INFO    : Removing temporary directory /tmp/ptx-qi6bs4l_
+INFO    : Removing temporary directory /tmp/ptx-p0_iwebc
+INFO    : Removing temporary directory /tmp/ptx-gbq2bd33
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/web.
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.3.0
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.3
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/ptx-v1h1hevh
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 

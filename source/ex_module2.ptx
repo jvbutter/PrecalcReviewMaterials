@@ -530,6 +530,8 @@
   </exercise>
   <!-- Exercise 2.19 -->
   <exercise>
+    Warning: this exercise behaves strangely - if you click 'check responses' it might change the polynomial before evaluating your answers.
+    The answers and solution given will be consistent with the new polynomial, if so.
     <webwork source="Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-05.pg"/>
   </exercise>
   <!-- Exercise 2.20 -->

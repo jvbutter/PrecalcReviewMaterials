@@ -86,7 +86,7 @@
         <p>Solve <m>\log_8(x) + \log_8(x - 12) = 2</m>.</p>
       </statement>
       <solution>
-        <p>We have <m>2 = \log_8(x) + \log_8(x - 12) = \log_8(x(x - 12))</m>, so that <m>8^2 = x(x - 12)</m>, by the definition of logarithms.  Thus <m>x^2 - 12 - 64 = 0</m>.  By factoring (or using the quadratic formula first for help), this is the same as <m>(x-16)(x+4) = 0</m>.  Therefore <m>x = 16</m> or <m>x = -4</m>.  But <m>x = -4</m> is not a solution, as <m>\log_8(-4)</m> is undefined.  Hence the solution is <m>x = 16</m>.</p>
+        <p>We have <m>2 = \log_8(x) + \log_8(x - 12) = \log_8(x(x - 12))</m>, so that <m>8^2 = x(x - 12)</m>, by the definition of logarithms.  Thus <m>x^2 - 12x - 64 = 0</m>.  By factoring (or using the quadratic formula first for help), this is the same as <m>(x-16)(x+4) = 0</m>.  Therefore <m>x = 16</m> or <m>x = -4</m>.  But <m>x = -4</m> is not a solution, as <m>\log_8(-4)</m> is undefined.  Hence the solution is <m>x = 16</m>.</p>
       </solution>
     </example>
 

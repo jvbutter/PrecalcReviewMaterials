@@ -172,7 +172,7 @@
       <solution>
         <p>Using the three bullet points above, this is the graph of <m>y = x^3</m> shifted right by 1 unit, down by 4 units, and scaled by a factor of 2.  The sketch can be made a bit more accurate by identifying several points on the curve and then drawing a smooth curve or the correct shape through them.</p>
 
-        <me>\begin{array}{c|c|c|c|c|c|c|c} x \amp  -2 \amp  -1 \amp  0 \amp  1 \amp  2 \amp  3 \amp  4\\ \hline{1-8} y \amp  -58 \amp  -20 \amp  -6 \amp  -4 \amp  -2 \amp   12 \amp  50 \end{array}</me>
+        <me>\begin{array}{c|c|c|c|c|c|c|c} x \amp  -2 \amp  -1 \amp  0 \amp  1 \amp  2 \amp  3 \amp  4\\ \hline y \amp  -58 \amp  -20 \amp  -6 \amp  -4 \amp  -2 \amp   12 \amp  50 \end{array}</me>
 
         <figure>
           <image>

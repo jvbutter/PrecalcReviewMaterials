@@ -211,7 +211,7 @@
       no matter what <m>\theta</m> is. </p>
   
       <p>We can use geometry to determine <m>\sin\left(\frac{\pi}{4}\right)</m> and <m>\cos\left(\frac{\pi}{4}\right)</m>. 
-      Since <m>\frac{\pi}{4}</m> radians equals <m>45^\circ</m>, consdier a <m>45^\circ-45^\circ-90^\circ</m> triangle with a hypotenuse of length 1. 
+      Since <m>\frac{\pi}{4}</m> radians equals <m>45^\circ</m>, consider a <m>45^\circ-45^\circ-90^\circ</m> triangle with a hypotenuse of length 1. 
       Such a triangle must have legs each of length <m>\frac{1}{\sqrt{2}}</m>.</p>
     
       <figure width="25%" xml:id="fig-fortyfive-degree-triangle">
@@ -228,7 +228,7 @@
              \node at (22:1.2) {$45^\circ$};
              \draw (4,3.25) arc (-90:-135:.75);
              \node at (3.5, 3) {$45^\circ$};
-             \node[below] at (2,0) {$\frac{1}{\sqrt{2}}$};
+             \node[below=.2] at (2,0) {$\frac{1}{\sqrt{2}}$};
              \node[above] at (2,2.25) {$1$};
              \node[right] at (4,2) {$\frac{1}{\sqrt{2}}$};
              \end{tikzpicture}
@@ -259,7 +259,7 @@
               \node[] at (21:.75) {$\frac{\pi}{4}$};
               \node[] at (45:2.75) {$\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)$};
               \node[right] at (2,.25) {$y=\frac{1}{\sqrt{2}}$};
-              \node[below] at (.75,0) {$x=\frac{1}{\sqrt{2}}$};
+              \node[below=.2] at (.75,0) {$x=\frac{1}{\sqrt{2}}$};
               \node[above] at (.5,.75) {$1$};
             \end{tikzpicture}
             ]]>
@@ -290,7 +290,7 @@
              \node at (22:1.2) {$60^\circ$};
              \draw[] (2.5,3.25) arc (-90:-120:.75);
              \node at (2.2, 2.75) {$30^\circ$};
-             \node[below] at (1.5,0) {$\frac{1}{2}$};
+             \node[below=.2] at (1.5,0) {$\frac{1}{2}$};
              \node[above] at (1,2.25) {$1$};
              \node[right] at (2.5,2) {$\frac{\sqrt{3}}{2}$};
              \end{tikzpicture}
@@ -317,7 +317,7 @@
               \node[] at (15:1) {$\frac{\pi}{6}$};
               \node[] at (30:2.75) {$\left(\frac{\sqrt{3}}{2},\frac{1}{2}\right)$};
               \node[right] at (2,.25) {$y=\frac{1}{2}$};
-              \node[below] at (.75,0) {$x=\frac{\sqrt{3}}{2}$};
+              \node[below=.2] at (.75,0) {$x=\frac{\sqrt{3}}{2}$};
               \node[above] at (.5,.75) {$1$};
             \end{tikzpicture}
             ]]>
@@ -343,7 +343,7 @@
               \node[] at (30:.75) {$\frac{\pi}{3}$};
               \node[] at (60:2.75) {$\left(\frac{1}{2},\frac{\sqrt{3}}{2}\right)$};
               \node[right] at (1,1) {$y=\frac{\sqrt{3}}{2}$};
-              \node[below] at (.5,0) {$x=\frac{1}{2}$};
+              \node[below=.2] at (.5,0) {$x=\frac{1}{2}$};
               \node[above] at (.5,1) {$1$};
             \end{tikzpicture}
             ]]>
@@ -698,9 +698,9 @@
             \draw (3.5,0)--(3.5,0.5) -- (4,0.5);
             \draw (0.5,0) arc (0:45:0.5);
             \node at (1.5,.5) {$\theta$};
-            \node[below] at (2,0) {adjacent};
+            \node[below=.2] at (2,0) {adjacent};
             \node[right] at (4,2) {opposite};
-            \node[left] at (2,2) {hypotenuse};
+            \node[left=.2] at (2,2) {hypotenuse};
           \end{tikzpicture}
           ]]>
           </latex-image>
@@ -747,9 +747,9 @@
                   \draw (3.5,0)--(3.5,0.5) -- (4,0.5);
                   \draw (0.5,0) arc (0:45:0.5);
                   \node at (1.5,.5) {$\theta$};
-                  \node[below] at (2,0) {$2$};
+                  \node[below=.2] at (2,0) {$2$};
                   \node[right] at (4,2) {$1$};
-                  \node[left] at (1.8,2) {$h$};
+                  \node[left=.2] at (1.8,2) {$h$};
                   \node[right] at (5,2) {$\begin{array}{c}1^2 + 2^2 = h^2\\h=\sqrt{5}\end{array}$};
                 \end{tikzpicture}                
                 ]]>
@@ -953,7 +953,7 @@
     <title>Graphs of Trig Functions</title>
     <p>
       The graphs of the six trig functions are shown below.
-      The trig functiosn are all periodic.
+      The trig functions are all periodic.
       (A function is <term>periodic</term> with period <m>p</m> if <m>f(x+p)=f(x)</m> for all real numbers <m>x</m>. 
       Such a function repeats every <m>p</m> units along the <m>x</m>-axis.)
       Sine and cosine have periods of <m>2\pi</m>.
@@ -968,8 +968,8 @@
             <![CDATA[
             \begin{tikzpicture}[]
             \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
-            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
-            \foreach \y in {-1,-0.5,0.5,1} \draw (-0.15,2*\y) -- (+0.15,2*\y) node[left=7] {$\y$};
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=.2] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-1,-0.5,0.5,1} \draw (-0.15,2*\y) -- (+0.15,2*\y) node[left=.2] {$\y$};
             \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
             \draw[<->,thick] (0,-2.25)--(0,2.25) node[above] {$y$};
             \draw[very thick ] plot [domain={-360/90}:{720/90},smooth] (\x,{2*sin(90*\x)});
@@ -989,8 +989,8 @@
             <![CDATA[
             \begin{tikzpicture}[]
             \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
-            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
-            \foreach \y in {-1,-0.5,0.5,1} \draw (-0.15,2*\y) -- (+0.15,2*\y) node[left=7] {$\y$};
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=.2] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-1,-0.5,0.5,1} \draw (-0.15,2*\y) -- (+0.15,2*\y) node[left=.2] {$\y$};
             \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
             \draw[<->,thick] (0,-2.25)--(0,2.25) node[above] {$y$};
             \draw[very thick] plot [domain={-360/90}:{720/90},smooth] (\x,{2*cos(90*\x)});
@@ -1010,8 +1010,8 @@
             <![CDATA[
             \begin{tikzpicture}[yscale=.5]
             \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
-            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
-            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=.2] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=.2] {$\y$};
             \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
             \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
             \foreach \i in {0,...,6} \draw[very thick] plot [domain={(180*(\i-2)-atan(6)*ceil(\i/6))/90}:{(180*(\i-2)+atan(6)*ceil((6-\i)/6))/90},smooth] (\x,{tan(90*\x)});
@@ -1035,8 +1035,8 @@
             <![CDATA[
             \begin{tikzpicture}[yscale=.5]
             \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
-            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
-            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=.2] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=.2] {$\y$};
             \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
             \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
             \begin{scope}[xscale=-1,xshift=-5cm]
@@ -1062,8 +1062,8 @@
             <![CDATA[
             \begin{tikzpicture}[yscale=.5]
             \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
-            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
-            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=.2] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=.2] {$\y$};
             \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
             \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
             \node[below ] at (0,-6.5) {$y = \sec x$};
@@ -1091,8 +1091,8 @@
             <![CDATA[
             \begin{tikzpicture}[yscale=.5]
             \foreach \x in {-2,-1.5,-1,-.5,.5,1,...,4} \draw ({2*\x},-0.15) -- ({2*\x},+0.15);
-            \foreach \x in {-2,-1,1,2,3,4} \node[below=7] at ({2*\x},0){$\x\pi$};
-            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=7] {$\y$};
+            \foreach \x in {-2,-1,1,2,3,4} \node[below=.2] at ({2*\x},0){$\x\pi$};
+            \foreach \y in {-6,-5,...,-2,-1,1,2,...,6} \draw (-0.15,\y) -- (+0.15,\y) node[left=.2] {$\y$};
             \draw[<->,thick] (-4.25,0)--(8.25,0) node[right] {$x$};
             \draw[<->,thick] (0,-6.25)--(0,6.25) node[above] {$y$};
             \node[below ] at (0,-6.5) {$y = \csc x$};
@@ -1297,7 +1297,7 @@
     <exercisegroup>
       <introduction>
         <p>
-          A function value abd a quadrant are specified.
+          A function value and a quadrant are specified.
           Find the other five function values.
         </p>
       </introduction>
@@ -1356,7 +1356,7 @@
                     \draw (3.5,0)--(3.5,0.5) -- (4,0.5);
                     \draw (0.5,0) arc (0:45:0.5);
                     \node at (1.5,.5) {$x$};
-                    \node[below] at (2,0) {$8$};
+                    \node[below=.2] at (2,0) {$8$};
                     \node[above] at (2,2.25) {$17$};
                   \end{tikzpicture}
                   ]]>
@@ -1696,8 +1696,11 @@ I am instead going to copy the contents of ex_module5.ptx verbatum here, which w
         $ans6 = Fraction(41,40);
       </pg-code>
       <statement>
-        <p>For the given angle <m>x</m> in the triangle given in the graph, calculate each of the following.</p>
-        <image source="https://web.uvic.ca/~jvbutter/PreCalcReview/assets/q5_20.gif" width="65%"/>
+        <p>For the given angle <m>x</m> in the triangle below, calculate each of the following.</p>
+        <p>(We are aware that the image is not displaying and are trying to resolve the issue! 
+          The image should show a right triangle whose horizontal leg has length 40, whose vertical leg is not labled, and whose hypotenuse has lenght 41.
+          The angle between the hypotenuse and the vertical leg is labled <m>x</m>.)</p>
+        <!-- <image source="./assets/q5_20.gif" width="65%"/> -->
         <p><m>\sin x = </m> <var name="$ans1" width="5"/></p>
         <p><m>\cos x = </m> <var name="$ans2" width="5"/></p>
         <p><m>\cot x = </m> <var name="$ans3" width="5"/></p>
@@ -1706,7 +1709,7 @@ I am instead going to copy the contents of ex_module5.ptx verbatum here, which w
       </statement>
     </webwork>
   </exercise>
-  <exercise>
+  <!-- <exercise>
     <webwork>
       <pg-code>
         $a = random(2,5,1);
@@ -1741,6 +1744,6 @@ I am instead going to copy the contents of ex_module5.ptx verbatum here, which w
         <p><m>\csc x = </m> <var name="$e" width="5"/></p>
       </statement>
     </webwork>
-  </exercise>
+  </exercise> -->
 </section> 
 </chapter>

@@ -1,0 +1,124 @@
+INFO    : PreTeXt-CLI version: 2.6.0
+
+INFO    : PreTeXt project found in `/workspaces/PrecalcReviewMaterials`.
+WARNING : Using CLI version 2.6.0 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.6.0.
+INFO    : Building target web
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-singraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-singraph-1.tex to fig-singraph-1.pdf
+INFO    : cropping fig-singraph-1.pdf to cropped-fig-singraph-1.pdf
+INFO    : renaming cropped-fig-singraph-1.pdf to fig-singraph-1.pdf
+INFO    : converting fig-singraph-1.pdf to fig-singraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-cosgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-cosgraph-1.tex to fig-cosgraph-1.pdf
+INFO    : cropping fig-cosgraph-1.pdf to cropped-fig-cosgraph-1.pdf
+INFO    : renaming cropped-fig-cosgraph-1.pdf to fig-cosgraph-1.pdf
+INFO    : converting fig-cosgraph-1.pdf to fig-cosgraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-tangraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-tangraph-1.tex to fig-tangraph-1.pdf
+INFO    : cropping fig-tangraph-1.pdf to cropped-fig-tangraph-1.pdf
+INFO    : renaming cropped-fig-tangraph-1.pdf to fig-tangraph-1.pdf
+INFO    : converting fig-tangraph-1.pdf to fig-tangraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-cotgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-cotgraph-1.tex to fig-cotgraph-1.pdf
+ERROR   : LaTeX compilation of fig-cotgraph-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+ERROR   : Unable to generate some latex-image assets:
+ LaTeX compilation failed for 1 "latex-image"(s).
+Review the log for error messages, and LaTeX transcripts.
+Images are:
+  fig-cotgraph-1.tex
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-secgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-secgraph-1.tex to fig-secgraph-1.pdf
+INFO    : cropping fig-secgraph-1.pdf to cropped-fig-secgraph-1.pdf
+INFO    : renaming cropped-fig-secgraph-1.pdf to fig-secgraph-1.pdf
+INFO    : converting fig-secgraph-1.pdf to fig-secgraph-1.svg
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx', 'subtree': 'fig-cscgraph'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-cscgraph-1.tex to fig-cscgraph-1.pdf
+INFO    : cropping fig-cscgraph-1.pdf to cropped-fig-cscgraph-1.pdf
+INFO    : renaming cropped-fig-cscgraph-1.pdf to fig-cscgraph-1.pdf
+INFO    : converting fig-cscgraph-1.pdf to fig-cscgraph-1.svg
+INFO    : Removing temporary directory /tmp/ptx-gnk8lfee
+INFO    : Removing temporary directory /tmp/ptx-1_rhhnm5
+INFO    : Removing temporary directory /tmp/ptx-pj1owjw2
+INFO    : Removing temporary directory /tmp/ptx-45w85bup
+INFO    : Removing temporary directory /tmp/ptx-5l33xipo
+INFO    : Removing temporary directory /tmp/ptx-r8bg8lk4
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/web.
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.3.0
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.3
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /tmp/ptx-32l98ha_
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/vscode/.ptx/2.6.0/core/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

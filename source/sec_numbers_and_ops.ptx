@@ -67,7 +67,7 @@
       \end{aligned}
     </me>.</p>
     
-    <p>Commutativity and associativity together allow us to compute sums of finitely many terms by rearranging the numbers and adding them in whichever we want.  For example,</p>
+    <p>Commutativity and associativity together allow us to compute sums of finitely many terms by rearranging the numbers and adding them in whichever order we want.  For example,</p>
     
     <p><me>
       \begin{aligned}
@@ -77,7 +77,7 @@
       \end{aligned}
     </me></p>
     
-    <p>Similarly, multiplication real numbers is <term>associative</term>, which means that <m>(a \cdot b) \cdot c = a \cdot (b \cdot c)</m> for all real numbers <m>a, b</m> and <m>c</m>.  For example, <m>(3\cdot4)\cdot25 = 12\cdot 25 = 300</m>, and <m>3\cdot(4\cdot25)=3\cdot100=300</m>, so as expected <m>(3\cdot4)\cdot25 = 3\cdot(4\cdot25)</m>.</p>
+    <p>Similarly, multiplication of real numbers is <term>associative</term>, which means that <m>(a \cdot b) \cdot c = a \cdot (b \cdot c)</m> for all real numbers <m>a, b</m> and <m>c</m>.  For example, <m>(3\cdot4)\cdot25 = 12\cdot 25 = 300</m>, and <m>3\cdot(4\cdot25)=3\cdot100=300</m>, so as expected <m>(3\cdot4)\cdot25 = 3\cdot(4\cdot25)</m>.</p>
     
     <p>Associativity is the property that lets us compute products of finitely many terms by grouping them in a convenient way instead of having to multiply in the order given.  This is equivalent to bracketing the terms as we wish.  For example,</p>
     
@@ -103,7 +103,7 @@
       </me></p>
     </example>
 
-    <p>Commutativity and associativity together allow us to compute products of finitely many terms by rearranging the numbers and multiplying them in whichever we want.  For example,</p>
+    <p>Commutativity and associativity together allow us to compute products of finitely many terms by rearranging the numbers and multiplying them in whichever order we want.  For example,</p>
 
     <example>
       <title>Using Commutativity and Associativity</title>
@@ -225,7 +225,7 @@
 
     <p>The number 0 does not have a reciprocal because <m>0 \cdot b = 0</m> for any real number <m>b</m>, thus the equation <m>0 \cdot b = 1</m> can never be true.</p>
     
-    <p><idx>division</idx><term>Division</term> can be defined in terms of of multiplying by the reciprocal.  For any real numbers <m>a</m> and <m>b</m> such that <m>b \neq 0</m>, <m>a \div b=a \cdot \frac{1}{b}</m>.  The number <m>\frac{1}{b}</m> exists because <m>b \neq 0</m>.  We also write <m>a \div b</m> as <m>a / b</m> or as <m>\frac{a}{b}</m>.</p>
+    <p><idx>division</idx><term>Division</term> can be defined in terms of multiplying by the reciprocal.  For any real numbers <m>a</m> and <m>b</m> such that <m>b \neq 0</m>, <m>a \div b=a \cdot \frac{1}{b}</m>.  The number <m>\frac{1}{b}</m> exists because <m>b \neq 0</m>.  We also write <m>a \div b</m> as <m>a / b</m> or as <m>\frac{a}{b}</m>.</p>
   </subsection>
   <exercises>
     <title>Practice Problems</title>
