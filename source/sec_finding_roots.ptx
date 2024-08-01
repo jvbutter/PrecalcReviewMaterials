@@ -21,7 +21,14 @@
       </solution>
     </example>
 
-    <p>If <m>p(x)</m> is a polynomial and <m>p(a)=0</m> then <m>(x-a)</m> is a factor of <m>p(x)</m>, so we can write <m>p(x) = (x-a)q(x)</m> for some polynomial <m>q(x)</m>.  Conversely, if <m>p(x)=(x-a)q(x)</m> for some polynomial <m>q(x)</m> then <m>p(x)</m> is a polynomial and <m>p(a)=0</m>.  In order to find roots of a polynomial, it is therefore useful to be able to factor it <mdash/> and to factor a polynomial it is useful to know one or more of its roots.</p>
+    <p>
+      If <m>p(x)</m> is a polynomial and <m>p(a)=0</m> then <m>(x-a)</m> is a factor of <m>p(x)</m>, 
+      so we can write <m>p(x) = (x-a)q(x)</m> for some polynomial <m>q(x)</m>.  
+      Conversely, if <m>p(x)=(x-a)q(x)</m> for some polynomial <m>q(x)</m> then <m>p(x)</m> is a polynomial and <m>p(a)=0</m>.  
+      In order to find roots of a polynomial, it is therefore useful to be able to factor it <mdash/> 
+      and to factor a polynomial it is useful to know one or more of its roots.
+      We will discuss polynomials further in <xref ref="sec_polynomials"/>.
+    </p>
 
     <p>It is not always easy to factor a higher-degree polynomial, but using the quadratic formula you can factor any quadratic polynomial.  If <m>p(x) = ax^2 + bx + c</m>, and <m>a \neq 0</m>, then the real roots of <m>p</m> are <m>\frac{-b + \sqrt{b^2-4ac}}{2a}</m> and <m>\frac{-b - \sqrt{b^2-4ac}}{2a}</m>, provided these are real numbers.  If <m>b^2-4ac=0</m> then there is only one root, because <m>\frac{-b + \sqrt{b^2-4ac}}{2a}=\frac{-b - \sqrt{b^2-4ac}}{2a}=\frac{-b}{2a}</m>.  If <m>b^2-4ac\lt 0</m> then there are no real roots, because <m>\sqrt{b^2-4ac}</m> is not a real number.</p>
 
