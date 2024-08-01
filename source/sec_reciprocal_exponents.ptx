@@ -1,7 +1,7 @@
 <section xml:id="sec_reciprocal_exponents">
   <title>Reciprocal Exponents</title>
   <introduction>
-    <p><idx><m>n</m>-th root</idx> For a positive integer <m>n</m>, a real number <m>y</m> is an <term><m>n</m>-th root of <m>x</m></term> if <m>y^n=x</m>.</p>
+    <p xml:id="def_nth_root"><idx><m>n</m>-th root</idx> For a positive integer <m>n</m>, a real number <m>y</m> is an <term><m>n</m>-th root of <m>x</m></term> if <m>y^n=x</m>.</p>
 
     <p>If <m>n</m> is odd, every real number <m>x</m> has exactly one <m>n</m>-th root.</p>
 

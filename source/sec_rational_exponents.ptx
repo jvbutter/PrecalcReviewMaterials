@@ -1,43 +1,68 @@
 <section xml:id="sec_rational-exponents">
   <title>Rational Exponents</title>
   <introduction>
-    <p><idx>rational exponent</idx> For a real number <m>x</m> and positive integers <m>m</m> and <m>n</m> , we define <m>x^{\frac{m}{n}}</m> to be the real number <m>y</m> such that <m>y^n = x^m</m>, if such a number <m>y</m> exists.  Notice how this coincides with the definition of exponents <m>\frac{1}{n}</m> when <m>m = 1</m>.</p>
+    <p><idx>rational exponent</idx>
+      For a positive real number <m>x</m> and positive integers <m>m</m> and <m>n</m>, 
+      we define <m>x^{\frac{m}{n}}</m> to be the positive real number <m>y</m> such that <m>y^n = x^m</m>, 
+      if such a number <m>y</m> exists.
+      Notice that this coincides with the <xref ref="def_nth_root" text="custom">definition</xref> of reciprocal exponents <m>\frac{1}{n}</m> when <m>m = 1</m>.
+      We define <m>0^\frac{m}{n}</m> to be <m>0</m>.
+    </p>
 
     <example>
       <title>Working out Rational Exponents</title>
       <statement>
         <ul>
           <li>
-            <p>
-              <m>9^\frac{1}{2} = 3</m> because <m>3^2 = 9^1</m>
+            <p>By definition, 
+              <m>9^\frac{1}{2}</m>
+              is the positive real number <m>y</m> such that <m>y^2=9^1</m>.
+              Because <m>3^2 = 9^1</m>, we conclude that
+              <m>9^\frac{1}{2}=3</m>,
+              just as in <xref ref="sec_reciprocal_exponents"/>.
             </p>
           </li>
           <li>
-            <p>
-              <m>8^\frac{2}{3} = 4</m> because <m>4^3 = 64 = 8^2</m>
+            <p>Similarly,
+              <m>8^\frac{2}{3}</m> 
+              is the positive real number <m>y</m> such that <m>y^3=8^2</m>.
+              Because <m>4^3 = 64 = 8^2</m>, we conclude that
+              <m>8^\frac{2}{3}=4</m>.
             </p>
           </li>
-          <li>
+<!--           <li>
             <p>
               <m>(-3)^\frac{5}{2}</m> is undefined since <m>(-3)^5 = -243</m> and a negative number is not the square of any number (because <m>y^2 \geq 0</m> for every real number <m>y</m>).
             </p>
-          </li>
+          </li> -->
         </ul>
       </statement>
     </example>
 
-    <p>It follows from the definition that</p>
+    <p>It follows from this definition above, and those in <xref ref="sec_reciprocal_exponents"/> that for positive <m>x</m></p>
 
-    <me>x^\frac{m}{n} = \left(x^m\right)^\frac{1}{n}</me>
+    <me>x^\frac{m}{n} = \left(x^m\right)^\frac{1}{n}</me>.
 
-    <p>and, if <m>x^\frac{1}{n}</m> is defined, then</p>
+    <p>It is more involved to demonstrate carefully, but it is also true that</p>
 
-    <me>x^\frac{m}{n} = \left(x^\frac{1}{n}\right)^m</me>
+    <me>x^\frac{m}{n} = \left(x^\frac{1}{n}\right)^m.</me>
 
     <example xml:id="ex2">
       <title>Rational Exponents Read Both Ways</title>
       <statement>
-        <ul>
+        <p>Consider the number <m>9^\frac{3}{2}</m>,
+        which is the positive real number <m>y</m> such that <m>y^2=9^3</m>, or equivalently 
+        <m>y^2=729</m>.
+        This is precisely the definition of <m>729^\frac{1}{2}</m>, 
+        and so we have shown that <m>9^\frac{3}{2}=\left(9^3\right)^\frac{1}{2}</m>.
+        </p>
+        <p>If we want to work with  <m>9^\frac{3}{2}</m>, we might find it useful to think of it as
+          <m>\left(9^3\right)^\frac{1}{2}=729^\frac{1}{2}=\sqrt{729} = 27</m>.
+          On the other hand, we might prefer to think of it as
+          <m>\left(9^\frac{1}{2}\right)^3=\left(\sqrt{9}\right)^3 = 3^3=27</m>.
+          Which one you prefer probably depends on whether you recognized <m>\sqrt{729}</m>.
+        </p>
+<!--         <ul>
           <li>
             <p>
               <m>5^\frac{3}{2} = \left(5^3\right)^\frac{1}{2} = \sqrt{125}</m>.  Also <m>5^\frac{3}{2} = \left(5^\frac{1}{2}\right)^3 = \left(\sqrt{5}\right)^3 = \sqrt{125}</m>.  Note that <m>\left(\sqrt{5}\right)^3 = \sqrt{125}</m> because squaring both sides gives 125.
@@ -48,62 +73,118 @@
               <m>\left(-3\right)^\frac{6}{2} = \left(\left(-3\right)^6\right)^\frac{1}{2} = \sqrt{729} = 27</m>, but <m>\left(\left(-3\right)^\frac{1}{2}\right)^6</m> is undefined because <m>\left(-3\right)^\frac{1}{2}</m> is undefined.
             </p>
           </li>
-        </ul>
+        </ul> -->
       </statement>
     </example>
-
-    <p>When a rational exponent is not in lowest terms, for example as in the last bullet point of <xref ref="ex2">Example</xref>, it is tempting to reduce it to lowest terms.  Care is needed, however, because that can be a terrible idea.  Using that same example, <m>\left(-3\right)^\frac{6}{2} = 27</m>, but <m>\left(-3\right)^3 = -27</m>.  Hence <m>\left(-3\right)^\frac{6}{2} \neq \left(-3\right)^3</m> even though <m>\frac{6}{2} = 3</m>.  Why?  It is a question of applying the definition properly.  The difficulty is that <m>(-3)^6</m> is positive, so that <m>\left(-3\right)^\frac{6}{2} = \left(\left(-3\right)^6\right)^\frac{1}{2}</m> is positive, but <m>\frac{6}{2} = 3</m> is an odd integer and a negative number raised to an odd power is negative.  When reducing a rational exponent to lowest terms, one should always check whether the expression obtained has the same sign as the original expression.  This issue only arises when the base is negative.</p>
-
-    <p>The familiar rules of exponents apply to expressions involving rational exponents.  When exponential expressions with the same base are multiplied, the exponents are added, as in</p>
-
-    <me>2^\frac{2}{3} 2^\frac{4}{5} = 2^{\frac{2}{3} + \frac{4}{5}} = 2^\frac{22}{15}</me>
-
-    <p>Note that all numbers involved in positive, so each equality holds.  When an exponential expression is raised to a higher power, the exponents are multiplied as in</p>
-
-    <me>\left((-3)^3\right)^\frac{2}{5} = (-3)^\frac{6}{5}</me>
-
-    <p>Both the left hand side and right hand side of this statement are positive, so the equality holds.</p>
-
+    <p>
+      Notice that <m>x^\frac{m}{n}=\left(x^\frac{1}{n}\right)^m</m>
+      is consistent with the <xref ref="def_powersofpowers" text="custom">powers of powers</xref> rule.
+      In fact, all of the familiar rules of exponents apply to expressions involving rational exponents, provided that the base is positive.
+      When exponential expressions with the same base are multiplied, the exponents are added, as in:
+      <me>2^\frac{2}{3} 2^\frac{4}{5} = 2^{\frac{2}{3} + \frac{4}{5}} = 2^\frac{22}{15}</me>
+    </p>
+    <p>
+      When an exponential expression is raised to a power, the exponents are multiplied:
+      <me>\left(3^\frac{3}{4}\right)^\frac{2}{5} = 3^\frac{6}{20}</me>.
+      When a rational exponent is not in lowest terms, as in the above example, we can reduce it:
+      <me>3^\frac{6}{20}=3^\frac{3}{10}</me>.
+    </p>
+    <p>
+      Finally, negative rational exponents behave as expected as long as the base is positive.
+      Following the <xref ref="def_negexponents" text="custom">negative exponents</xref> rule:
+      <me>
+        \begin{aligned}
+          x^{-\frac{m}{n}} &amp;= \left(x^{-1}\right)^\frac{m}{n} \\
+          &amp;= \left(\frac{1}{x}\right)^\frac{m}{n} \\
+          &amp;= \left(\left(\frac{1}{x}\right)^m\right)^\frac{1}{n} \\
+          &amp;= \left(\frac{1}{x^m}\right)^\frac{1}{n}
+          &amp;= \frac{1}{x^\frac{m}{n}}
+        \end{aligned}
+      </me>
+      when <m>x^{\frac{m}{n}}</m> is defined and not <m>0</m>.
+    </p>
+    <example>
+      <title>The problem with negative bases</title>
+      <statement>
+        <p>
+         Why have we been so careful to exclude negative bases?
+         The short answer is that no definition gives us everything we want from them.
+         If you are intereseted in the long answer, here it is - but you do not need to go this far and should not let this digression cause you confusion!
+        </p>
+        <p>
+         Consider as an example <m>\left(-3\right)^\frac{6}{2}</m>.
+         If we want everything we have said so far to be true, then this number should be the same as
+         <me>\left(\left(-3\right)^6\right)^\frac{1}{2} = \left(729\right)^\frac{1}{2}=27</me>.
+         On the other hand, however, it should also be the same as 
+         <me>\left(\left(-3\right)^\frac{1}{2}\right)^6,</me>
+         which is undefined because <m>(-3)^\frac{1}{2}</m> is not a real number.
+        </p>
+        <p>
+          Maybe we could change our definition to attempt to address this problem?
+          Perhaps we should decide that
+          <m>x^\frac{m}{n}</m> is defined to be 
+          <m>\left(x^\frac{1}{n}\right)^m</m>.
+          Sadly, this alternative introduces a new problem:
+          <m>\left(\left(-3\right)^\frac{1}{2}\right)^6</m> is undefined, but 
+          <m> \left(-3\right)^3=-27</m>; 
+          we have lost the ability to reduce exponents to lowest terms.
+        </p>
+        <p>
+          Perhaps we should decide that
+          <m>x^\frac{m}{n}</m> is defined to be
+          <m>\left(x^m\right)^\frac{1}{n}</m>?
+          Unfortunately, we have the same problem:
+          <m>\left(\left(-3\right)^6\right)^\frac{1}{2}=\left(729\right)^\frac{1}{2}=27</m>, but 
+          <m> \left(-3\right)^3=-27</m>.
+        </p>
+      </statement>      
+    </example>
+    <!-- <p>When a rational exponent is not in lowest terms, for example as in the last bullet point of <xref ref="ex2">Example</xref>, it is tempting to reduce it to lowest terms.  Care is needed, however, because that can be a terrible idea.  Using that same example, <m>\left(-3\right)^\frac{6}{2} = 27</m>, but <m>\left(-3\right)^3 = -27</m>.  Hence <m>\left(-3\right)^\frac{6}{2} \neq \left(-3\right)^3</m> even though <m>\frac{6}{2} = 3</m>.  Why?  It is a question of applying the definition properly.  The difficulty is that <m>(-3)^6</m> is positive, so that <m>\left(-3\right)^\frac{6}{2} = \left(\left(-3\right)^6\right)^\frac{1}{2}</m> is positive, but <m>\frac{6}{2} = 3</m> is an odd integer and a negative number raised to an odd power is negative.  When reducing a rational exponent to lowest terms, one should always check whether the expression obtained has the same sign as the original expression.  This issue only arises when the base is negative.</p> -->
+    <p>
+      We are now equipped to work with any sort of rational exponent as long as the base is not negative.
+    </p>
     <example>
       <title>Working with Rational Exponents</title>
       <statement>
         <ul>
           <li>
-            <p>Look at <m>8^\frac{2}{3} = (8^2)^\frac{1}{3}=(64)^\frac{1}{3}=4</m>.  Since <m>8^\frac{1}{3}</m> is defined, we can also compute <m>(8^\frac{1}{3})^2 = 2^2 = 4</m>.</p>
-          </li>
-          <li>
             <p>
-              Look at <m>625^\frac{3}{4} = (625^3)^\frac{1}{4}=(244140625)^\frac{1}{4}=125</m>.  Since <m>625^\frac{1}{4}</m> is defined, we can also compute <m>(625^\frac{1}{4})^3 = 5^3 = 125</m>, which is arguably an easier calculation.
+              Look at <m>8^\frac{2}{3} = (8^2)^\frac{1}{3}=(64)^\frac{1}{3}=4</m>.
+              Because <m>8^\frac{1}{3}</m> is defined, we can also compute <m>(8^\frac{1}{3})^2 = 2^2 = 4</m>.
             </p>
           </li>
           <li>
+            <p>
+              Look at <m>625^\frac{3}{4} = (625^3)^\frac{1}{4}=(244140625)^\frac{1}{4}=125</m>.
+              Because <m>625^\frac{1}{4}</m> is defined, we can also compute <m>(625^\frac{1}{4})^3 = 5^3 = 125</m>, which is arguably an easier calculation.
+            </p>
+          </li>
+          <li>
+            <p>Look at <m>25^{-\frac{3}{2}} = 
+              \left(\frac{1}{25}\right)^\frac{3}{2} =
+              \left(\left(\frac{1}{25}\right)^\frac{1}{2}\right)^3 =
+              \left(\frac{1}{5}\right)^3 = \frac{1}{125}
+            </m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Look at <m>\left(\frac{144}{81}\right)^\frac{4}{8} = \left(\frac{144}{81}\right)^\frac{1}{2}=\frac{144^\frac{1}{2}}{25^\frac{1}{2}}=\frac{12}{5}.</m>
+            </p>
+          </li>
+<!--           <li>
             <p>
               Look at <m>(-49)^\frac{4}{2} = \left((-49)^4\right)^\frac{1}{2} = \sqrt{(-49)^4} = \sqrt{5764801} = 2401</m>.  We can not compute as <m>\left((-49)^\frac{1}{2}\right)^4</m> because <m>(-49)^\frac{1}{2}</m> is not defined.  We can compute as <m>(-49)^\frac{4}{2} = (-49)^2 = 2401</m> because <m>(-49)^\frac{4}{2}</m> is positive (because <m>(-49)^4</m> is positive) and so is <m>(-49)^2</m>.
             </p>
-          </li>
-          <li>
+          </li> -->
+ <!--          <li>
             <p>
               Look at <m>(-5)^\frac{10}{2} = \sqrt{(-5)^{10}} = \sqrt{25^5} = \left(\sqrt{25}\right)^5 = 5^5</m>.  We can not compute as <m>\left((-5)^\frac{1}{2}\right)^{10}</m> because <m>(-5)^\frac{1}{2}</m> is undefined.  And in this case, since <m>(-5)^{10}</m> is positive we have that <m>(-5)^\frac{10}{2}</m> is positive, whereas <m>(-5)^5</m> is negative, so <m>(-5)^\frac{10}{2} \neq (-5)^5</m>.
             </p>
-          </li>
+          </li> -->
         </ul>
       </statement>
     </example>
-
-    <p>Finally, as before,</p>
-
-    <me>
-      \begin{aligned}
-        x^{-\frac{m}{n}} &amp;= \left(x^{-1}\right)^\frac{m}{n} \\
-        &amp;= \left(\frac{1}{x}\right)^\frac{m}{n} \\
-        &amp;= \left(\left(\frac{1}{x}\right)^m\right)^\frac{1}{n} \\
-        &amp;= \left(\frac{1}{x^m}\right)^\frac{1}{n}
-        &amp;= \frac{1}{x^\frac{m}{n}}
-      \end{aligned}
-    </me>
-
-    <p>when <m>x^{-\frac{m}{n}}</m> is defined.</p>
-
     <example>
       <title>Finding a Base Given a Rational Exponent</title>
       <statement>
@@ -146,7 +227,7 @@
     </exercise>
     <exercise>
       <statement>
-        <m>(-6)^{\frac{6}{2}}</m>
+        <m>(6)^{\frac{6}{2}}</m>
       </statement>
       <answer>
         <m>216</m>
@@ -154,7 +235,7 @@
     </exercise>
     <exercise>
       <statement>
-        <m>(-\frac{32}{243})^\frac{2}{5}</m>
+        <m>(\frac{32}{243})^\frac{2}{5}</m>
       </statement>
       <answer>
         <m>\frac{4}{9}</m>
