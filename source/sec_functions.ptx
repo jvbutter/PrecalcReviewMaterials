@@ -129,7 +129,7 @@
           2 \ge x &amp; \gt -3.
           \end{aligned}
         </me>
-        All together, this means that <m>\{x : |x-2| \lt 5\} = (-3,2] \cup [2,7) = (-3,2)</m>.
+        All together, this means that <m>\{x : |x-2| \lt 5\} = (-3,2] \cup [2,7) = (-3,7)</m>.
       </p>
 
     </example>
