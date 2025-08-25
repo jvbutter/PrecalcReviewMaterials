@@ -1,0 +1,10 @@
+WARNING : Using CLI version 2.28.2 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext update`
+WARNING : to update `requirements.txt` and other managed files to match 2.28.2.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Found PreTeXt web server at localhost:8129
+INFO    : Server is already available at https://urban-disco-gr9xq9j6x9phpgw9-8129.app.github.dev
+INFO    : Now opening browser for target `web` at https://urban-disco-gr9xq9j6x9phpgw9-8129.app.github.dev/output/web
+INFO    : 

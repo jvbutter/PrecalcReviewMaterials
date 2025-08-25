@@ -1,0 +1,40 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.28.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing:
+WARNING : * PTX:WARNING: The "" style requested in publication/html/css is deprecated. Your book will be built with theme="default-modern". See the PreTeXt Guide for options for the newer HTML themes and their specification .
+INFO    : successful application of /root/.ptx/2.28.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/web.
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.28.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /root/.ptx/2.28.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.9.8
+INFO    : Downloading Runestone Services, version 7.9.8
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /ptx-c0kb3v_u
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.28.2/core/xsl/pretext-html.xsl
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "titlepage" element inside the "frontmatter" (author, editor, credit, date, and event) should now be placed in "frontmatter/bibinfo".  To ensure a title page is created, put only the empty element "titlepage-items" inside "titlepage".  Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located within: "Precalculus Review Materials" (title)
+INFO    : * --------------
+INFO    : successful application of /root/.ptx/2.28.2/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /ptx-c0kb3v_u
+INFO    : Removing temporary directory /ptx-pnheb_pv
+INFO    : 
+Finished build for target web. Run `pretext view web` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

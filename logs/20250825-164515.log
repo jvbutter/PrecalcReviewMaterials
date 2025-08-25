@@ -1,0 +1,179 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Generating any needed assets.
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.28.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing:
+WARNING : * PTX:WARNING: The "" style requested in publication/html/css is deprecated. Your book will be built with theme="default-modern". See the PreTeXt Guide for options for the newer HTML themes and their specification .
+INFO    : successful application of /root/.ptx/2.28.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.28.2/core/xsl/extract-pg.xsl
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /root/.ptx/2.28.2/core/xsl/extract-pg.xsl
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.28.2/core/xsl/pretext-ww-problem-sets.xsl
+INFO    : successful application of /root/.ptx/2.28.2/core/xsl/pretext-ww-problem-sets.xsl
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.28.2/core/xsl/support/pretext-pg-macros.xsl
+INFO    : successful application of /root/.ptx/2.28.2/core/xsl/support/pretext-pg-macros.xsl
+INFO    : validating, cleaning server URL: https://webwork-ptx.aimath.org
+INFO    : building representations of generated WeBWorK problem
+INFO    : sending webwork-1 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : building representations of webwork2-hosted WeBWorK problem
+INFO    : sending webwork-2 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-3 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-4 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-5 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-6 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-7 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-8 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-9 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-10 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-11 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-12 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-13 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-14 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-15 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-16 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-17 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : saving image file webwork-17-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-18 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-18-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-19 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : saving image file webwork-19-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-20 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-20-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-21 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-21-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-21-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-22 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-23 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-24 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-25 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-26 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-27 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-28 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-29 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-30 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-31 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-32 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-33 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-34 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-35 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-36 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-37 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-38 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-39 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-40 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+ERROR   : PTX:ERROR: WeBWorK problem Precalculus_Review_Materials/2_6_20.pg with seed 40 is either empty or failed to compile  
+  Use -a to halt with full PG and returned content
+
+INFO    : sending webwork-41 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-42 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-43 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-44 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-45 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-46 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-47 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-48 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-49 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : saving image file webwork-49-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-50 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-50-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-51 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-51-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-51-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-52 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-52-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-53 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-54 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-54-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-54-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-55 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-56 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-57 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-58 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : saving image file webwork-58-image-1.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-2.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-3.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-4.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-58-image-5.gif  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-59 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-60 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-61 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-62 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-63 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-63-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-63-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-64 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-64-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-65 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-65-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-66 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-66-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-67 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-68 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-69 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-70 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-71 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-72 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-73 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-74 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-74-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-3.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-4.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-74-image-5.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-75 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-75-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-76 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-76-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-77 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-77-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-78 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : saving image file webwork-78-image-1.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : saving image file webwork-78-image-2.png  in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/images
+INFO    : sending webwork-79 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-80 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-81 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-82 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-83 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-84 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-85 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-86 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-87 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-88 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-89 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-90 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-91 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-92 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-93 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-94 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'webwork2'
+INFO    : sending webwork-95 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-96 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-97 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : sending webwork-98 to server to save in /workspaces/PrecalcReviewMaterials/generated-assets/webwork/webwork-representations.xml: origin is 'generated'
+INFO    : Removing temporary directory /ptx-cr9g3x46
+INFO    : Removing temporary directory /ptx-2h8mw4qq
+INFO    : Finished generating assets.
+
+CRITICAL: There were errors during the generate process.  See above.
+INFO    : ------------------------
+CRITICAL: Generating assets as failed.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

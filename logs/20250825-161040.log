@@ -1,0 +1,692 @@
+WARNING : Using CLI version 2.19.3 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext update`
+WARNING : to update `requirements.txt` and other managed files to match 2.19.3.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.19.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /root/.ptx/2.19.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : converting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx to svg graphics for placement in /workspaces/PrecalcReviewMaterials/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /workspaces/PrecalcReviewMaterials/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'cli.version': '2.19', 'publisher': '/workspaces/PrecalcReviewMaterials/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /workspaces/PrecalcReviewMaterials/source
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/PrecalcReviewMaterials/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/PrecalcReviewMaterials/assets
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.19.3/core/xsl/extract-latex-image.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /root/.ptx/2.19.3/core/xsl/extract-latex-image.xsl
+INFO    : converting sec_exponential-functions-2-13.tex to sec_exponential-functions-2-13.pdf
+ERROR   : LaTeX compilation of sec_exponential-functions-2-13.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_exponential-functions-2-13.tex failed
+INFO    : converting sec_plane-inequalities-2-4-3-5.tex to sec_plane-inequalities-2-4-3-5.pdf
+ERROR   : LaTeX compilation of sec_plane-inequalities-2-4-3-5.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_plane-inequalities-2-4-3-5.tex failed
+INFO    : converting fig-same-two-angles-1.tex to fig-same-two-angles-1.pdf
+ERROR   : LaTeX compilation of fig-same-two-angles-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-same-two-angles-1.tex failed
+INFO    : converting sec_rational-function-inequalities-3-4-2-2.tex to sec_rational-function-inequalities-3-4-2-2.pdf
+ERROR   : LaTeX compilation of sec_rational-function-inequalities-3-4-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational-function-inequalities-3-4-2-2.tex failed
+INFO    : converting parabolas-2-1.tex to parabolas-2-1.pdf
+ERROR   : LaTeX compilation of parabolas-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of parabolas-2-1.tex failed
+INFO    : converting sec_exponential-functions-2-15-3-2.tex to sec_exponential-functions-2-15-3-2.pdf
+ERROR   : LaTeX compilation of sec_exponential-functions-2-15-3-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_exponential-functions-2-15-3-2.tex failed
+INFO    : converting fig-cotgraph-1.tex to fig-cotgraph-1.pdf
+ERROR   : LaTeX compilation of fig-cotgraph-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-cotgraph-1.tex failed
+INFO    : converting fig-unt-circle-1.tex to fig-unt-circle-1.pdf
+ERROR   : LaTeX compilation of fig-unt-circle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-unt-circle-1.tex failed
+INFO    : converting fig-triangle-in-unit-circle-1.tex to fig-triangle-in-unit-circle-1.pdf
+ERROR   : LaTeX compilation of fig-triangle-in-unit-circle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-triangle-in-unit-circle-1.tex failed
+INFO    : converting sec_curve-sketching-2-17-3-2-1.tex to sec_curve-sketching-2-17-3-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-17-3-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-17-3-2-1.tex failed
+INFO    : converting sec_rational_inequalities-3-4-2-3.tex to sec_rational_inequalities-3-4-2-3.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-3-4-2-3.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-3-4-2-3.tex failed
+INFO    : converting sec_curve-sketching-2-10-1.tex to sec_curve-sketching-2-10-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-10-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-10-1.tex failed
+INFO    : converting sec_logarithms-2-15-3-3.tex to sec_logarithms-2-15-3-3.pdf
+ERROR   : LaTeX compilation of sec_logarithms-2-15-3-3.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_logarithms-2-15-3-3.tex failed
+INFO    : converting fig-find-4piby3-1.tex to fig-find-4piby3-1.pdf
+ERROR   : LaTeX compilation of fig-find-4piby3-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-find-4piby3-1.tex failed
+INFO    : converting sec_systems-inequalities-3-5-2-1.tex to sec_systems-inequalities-3-5-2-1.pdf
+ERROR   : LaTeX compilation of sec_systems-inequalities-3-5-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_systems-inequalities-3-5-2-1.tex failed
+INFO    : converting explot-3-3-1.tex to explot-3-3-1.pdf
+ERROR   : LaTeX compilation of explot-3-3-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of explot-3-3-1.tex failed
+INFO    : converting sec_rational_inequalities-3-5-2-2.tex to sec_rational_inequalities-3-5-2-2.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-3-5-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-3-5-2-2.tex failed
+INFO    : converting fig-second-triangle-in-unit-circle-1.tex to fig-second-triangle-in-unit-circle-1.pdf
+ERROR   : LaTeX compilation of fig-second-triangle-in-unit-circle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-second-triangle-in-unit-circle-1.tex failed
+INFO    : converting sec_rational_inequalities-2-10-3-4.tex to sec_rational_inequalities-2-10-3-4.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-2-10-3-4.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-2-10-3-4.tex failed
+INFO    : converting fig-point-p-defines-functions-1.tex to fig-point-p-defines-functions-1.pdf
+ERROR   : LaTeX compilation of fig-point-p-defines-functions-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-point-p-defines-functions-1.tex failed
+INFO    : converting fig-unit-circle-quads-1.tex to fig-unit-circle-quads-1.pdf
+ERROR   : LaTeX compilation of fig-unit-circle-quads-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-unit-circle-quads-1.tex failed
+INFO    : converting sec_curve-sketching-2-13-2-2-1.tex to sec_curve-sketching-2-13-2-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-13-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-13-2-2-1.tex failed
+INFO    : converting sec_curve-sketching-2-13-4-2-1.tex to sec_curve-sketching-2-13-4-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-13-4-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-13-4-2-1.tex failed
+INFO    : converting sec_plane-inequalities-3-2-2-1.tex to sec_plane-inequalities-3-2-2-1.pdf
+ERROR   : LaTeX compilation of sec_plane-inequalities-3-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_plane-inequalities-3-2-2-1.tex failed
+INFO    : converting sec_exponential-functions-3-6-2-1.tex to sec_exponential-functions-3-6-2-1.pdf
+ERROR   : LaTeX compilation of sec_exponential-functions-3-6-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_exponential-functions-3-6-2-1.tex failed
+INFO    : converting sec_plane-inequalities-3-6-2-1.tex to sec_plane-inequalities-3-6-2-1.pdf
+ERROR   : LaTeX compilation of sec_plane-inequalities-3-6-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_plane-inequalities-3-6-2-1.tex failed
+INFO    : converting fig-generic-rad-triangle-1.tex to fig-generic-rad-triangle-1.pdf
+ERROR   : LaTeX compilation of fig-generic-rad-triangle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-generic-rad-triangle-1.tex failed
+INFO    : converting fig-secgraph-1.tex to fig-secgraph-1.pdf
+ERROR   : LaTeX compilation of fig-secgraph-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-secgraph-1.tex failed
+INFO    : converting sec_graphing_intervals-2-2-2-5.tex to sec_graphing_intervals-2-2-2-5.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-2-2-2-5.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-2-2-2-5.tex failed
+INFO    : converting fig-exercise-trig21-1.tex to fig-exercise-trig21-1.pdf
+ERROR   : LaTeX compilation of fig-exercise-trig21-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-exercise-trig21-1.tex failed
+INFO    : converting fig-two-angles-1.tex to fig-two-angles-1.pdf
+ERROR   : LaTeX compilation of fig-two-angles-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-two-angles-1.tex failed
+INFO    : converting sec_systems-inequalities-3-3-2-2.tex to sec_systems-inequalities-3-3-2-2.pdf
+ERROR   : LaTeX compilation of sec_systems-inequalities-3-3-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_systems-inequalities-3-3-2-2.tex failed
+INFO    : converting sec_curve-sketching-3-7-2-2-1.tex to sec_curve-sketching-3-7-2-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-3-7-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-3-7-2-2-1.tex failed
+INFO    : converting sec_graphing_intervals-2-7.tex to sec_graphing_intervals-2-7.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-2-7.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-2-7.tex failed
+INFO    : converting sec_curve-sketching-2-8-1-2.tex to sec_curve-sketching-2-8-1-2.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-8-1-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-8-1-2.tex failed
+INFO    : converting fig-legs-onetwo-1.tex to fig-legs-onetwo-1.pdf
+ERROR   : LaTeX compilation of fig-legs-onetwo-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-legs-onetwo-1.tex failed
+INFO    : converting fig-cosgraph-1.tex to fig-cosgraph-1.pdf
+ERROR   : LaTeX compilation of fig-cosgraph-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-cosgraph-1.tex failed
+INFO    : converting sec_exponential-functions-3-4-2-2.tex to sec_exponential-functions-3-4-2-2.pdf
+ERROR   : LaTeX compilation of sec_exponential-functions-3-4-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_exponential-functions-3-4-2-2.tex failed
+INFO    : converting sec_graphing_intervals-3-3-2-1.tex to sec_graphing_intervals-3-3-2-1.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-3-3-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-3-3-2-1.tex failed
+INFO    : converting sec_rational_inequalities-2-9-3-8.tex to sec_rational_inequalities-2-9-3-8.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-2-9-3-8.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-2-9-3-8.tex failed
+INFO    : converting sec_rational-function-inequalities-2-3-3-5.tex to sec_rational-function-inequalities-2-3-3-5.pdf
+ERROR   : LaTeX compilation of sec_rational-function-inequalities-2-3-3-5.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational-function-inequalities-2-3-3-5.tex failed
+INFO    : converting sec_graphing_intervals-3-7-2-1.tex to sec_graphing_intervals-3-7-2-1.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-3-7-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-3-7-2-1.tex failed
+INFO    : converting sec_exponential-functions-2-9.tex to sec_exponential-functions-2-9.pdf
+ERROR   : LaTeX compilation of sec_exponential-functions-2-9.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_exponential-functions-2-9.tex failed
+INFO    : converting sec_curve-sketching-2-13-1-2-1.tex to sec_curve-sketching-2-13-1-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-13-1-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-13-1-2-1.tex failed
+INFO    : converting sec_rational_inequalities-2-12-2-13.tex to sec_rational_inequalities-2-12-2-13.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-2-12-2-13.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-2-12-2-13.tex failed
+INFO    : converting sec_logarithms-2-13.tex to sec_logarithms-2-13.pdf
+ERROR   : LaTeX compilation of sec_logarithms-2-13.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_logarithms-2-13.tex failed
+INFO    : converting fig-third-triangle-in-unit-circle-1.tex to fig-third-triangle-in-unit-circle-1.pdf
+ERROR   : LaTeX compilation of fig-third-triangle-in-unit-circle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-third-triangle-in-unit-circle-1.tex failed
+INFO    : converting sec_graphing_intervals-2-2-2-2-1.tex to sec_graphing_intervals-2-2-2-2-1.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-2-2-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-2-2-2-2-1.tex failed
+INFO    : converting sec_curve-sketching-2-13-3-2-1.tex to sec_curve-sketching-2-13-3-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-13-3-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-13-3-2-1.tex failed
+INFO    : converting fig-enhanced-unit-circle-1.tex to fig-enhanced-unit-circle-1.pdf
+ERROR   : LaTeX compilation of fig-enhanced-unit-circle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-enhanced-unit-circle-1.tex failed
+INFO    : converting sec_systems-inequalities-2-5-3-4.tex to sec_systems-inequalities-2-5-3-4.pdf
+ERROR   : LaTeX compilation of sec_systems-inequalities-2-5-3-4.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_systems-inequalities-2-5-3-4.tex failed
+INFO    : converting sec_rational_inequalities-3-7-2-2.tex to sec_rational_inequalities-3-7-2-2.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-3-7-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-3-7-2-2.tex failed
+INFO    : converting sec_curve-sketching-2-19-3-5-1.tex to sec_curve-sketching-2-19-3-5-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-19-3-5-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-19-3-5-1.tex failed
+INFO    : converting fig-point-pi-over-four-1.tex to fig-point-pi-over-four-1.pdf
+ERROR   : LaTeX compilation of fig-point-pi-over-four-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-point-pi-over-four-1.tex failed
+INFO    : converting sec_graphing_intervals-2-8-3-2.tex to sec_graphing_intervals-2-8-3-2.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-2-8-3-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-2-8-3-2.tex failed
+INFO    : converting sec_systems-inequalities-2-5-3-7.tex to sec_systems-inequalities-2-5-3-7.pdf
+ERROR   : LaTeX compilation of sec_systems-inequalities-2-5-3-7.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_systems-inequalities-2-5-3-7.tex failed
+INFO    : converting sec_systems-inequalities-2-3-3-10.tex to sec_systems-inequalities-2-3-3-10.pdf
+ERROR   : LaTeX compilation of sec_systems-inequalities-2-3-3-10.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_systems-inequalities-2-3-3-10.tex failed
+INFO    : converting sec_graphing_intervals-2-9-2-4.tex to sec_graphing_intervals-2-9-2-4.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-2-9-2-4.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-2-9-2-4.tex failed
+INFO    : converting fig-tangraph-1.tex to fig-tangraph-1.pdf
+ERROR   : LaTeX compilation of fig-tangraph-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-tangraph-1.tex failed
+INFO    : converting sec_graphing_intervals-2-9-2-2.tex to sec_graphing_intervals-2-9-2-2.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-2-9-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-2-9-2-2.tex failed
+INFO    : converting sec_logarithms-3-8-2-1.tex to sec_logarithms-3-8-2-1.pdf
+ERROR   : LaTeX compilation of sec_logarithms-3-8-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_logarithms-3-8-2-1.tex failed
+INFO    : converting sec_systems-inequalities-3-4-2-2.tex to sec_systems-inequalities-3-4-2-2.pdf
+ERROR   : LaTeX compilation of sec_systems-inequalities-3-4-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_systems-inequalities-3-4-2-2.tex failed
+INFO    : converting sec_graphing_intervals-3-4-2-1.tex to sec_graphing_intervals-3-4-2-1.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-3-4-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-3-4-2-1.tex failed
+INFO    : converting sec_rational_inequalities-2-8.tex to sec_rational_inequalities-2-8.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-2-8.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-2-8.tex failed
+INFO    : converting fig-singraph-1.tex to fig-singraph-1.pdf
+ERROR   : LaTeX compilation of fig-singraph-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-singraph-1.tex failed
+INFO    : converting sec_systems-inequalities-3-6-2-1.tex to sec_systems-inequalities-3-6-2-1.pdf
+ERROR   : LaTeX compilation of sec_systems-inequalities-3-6-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_systems-inequalities-3-6-2-1.tex failed
+INFO    : converting fig-ASTC-1.tex to fig-ASTC-1.pdf
+ERROR   : LaTeX compilation of fig-ASTC-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-ASTC-1.tex failed
+INFO    : converting fig-polylongdiv-1.tex to fig-polylongdiv-1.pdf
+ERROR   : LaTeX compilation of fig-polylongdiv-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-polylongdiv-1.tex failed
+INFO    : converting sec_curve-sketching-3-4-2-2-1.tex to sec_curve-sketching-3-4-2-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-3-4-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-3-4-2-2-1.tex failed
+INFO    : converting sec_rational-function-inequalities-3-5-2-2.tex to sec_rational-function-inequalities-3-5-2-2.pdf
+ERROR   : LaTeX compilation of sec_rational-function-inequalities-3-5-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational-function-inequalities-3-5-2-2.tex failed
+INFO    : converting sec_graphing_intervals-3-5-2-1-1.tex to sec_graphing_intervals-3-5-2-1-1.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-3-5-2-1-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-3-5-2-1-1.tex failed
+INFO    : converting sec_rational_inequalities-3-3-2-2.tex to sec_rational_inequalities-3-3-2-2.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-3-3-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-3-3-2-2.tex failed
+INFO    : converting sec_graphing_intervals-3-6-2-1-1.tex to sec_graphing_intervals-3-6-2-1-1.pdf
+ERROR   : LaTeX compilation of sec_graphing_intervals-3-6-2-1-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_graphing_intervals-3-6-2-1-1.tex failed
+INFO    : converting fig-cscgraph-1.tex to fig-cscgraph-1.pdf
+ERROR   : LaTeX compilation of fig-cscgraph-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-cscgraph-1.tex failed
+INFO    : converting sec_rational-function-inequalities-2-3-3-12.tex to sec_rational-function-inequalities-2-3-3-12.pdf
+ERROR   : LaTeX compilation of sec_rational-function-inequalities-2-3-3-12.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational-function-inequalities-2-3-3-12.tex failed
+INFO    : converting sec_curve-sketching-3-6-2-2-1.tex to sec_curve-sketching-3-6-2-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-3-6-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-3-6-2-2-1.tex failed
+INFO    : converting sec_curve-sketching-3-5-2-2-1.tex to sec_curve-sketching-3-5-2-2-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-3-5-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-3-5-2-2-1.tex failed
+INFO    : converting sec_curve-sketching-3-3-2-1-1.tex to sec_curve-sketching-3-3-2-1-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-3-3-2-1-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-3-3-2-1-1.tex failed
+INFO    : converting sec_exponential-functions-2-11.tex to sec_exponential-functions-2-11.pdf
+ERROR   : LaTeX compilation of sec_exponential-functions-2-11.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_exponential-functions-2-11.tex failed
+INFO    : converting sec_rational_inequalities-3-6-2-3.tex to sec_rational_inequalities-3-6-2-3.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-3-6-2-3.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-3-6-2-3.tex failed
+INFO    : converting sec_rational_inequalities-2-11-3-8.tex to sec_rational_inequalities-2-11-3-8.pdf
+ERROR   : LaTeX compilation of sec_rational_inequalities-2-11-3-8.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational_inequalities-2-11-3-8.tex failed
+INFO    : converting sec_plane-inequalities-2-3-3-5.tex to sec_plane-inequalities-2-3-3-5.pdf
+ERROR   : LaTeX compilation of sec_plane-inequalities-2-3-3-5.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_plane-inequalities-2-3-3-5.tex failed
+INFO    : converting sec_curve-sketching-2-8-1-1.tex to sec_curve-sketching-2-8-1-1.pdf
+ERROR   : LaTeX compilation of sec_curve-sketching-2-8-1-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_curve-sketching-2-8-1-1.tex failed
+INFO    : converting sec_plane-inequalities-3-4-2-1.tex to sec_plane-inequalities-3-4-2-1.pdf
+ERROR   : LaTeX compilation of sec_plane-inequalities-3-4-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_plane-inequalities-3-4-2-1.tex failed
+INFO    : converting sec_plane-inequalities-3-5-2-1.tex to sec_plane-inequalities-3-5-2-1.pdf
+ERROR   : LaTeX compilation of sec_plane-inequalities-3-5-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_plane-inequalities-3-5-2-1.tex failed
+INFO    : converting sec_rational-function-inequalities-3-6-2-2.tex to sec_rational-function-inequalities-3-6-2-2.pdf
+ERROR   : LaTeX compilation of sec_rational-function-inequalities-3-6-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational-function-inequalities-3-6-2-2.tex failed
+INFO    : converting fig-sixty-thirty-triangle-1.tex to fig-sixty-thirty-triangle-1.pdf
+ERROR   : LaTeX compilation of fig-sixty-thirty-triangle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-sixty-thirty-triangle-1.tex failed
+INFO    : converting fig-fortyfive-degree-triangle-1.tex to fig-fortyfive-degree-triangle-1.pdf
+ERROR   : LaTeX compilation of fig-fortyfive-degree-triangle-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of fig-fortyfive-degree-triangle-1.tex failed
+INFO    : converting sec_rational-function-inequalities-3-3-2-2.tex to sec_rational-function-inequalities-3-3-2-2.pdf
+ERROR   : LaTeX compilation of sec_rational-function-inequalities-3-3-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_rational-function-inequalities-3-3-2-2.tex failed
+INFO    : converting parabolas-2-2.tex to parabolas-2-2.pdf
+ERROR   : LaTeX compilation of parabolas-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of parabolas-2-2.tex failed
+INFO    : converting sec_plane-inequalities-3-3-2-1.tex to sec_plane-inequalities-3-3-2-1.pdf
+ERROR   : LaTeX compilation of sec_plane-inequalities-3-3-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec_plane-inequalities-3-3-2-1.tex failed
+ERROR   : Unable to generate some latex-image assets:
+ LaTeX compilation failed for 91 "latex-image"(s).
+Review the log for error messages, and LaTeX transcripts.
+Images are:
+  sec_exponential-functions-2-13.tex
+  sec_plane-inequalities-2-4-3-5.tex
+  fig-same-two-angles-1.tex
+  sec_rational-function-inequalities-3-4-2-2.tex
+  parabolas-2-1.tex
+  sec_exponential-functions-2-15-3-2.tex
+  fig-cotgraph-1.tex
+  fig-unt-circle-1.tex
+  fig-triangle-in-unit-circle-1.tex
+  sec_curve-sketching-2-17-3-2-1.tex
+  sec_rational_inequalities-3-4-2-3.tex
+  sec_curve-sketching-2-10-1.tex
+  sec_logarithms-2-15-3-3.tex
+  fig-find-4piby3-1.tex
+  sec_systems-inequalities-3-5-2-1.tex
+  explot-3-3-1.tex
+  sec_rational_inequalities-3-5-2-2.tex
+  fig-second-triangle-in-unit-circle-1.tex
+  sec_rational_inequalities-2-10-3-4.tex
+  fig-point-p-defines-functions-1.tex
+  fig-unit-circle-quads-1.tex
+  sec_curve-sketching-2-13-2-2-1.tex
+  sec_curve-sketching-2-13-4-2-1.tex
+  sec_plane-inequalities-3-2-2-1.tex
+  sec_exponential-functions-3-6-2-1.tex
+  sec_plane-inequalities-3-6-2-1.tex
+  fig-generic-rad-triangle-1.tex
+  fig-secgraph-1.tex
+  sec_graphing_intervals-2-2-2-5.tex
+  fig-exercise-trig21-1.tex
+  fig-two-angles-1.tex
+  sec_systems-inequalities-3-3-2-2.tex
+  sec_curve-sketching-3-7-2-2-1.tex
+  sec_graphing_intervals-2-7.tex
+  sec_curve-sketching-2-8-1-2.tex
+  fig-legs-onetwo-1.tex
+  fig-cosgraph-1.tex
+  sec_exponential-functions-3-4-2-2.tex
+  sec_graphing_intervals-3-3-2-1.tex
+  sec_rational_inequalities-2-9-3-8.tex
+  sec_rational-function-inequalities-2-3-3-5.tex
+  sec_graphing_intervals-3-7-2-1.tex
+  sec_exponential-functions-2-9.tex
+  sec_curve-sketching-2-13-1-2-1.tex
+  sec_rational_inequalities-2-12-2-13.tex
+  sec_logarithms-2-13.tex
+  fig-third-triangle-in-unit-circle-1.tex
+  sec_graphing_intervals-2-2-2-2-1.tex
+  sec_curve-sketching-2-13-3-2-1.tex
+  fig-enhanced-unit-circle-1.tex
+  sec_systems-inequalities-2-5-3-4.tex
+  sec_rational_inequalities-3-7-2-2.tex
+  sec_curve-sketching-2-19-3-5-1.tex
+  fig-point-pi-over-four-1.tex
+  sec_graphing_intervals-2-8-3-2.tex
+  sec_systems-inequalities-2-5-3-7.tex
+  sec_systems-inequalities-2-3-3-10.tex
+  sec_graphing_intervals-2-9-2-4.tex
+  fig-tangraph-1.tex
+  sec_graphing_intervals-2-9-2-2.tex
+  sec_logarithms-3-8-2-1.tex
+  sec_systems-inequalities-3-4-2-2.tex
+  sec_graphing_intervals-3-4-2-1.tex
+  sec_rational_inequalities-2-8.tex
+  fig-singraph-1.tex
+  sec_systems-inequalities-3-6-2-1.tex
+  fig-ASTC-1.tex
+  fig-polylongdiv-1.tex
+  sec_curve-sketching-3-4-2-2-1.tex
+  sec_rational-function-inequalities-3-5-2-2.tex
+  sec_graphing_intervals-3-5-2-1-1.tex
+  sec_rational_inequalities-3-3-2-2.tex
+  sec_graphing_intervals-3-6-2-1-1.tex
+  fig-cscgraph-1.tex
+  sec_rational-function-inequalities-2-3-3-12.tex
+  sec_curve-sketching-3-6-2-2-1.tex
+  sec_curve-sketching-3-5-2-2-1.tex
+  sec_curve-sketching-3-3-2-1-1.tex
+  sec_exponential-functions-2-11.tex
+  sec_rational_inequalities-3-6-2-3.tex
+  sec_rational_inequalities-2-11-3-8.tex
+  sec_plane-inequalities-2-3-3-5.tex
+  sec_curve-sketching-2-8-1-1.tex
+  sec_plane-inequalities-3-4-2-1.tex
+  sec_plane-inequalities-3-5-2-1.tex
+  sec_rational-function-inequalities-3-6-2-2.tex
+  fig-sixty-thirty-triangle-1.tex
+  fig-fortyfive-degree-triangle-1.tex
+  sec_rational-function-inequalities-3-3-2-2.tex
+  parabolas-2-2.tex
+  sec_plane-inequalities-3-3-2-1.tex
+INFO    : Removing temporary directory /ptx-iwolh_1q
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /workspaces/PrecalcReviewMaterials/output/web.
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.19.3/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /root/.ptx/2.19.3/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.9.8
+INFO    : Downloading Runestone Services, version 7.9.8
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting /workspaces/PrecalcReviewMaterials/source/main.ptx to HTML in /ptx-n2anrto6
+INFO    : XSL conversion of /workspaces/PrecalcReviewMaterials/source/main.ptx by /root/.ptx/2.19.3/core/xsl/pretext-html.xsl
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "titlepage" element inside the "frontmatter" (author, editor, credit, date, and event) should now be placed in "frontmatter/bibinfo".  To ensure a title page is created, put only the empty element "titlepage-items" inside "titlepage".  Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located within: "Precalculus Review Materials" (title)
+INFO    : * --------------
+INFO    : successful application of /root/.ptx/2.19.3/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /ptx-n2anrto6
+INFO    : Removing temporary directory /ptx-tfuoslf7
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

@@ -7,10 +7,10 @@
 </macros>
 <latex-image-preamble>
 \usepackage{tikz}
-\usepackage{tkz-graph}
-\usepackage{tkz-euclide}
+<!-- \usepackage{tkz-graph}
+\usepackage{tkz-euclide} -->
 \usepackage{polynom}
-\usetikzlibrary{patterns}
+<!-- \usetikzlibrary{patterns} -->
 \usetikzlibrary{positioning}
 \usetikzlibrary{matrix,arrows}
 \usetikzlibrary{calc}
